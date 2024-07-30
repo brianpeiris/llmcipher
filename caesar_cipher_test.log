@@ -1,0 +1,682 @@
+2024-07-29 21:17:25,562 - INFO - Starting Caesar cipher test
+2024-07-29 21:17:25,562 - INFO - Loaded 100 phrases from file
+2024-07-29 21:17:25,563 - INFO - Using 100 phrases for testing
+2024-07-29 21:17:25,563 - INFO - Testing shift 1
+2024-07-29 21:17:25,563 - INFO - Attempting to decipher phrase using Claude API: Uif tvo qfflfe pwfs uif npvoubjot, jmmvnjobujoh uif qbui.
+2024-07-29 21:17:25,578 - INFO - Attempting to decipher phrase using Claude API: zfmmpx mfbwft gmpbufe epxo uif tusfbn mjlf ujoz cpbut
+2024-07-29 21:17:25,579 - INFO - Attempting to decipher phrase using Claude API: bo jdz xjoe ipxmfe uispvhi uif ebsl, gpshpuufo bmmfzt
+2024-07-29 21:17:25,580 - INFO - Attempting to decipher phrase using Claude API: csjhiu tvomjhiu gjmufsfe uispvhi uif tubjofe hmbtt
+2024-07-29 21:17:25,580 - INFO - Attempting to decipher phrase using Claude API: uifjs tvo-ebqqmfe mbvhiufs fdipfe uispvhi uif nfbepx
+2024-07-29 21:17:25,581 - INFO - Attempting to decipher phrase using Claude API: tfb tifmmt dsvodife cfofbui pvs cbsf gffu bt xf tuspmmfe
+2024-07-29 21:17:25,581 - INFO - Attempting to decipher phrase using Claude API: xbtife dmpuift ivoh po uif mjof ebodfe jo uif csffaf
+2024-07-29 21:17:25,582 - INFO - Attempting to decipher phrase using Claude API: rvjfu ipvst nfmu mjlf nbstinbmmpx dsfbn jo ufb dvqt
+2024-07-29 21:17:25,582 - INFO - Attempting to decipher phrase using Claude API: xboefsjoh dmpvet pctdvsfe uif fwfojoh tvo't gbsfxfmm
+2024-07-29 21:17:25,582 - INFO - Attempting to decipher phrase using Claude API: tvotijof gjmufsfe uispvhi uif mfbwft, dbtujoh tibepxt
+2024-07-29 21:17:27,523 - INFO - API call completed. Status: 200
+2024-07-29 21:17:27,524 - INFO - Test passed for shift 1, phrase: yellow leaves floate...
+2024-07-29 21:17:27,948 - INFO - API call completed. Status: 200
+2024-07-29 21:17:27,948 - INFO - Test passed for shift 1, phrase: sunshine filtered th...
+2024-07-29 21:17:28,021 - INFO - API call completed. Status: 200
+2024-07-29 21:17:28,021 - INFO - Test passed for shift 1, phrase: The sun peeked over ...
+2024-07-29 21:17:28,198 - INFO - API call completed. Status: 200
+2024-07-29 21:17:28,199 - INFO - Test passed for shift 1, phrase: washed clothes hung ...
+2024-07-29 21:17:28,232 - INFO - API call completed. Status: 200
+2024-07-29 21:17:28,233 - INFO - Test passed for shift 1, phrase: quiet hours melt lik...
+2024-07-29 21:17:28,250 - INFO - API call completed. Status: 200
+2024-07-29 21:17:28,251 - INFO - Test passed for shift 1, phrase: wandering clouds obs...
+2024-07-29 21:17:28,290 - INFO - API call completed. Status: 200
+2024-07-29 21:17:28,290 - INFO - Test passed for shift 1, phrase: their sun-dappled la...
+2024-07-29 21:17:28,296 - INFO - API call completed. Status: 200
+2024-07-29 21:17:28,296 - INFO - Test passed for shift 1, phrase: bright sunlight filt...
+2024-07-29 21:17:28,483 - INFO - API call completed. Status: 200
+2024-07-29 21:17:28,484 - INFO - Test passed for shift 1, phrase: sea shells crunched ...
+2024-07-29 21:17:28,875 - INFO - API call completed. Status: 200
+2024-07-29 21:17:28,876 - ERROR - Test failed for shift 1, phrase: an icy wind howled t...
+2024-07-29 21:17:28,876 - ERROR - Original: an icy wind howled through the dark, forgotten alleys
+2024-07-29 21:17:28,876 - ERROR - Encoded:  bo jdz xjoe ipxmfe uispvhi uif ebsl, gpshpuufo bmmfzt
+2024-07-29 21:17:28,876 - ERROR - Deciphered: an ice wind howled through the dark, forgotten alleys
+2024-07-29 21:17:28,877 - INFO - Completed testing for shift 1
+2024-07-29 21:17:28,877 - INFO - Testing shift 2
+2024-07-29 21:17:28,877 - INFO - Attempting to decipher phrase using Claude API: engct dnwg umkgu cpf ycto uwpujkpg cyckvgf vjgo
+2024-07-29 21:17:28,878 - INFO - Attempting to decipher phrase using Claude API: uwpnkijv fcpegf qp etkouqp ngcxgu cu cwvwop cttkxgf.
+2024-07-29 21:17:28,878 - INFO - Attempting to decipher phrase using Claude API: vjtgg ewtkqwu uswkttgnu uecorgtgf cetquu vjg hcnngp nqi
+2024-07-29 21:17:28,878 - INFO - Attempting to decipher phrase using Claude API: enqwfu hnqcv cetquu vjg uwoogt uma nkmg unqy ftgcou
+2024-07-29 21:17:28,879 - INFO - Attempting to decipher phrase using Claude API: vjg ucnva dtggbg ecttkgf vjg uegpv qh fkuvcpv ncpfu
+2024-07-29 21:17:28,879 - INFO - Attempting to decipher phrase using Claude API: cp qnf uqwn ykvj c mkpf jgctv cpf ykug gagu
+2024-07-29 21:17:28,880 - INFO - Attempting to decipher phrase using Claude API: kp vjg swkgv qh vjg pkijv, yjkurgtu gejqgf vjtqwij
+2024-07-29 21:17:28,880 - INFO - Attempting to decipher phrase using Claude API: rwnukpi qtdu qh nkijv fcpegf ctqwpf vjg cpekgpv vtgg
+2024-07-29 21:17:28,880 - INFO - Attempting to decipher phrase using Claude API: vjgkt uwp-fcrrngf ncwijvgt gejqgf vjtqwij vjg ogcfqy
+2024-07-29 21:17:28,881 - INFO - Attempting to decipher phrase using Claude API: jkij kp vjg oqwpvckpu, vjg tkxgt hnqygf ykvj rwtrqug
+2024-07-29 21:17:31,153 - INFO - API call completed. Status: 200
+2024-07-29 21:17:31,153 - INFO - Test passed for shift 2, phrase: in the quiet of the ...
+2024-07-29 21:17:31,345 - INFO - API call completed. Status: 200
+2024-07-29 21:17:31,345 - INFO - Test passed for shift 2, phrase: clouds float across ...
+2024-07-29 21:17:31,484 - INFO - API call completed. Status: 200
+2024-07-29 21:17:31,485 - INFO - Test passed for shift 2, phrase: pulsing orbs of ligh...
+2024-07-29 21:17:31,611 - INFO - API call completed. Status: 200
+2024-07-29 21:17:31,611 - INFO - Test passed for shift 2, phrase: sunlight danced on c...
+2024-07-29 21:17:31,624 - INFO - API call completed. Status: 200
+2024-07-29 21:17:31,625 - INFO - Test passed for shift 2, phrase: their sun-dappled la...
+2024-07-29 21:17:31,845 - INFO - API call completed. Status: 200
+2024-07-29 21:17:31,846 - INFO - Test passed for shift 2, phrase: the salty breeze car...
+2024-07-29 21:17:32,136 - INFO - API call completed. Status: 200
+2024-07-29 21:17:32,137 - INFO - Test passed for shift 2, phrase: high in the mountain...
+2024-07-29 21:17:32,904 - INFO - API call completed. Status: 200
+2024-07-29 21:17:32,904 - INFO - Test passed for shift 2, phrase: an old soul with a k...
+2024-07-29 21:17:33,077 - INFO - API call completed. Status: 200
+2024-07-29 21:17:33,078 - INFO - Test passed for shift 2, phrase: clear blue skies and...
+2024-07-29 21:17:33,111 - INFO - API call completed. Status: 200
+2024-07-29 21:17:33,111 - INFO - Test passed for shift 2, phrase: three curious squirr...
+2024-07-29 21:17:33,111 - INFO - Completed testing for shift 2
+2024-07-29 21:17:33,111 - INFO - Testing shift 3
+2024-07-29 21:17:33,112 - INFO - Attempting to decipher phrase using Claude API: lq wkh txlhw ri wkh qljkw, zklvshuv hfkrhg wkurxjk
+2024-07-29 21:17:33,112 - INFO - Attempting to decipher phrase using Claude API: jroghq vxqehdpv gdqfhg dfurvv wkh ulssolqj odnh zdwhu
+2024-07-29 21:17:33,112 - INFO - Attempting to decipher phrase using Claude API: odxjkwhu hfkrhg wkurxjk wkh hpswb vwuhhwv dw plgqljkw
+2024-07-29 21:17:33,113 - INFO - Attempting to decipher phrase using Claude API: rqh kdqg juhhwhg wkh rwkhu dplgvw wkxqghurxv dssodxvh
+2024-07-29 21:17:33,113 - INFO - Attempting to decipher phrase using Claude API: xqhashfwhg phprulhv iorrghg edfn iurp orqj djr
+2024-07-29 21:17:33,114 - INFO - Attempting to decipher phrase using Claude API: vxqoljkw gdqfhg rq fulpvrq ohdyhv dv dxwxpq duulyhg.
+2024-07-29 21:17:33,114 - INFO - Attempting to decipher phrase using Claude API: ihdvwlqj xsrq guhdpv ri vsulqj'v duulydo dqg uheluwk
+2024-07-29 21:17:33,115 - INFO - Attempting to decipher phrase using Claude API: vhd irdp gholfdwhob odsshg djdlqvw vxq-nlvvhg vkruhv
+2024-07-29 21:17:33,115 - INFO - Attempting to decipher phrase using Claude API: d gdb iloohg zlwk vxqvklqh dqg odxjkwhu, fuhdwlqj phprulhv.
+2024-07-29 21:17:33,115 - INFO - Attempting to decipher phrase using Claude API: dq rog pdq wrrn klv grj iru d zdon lq wkh sdun wrgdb.
+2024-07-29 21:17:34,924 - INFO - API call completed. Status: 200
+2024-07-29 21:17:34,924 - INFO - Test passed for shift 3, phrase: a day filled with su...
+2024-07-29 21:17:35,569 - INFO - API call completed. Status: 200
+2024-07-29 21:17:35,570 - INFO - Test passed for shift 3, phrase: unexpected memories ...
+2024-07-29 21:17:35,675 - INFO - API call completed. Status: 200
+2024-07-29 21:17:35,675 - INFO - Test passed for shift 3, phrase: in the quiet of the ...
+2024-07-29 21:17:35,676 - INFO - API call completed. Status: 200
+2024-07-29 21:17:35,676 - INFO - Test passed for shift 3, phrase: sea foam delicately ...
+2024-07-29 21:17:35,712 - INFO - API call completed. Status: 200
+2024-07-29 21:17:35,713 - INFO - Test passed for shift 3, phrase: feasting upon dreams...
+2024-07-29 21:17:35,804 - INFO - API call completed. Status: 200
+2024-07-29 21:17:35,805 - INFO - Test passed for shift 3, phrase: sunlight danced on c...
+2024-07-29 21:17:35,842 - INFO - API call completed. Status: 200
+2024-07-29 21:17:35,842 - INFO - Test passed for shift 3, phrase: an old man took his ...
+2024-07-29 21:17:36,024 - INFO - API call completed. Status: 200
+2024-07-29 21:17:36,024 - INFO - Test passed for shift 3, phrase: one hand greeted the...
+2024-07-29 21:17:36,026 - INFO - API call completed. Status: 200
+2024-07-29 21:17:36,026 - INFO - Test passed for shift 3, phrase: golden sunbeams danc...
+2024-07-29 21:17:36,073 - INFO - API call completed. Status: 200
+2024-07-29 21:17:36,073 - INFO - Test passed for shift 3, phrase: laughter echoed thro...
+2024-07-29 21:17:36,074 - INFO - Completed testing for shift 3
+2024-07-29 21:17:36,074 - INFO - Testing shift 4
+2024-07-29 21:17:36,074 - INFO - Attempting to decipher phrase using Claude API: e kirxpi fviidi geviwwih xli pieziw sr xli sph seo xvii
+2024-07-29 21:17:36,074 - INFO - Attempting to decipher phrase using Claude API: xlimv wyr-hettpih peyklxiv iglsih xlvsykl xli qiehsa
+2024-07-29 21:17:36,075 - INFO - Attempting to decipher phrase using Claude API: Wyrpmklx hergih sr xli vmttpmrk peoi, rexyvi'w wcqtlsrc
+2024-07-29 21:17:36,075 - INFO - Attempting to decipher phrase using Claude API: wlmqqivmrk wyr hergih egvsww xveruymp aexivw, temrxmrk
+2024-07-29 21:17:36,075 - INFO - Attempting to decipher phrase using Claude API: xlyrhiv vyqfpih mr xli hmwxergi ew xli wxsvq ettvseglih
+2024-07-29 21:17:36,076 - INFO - Attempting to decipher phrase using Claude API: Xli wqipp sj jviwl feoih fvieh jmppih xli gsdc omxglir.
+2024-07-29 21:17:36,076 - INFO - Attempting to decipher phrase using Claude API: yrwiir qsqirxw wpmt xlvsykl xli gvegow sj tivgitxmsr
+2024-07-29 21:17:36,076 - INFO - Attempting to decipher phrase using Claude API: ksphir pieziw hergih mr xli gvmwt eyxyqr fviidi.
+2024-07-29 21:17:36,077 - INFO - Attempting to decipher phrase using Claude API: xmhep tsspw wtevopih pmoi kiqw mr xli izirmrk pmklx
+2024-07-29 21:17:36,077 - INFO - Attempting to decipher phrase using Claude API: alivi evi xli ettpiw gsrgiepmrk qc pswx hmrsweyv xsc?
+2024-07-29 21:17:38,489 - INFO - API call completed. Status: 200
+2024-07-29 21:17:38,489 - ERROR - Test failed for shift 4, phrase: Sunlight danced on t...
+2024-07-29 21:17:38,490 - ERROR - Original: Sunlight danced on the rippling lake, nature's symphony
+2024-07-29 21:17:38,490 - ERROR - Encoded:  Wyrpmklx hergih sr xli vmttpmrk peoi, rexyvi'w wcqtlsrc
+2024-07-29 21:17:38,490 - ERROR - Deciphered: Moonlight danced on the rippling lake, nature's symphony
+2024-07-29 21:17:38,747 - INFO - API call completed. Status: 200
+2024-07-29 21:17:38,748 - INFO - Test passed for shift 4, phrase: The smell of fresh b...
+2024-07-29 21:17:38,827 - INFO - API call completed. Status: 200
+2024-07-29 21:17:38,828 - INFO - Test passed for shift 4, phrase: where are the apples...
+2024-07-29 21:17:38,999 - INFO - API call completed. Status: 200
+2024-07-29 21:17:39,000 - INFO - Test passed for shift 4, phrase: unseen moments slip ...
+2024-07-29 21:17:39,016 - INFO - API call completed. Status: 200
+2024-07-29 21:17:39,017 - INFO - Test passed for shift 4, phrase: thunder rumbled in t...
+2024-07-29 21:17:39,184 - INFO - API call completed. Status: 200
+2024-07-29 21:17:39,184 - INFO - Test passed for shift 4, phrase: a gentle breeze care...
+2024-07-29 21:17:39,285 - INFO - API call completed. Status: 200
+2024-07-29 21:17:39,286 - INFO - Test passed for shift 4, phrase: shimmering sun dance...
+2024-07-29 21:17:39,329 - INFO - API call completed. Status: 200
+2024-07-29 21:17:39,330 - INFO - Test passed for shift 4, phrase: tidal pools sparkled...
+2024-07-29 21:17:39,442 - INFO - API call completed. Status: 200
+2024-07-29 21:17:39,443 - INFO - Test passed for shift 4, phrase: their sun-dappled la...
+2024-07-29 21:17:39,923 - INFO - API call completed. Status: 200
+2024-07-29 21:17:39,924 - INFO - Test passed for shift 4, phrase: golden leaves danced...
+2024-07-29 21:17:39,924 - INFO - Completed testing for shift 4
+2024-07-29 21:17:39,924 - INFO - Testing shift 5
+2024-07-29 21:17:39,925 - INFO - Attempting to decipher phrase using Claude API: Ymj xzs ujjpji tajw ymj rtzsyfnsx, nqqzrnsfynsl ymj ufym.
+2024-07-29 21:17:39,925 - INFO - Attempting to decipher phrase using Claude API: ymj qjfajx ifshji ns ymj bnsi, sfyzwj'x jqjlfsy gfqqjy
+2024-07-29 21:17:39,926 - INFO - Attempting to decipher phrase using Claude API: N xfb ymj kqtbjwx gqttrnsl ns ymj bfwr xzrrjw gwjjej.
+2024-07-29 21:17:39,926 - INFO - Attempting to decipher phrase using Claude API: wflnsl xytwrx zsqjfxmji ymjnw kzwd zuts ymj htfxyfq ytbs
+2024-07-29 21:17:39,926 - INFO - Attempting to decipher phrase using Claude API: kwtr ymj ktwjxy xuwfsl f gqzw tk kzw fsi kjwthnyd
+2024-07-29 21:17:39,927 - INFO - Attempting to decipher phrase using Claude API: ymj xziijs xytwr iwjshmji ymj xuwnsl kqtbjwx bnym wfns
+2024-07-29 21:17:39,927 - INFO - Attempting to decipher phrase using Claude API: ltqijs xzsqnlmy ifshji fhwtxx ymj ywfsvznq rjfitb
+2024-07-29 21:17:39,927 - INFO - Attempting to decipher phrase using Claude API: xywfsljqd jstzlm, ymj tqi gttp mjqi ymj xjhwjy htij
+2024-07-29 21:17:39,928 - INFO - Attempting to decipher phrase using Claude API: zsjcujhyji rjrtwnjx kqttiji gfhp kwtr qtsl flt
+2024-07-29 21:17:39,928 - INFO - Attempting to decipher phrase using Claude API: afxy jrunwjx wnxj fsi kfqq ns ymj jsiqjxx rfwhm tk ynrj
+2024-07-29 21:17:42,335 - INFO - API call completed. Status: 200
+2024-07-29 21:17:42,336 - INFO - Test passed for shift 5, phrase: raging storms unleas...
+2024-07-29 21:17:42,391 - INFO - API call completed. Status: 200
+2024-07-29 21:17:42,392 - INFO - Test passed for shift 5, phrase: I saw the flowers bl...
+2024-07-29 21:17:42,473 - INFO - API call completed. Status: 200
+2024-07-29 21:17:42,473 - INFO - Test passed for shift 5, phrase: The sun peeked over ...
+2024-07-29 21:17:42,840 - INFO - API call completed. Status: 200
+2024-07-29 21:17:42,841 - INFO - Test passed for shift 5, phrase: from the forest spra...
+2024-07-29 21:17:42,883 - INFO - API call completed. Status: 200
+2024-07-29 21:17:42,884 - INFO - Test passed for shift 5, phrase: golden sunlight danc...
+2024-07-29 21:17:43,044 - INFO - API call completed. Status: 200
+2024-07-29 21:17:43,045 - INFO - Test passed for shift 5, phrase: strangely enough, th...
+2024-07-29 21:17:43,223 - INFO - API call completed. Status: 200
+2024-07-29 21:17:43,224 - INFO - Test passed for shift 5, phrase: unexpected memories ...
+2024-07-29 21:17:43,672 - INFO - API call completed. Status: 200
+2024-07-29 21:17:43,673 - INFO - Test passed for shift 5, phrase: the leaves danced in...
+2024-07-29 21:17:44,862 - INFO - API call completed. Status: 200
+2024-07-29 21:17:44,862 - INFO - Test passed for shift 5, phrase: the sudden storm dre...
+2024-07-29 21:17:44,905 - INFO - API call completed. Status: 200
+2024-07-29 21:17:44,906 - INFO - Test passed for shift 5, phrase: vast empires rise an...
+2024-07-29 21:17:44,906 - INFO - Completed testing for shift 5
+2024-07-29 21:17:44,906 - INFO - Testing shift 6
+2024-07-29 21:17:44,906 - INFO - Attempting to decipher phrase using Claude API: grr znk cuxrj'y g yzgmk, gtj kgin sayz vrge g vgxz.
+2024-07-29 21:17:44,907 - INFO - Attempting to decipher phrase using Claude API: yigzzkxkj iruajy nubkxkj ghubk znk suatzgoty gz jgct
+2024-07-29 21:17:44,907 - INFO - Attempting to decipher phrase using Claude API: gt urj yuar cozn g qotj nkgxz gtj coyk keky
+2024-07-29 21:17:44,907 - INFO - Attempting to decipher phrase using Claude API: gt atkdyvkizkj jkzuax rkj zu gt gjbktzaxk atjkx znk yzgxy
+2024-07-29 21:17:44,908 - INFO - Attempting to decipher phrase using Claude API: znk cotj cnoyvkxkj ykixkzy znxuamn znk zgrr mxgyyky
+2024-07-29 21:17:44,908 - INFO - Attempting to decipher phrase using Claude API: zojgr vuury yvgxqrkj roqk mksy ot znk kbktotm romnz
+2024-07-29 21:17:44,909 - INFO - Attempting to decipher phrase using Claude API: hxomnz yatromnz lorzkxkj znxuamn znk yzgotkj mrgyy
+2024-07-29 21:17:44,909 - INFO - Attempting to decipher phrase using Claude API: ckkjotm znk ykxk lruckxy cozn g jkroigzk vgzoktik
+2024-07-29 21:17:44,909 - INFO - Attempting to decipher phrase using Claude API: g iaxouay igz kdvruxkj znk hayzrotm ioze yzxkkzy
+2024-07-29 21:17:44,910 - INFO - Attempting to decipher phrase using Claude API: yvgxqrotm jkc jxuvy jgtikj ut kskxgrj hrgjky ul mxgyy
+2024-07-29 21:17:47,580 - INFO - API call completed. Status: 200
+2024-07-29 21:17:47,580 - ERROR - Test failed for shift 6, phrase: weeding the sere flo...
+2024-07-29 21:17:47,581 - ERROR - Original: weeding the sere flowers with a delicate patience
+2024-07-29 21:17:47,581 - ERROR - Encoded:  ckkjotm znk ykxk lruckxy cozn g jkroigzk vgzoktik
+2024-07-29 21:17:47,581 - ERROR - Deciphered: watering the weed flowers with a delicate patience
+2024-07-29 21:17:47,677 - INFO - API call completed. Status: 200
+2024-07-29 21:17:47,677 - INFO - Test passed for shift 6, phrase: a curious cat explor...
+2024-07-29 21:17:47,791 - INFO - API call completed. Status: 200
+2024-07-29 21:17:47,791 - INFO - Test passed for shift 6, phrase: all the world's a st...
+2024-07-29 21:17:47,925 - INFO - API call completed. Status: 200
+2024-07-29 21:17:47,926 - INFO - Test passed for shift 6, phrase: sparkling dew drops ...
+2024-07-29 21:17:47,938 - INFO - API call completed. Status: 200
+2024-07-29 21:17:47,939 - ERROR - Test failed for shift 6, phrase: an unexspected detou...
+2024-07-29 21:17:47,939 - ERROR - Original: an unexspected detour led to an adventure under the stars
+2024-07-29 21:17:47,939 - ERROR - Encoded:  gt atkdyvkizkj jkzuax rkj zu gt gjbktzaxk atjkx znk yzgxy
+2024-07-29 21:17:47,940 - ERROR - Deciphered: an unexpected detour led to an adventure under the stars
+2024-07-29 21:17:48,343 - INFO - API call completed. Status: 200
+2024-07-29 21:17:48,343 - INFO - Test passed for shift 6, phrase: scattered clouds hov...
+2024-07-29 21:17:48,440 - INFO - API call completed. Status: 200
+2024-07-29 21:17:48,441 - INFO - Test passed for shift 6, phrase: an old soul with a k...
+2024-07-29 21:17:48,960 - INFO - API call completed. Status: 200
+2024-07-29 21:17:48,960 - INFO - Test passed for shift 6, phrase: the wind whispered s...
+2024-07-29 21:17:48,989 - INFO - API call completed. Status: 200
+2024-07-29 21:17:48,990 - ERROR - Test failed for shift 6, phrase: tidal pools sparkled...
+2024-07-29 21:17:48,990 - ERROR - Original: tidal pools sparkled like gems in the evening light
+2024-07-29 21:17:48,990 - ERROR - Encoded:  zojgr vuury yvgxqrkj roqk mksy ot znk kbktotm romnz
+2024-07-29 21:17:48,990 - ERROR - Deciphered: their pools sparkled like gems in the evening light
+2024-07-29 21:17:49,231 - INFO - API call completed. Status: 200
+2024-07-29 21:17:49,232 - INFO - Test passed for shift 6, phrase: bright sunlight filt...
+2024-07-29 21:17:49,232 - INFO - Completed testing for shift 6
+2024-07-29 21:17:49,232 - INFO - Testing shift 7
+2024-07-29 21:17:49,232 - INFO - Attempting to decipher phrase using Claude API: jslhy isbl zrplz huk dhyt zbuzopul hdhpalk aolt
+2024-07-29 21:17:49,233 - INFO - Attempting to decipher phrase using Claude API: aoyvbno aol zahyz hivcl, dl khujlk ilulhao aol jvztvz
+2024-07-29 21:17:49,233 - INFO - Attempting to decipher phrase using Claude API: aobukly ybtislk pu aol kpzahujl hz aol zavyt hwwyvhjolk
+2024-07-29 21:17:49,234 - INFO - Attempting to decipher phrase using Claude API: aopz vsk ayhpu yhtislk hsvun aol dpukpun ayhjr avkhf
+2024-07-29 21:17:49,234 - INFO - Attempting to decipher phrase using Claude API: P zhd aol msvdlyz isvvtpun pu aol dhyt zbttly iyllgl.
+2024-07-29 21:17:49,234 - INFO - Attempting to decipher phrase using Claude API: aol ypcly msvdlk zalhkpsf, jhyyfpun spml huk tltvyplz.
+2024-07-29 21:17:49,235 - INFO - Attempting to decipher phrase using Claude API: wlhysf yhpukyvwz khujlk vu clykhua slhclz pu aol mvylza
+2024-07-29 21:17:49,235 - INFO - Attempting to decipher phrase using Claude API: h jbypvbz jha lewsvylk aol ibzaspun jpaf zayllaz
+2024-07-29 21:17:49,235 - INFO - Attempting to decipher phrase using Claude API: kllw pu aol mvylza, h dopzwlypun iyllgl khujlk aoyvbno
+2024-07-29 21:17:49,236 - INFO - Attempting to decipher phrase using Claude API: h wljbsphy hzzvyatlua vm rupjrruhjrz spulk aol zolsclz
+2024-07-29 21:17:51,319 - INFO - API call completed. Status: 200
+2024-07-29 21:17:51,320 - INFO - Test passed for shift 7, phrase: deep in the forest, ...
+2024-07-29 21:17:51,629 - INFO - API call completed. Status: 200
+2024-07-29 21:17:51,629 - INFO - Test passed for shift 7, phrase: this old train rambl...
+2024-07-29 21:17:51,690 - INFO - API call completed. Status: 200
+2024-07-29 21:17:51,691 - INFO - Test passed for shift 7, phrase: I saw the flowers bl...
+2024-07-29 21:17:52,005 - INFO - API call completed. Status: 200
+2024-07-29 21:17:52,005 - INFO - Test passed for shift 7, phrase: through the stars ab...
+2024-07-29 21:17:52,082 - INFO - API call completed. Status: 200
+2024-07-29 21:17:52,082 - INFO - Test passed for shift 7, phrase: a peculiar assortmen...
+2024-07-29 21:17:52,197 - INFO - API call completed. Status: 200
+2024-07-29 21:17:52,198 - INFO - Test passed for shift 7, phrase: the river flowed ste...
+2024-07-29 21:17:52,391 - INFO - API call completed. Status: 200
+2024-07-29 21:17:52,392 - INFO - Test passed for shift 7, phrase: pearly raindrops dan...
+2024-07-29 21:17:52,553 - INFO - API call completed. Status: 200
+2024-07-29 21:17:52,553 - INFO - Test passed for shift 7, phrase: thunder rumbled in t...
+2024-07-29 21:17:52,745 - INFO - API call completed. Status: 200
+2024-07-29 21:17:52,746 - INFO - Test passed for shift 7, phrase: a curious cat explor...
+2024-07-29 21:17:53,427 - INFO - API call completed. Status: 200
+2024-07-29 21:17:53,428 - INFO - Test passed for shift 7, phrase: clear blue skies and...
+2024-07-29 21:17:53,428 - INFO - Completed testing for shift 7
+2024-07-29 21:17:53,428 - INFO - Testing shift 8
+2024-07-29 21:17:53,429 - INFO - Attempting to decipher phrase using Claude API: bpm acv xmmsml bpzwcop bpm ktwcla, jibpqvo bpm umilwe
+2024-07-29 21:17:53,429 - INFO - Attempting to decipher phrase using Claude API: acvtqopb nqtbmzml bpzwcop icbcuv tmidma wvbw bpm nwzmab ntwwz
+2024-07-29 21:17:53,430 - INFO - Attempting to decipher phrase using Claude API: bpm omvbtm jzmmhm kizzqml bpm akmvb wn eqtlntwemza
+2024-07-29 21:17:53,430 - INFO - Attempting to decipher phrase using Claude API: ugabmzqwca ticopbmz mkpwml bpzwcop bpm uqab-ktwisml dittmg
+2024-07-29 21:17:53,431 - INFO - Attempting to decipher phrase using Claude API: jtcm aixxpqzm ziqvjwea umtbml qvbw bpm wkmiv'a lmxbpa
+2024-07-29 21:17:53,431 - INFO - Attempting to decipher phrase using Claude API: eiapml ktwbpma pcvo wv bpm tqvm livkml qv bpm jzmmhm
+2024-07-29 21:17:53,431 - INFO - Attempting to decipher phrase using Claude API: apilwea livkml ikzwaa bpm lqutg tqb zwwu ia epqaxmza
+2024-07-29 21:17:53,432 - INFO - Attempting to decipher phrase using Claude API: i omvbtm jzmmhm kizmaaml bpm tmidma wv bpm wtl wis bzmm
+2024-07-29 21:17:53,432 - INFO - Attempting to decipher phrase using Claude API: ticopbmz mkpwml bpzwcop bpm muxbg abzmmba ib uqlvqopb
+2024-07-29 21:17:53,432 - INFO - Attempting to decipher phrase using Claude API: uqabg uwwvtqopb otquumzml wv bpm mdmzozmmv tism, xiqvbqvo
+2024-07-29 21:17:56,117 - INFO - API call completed. Status: 200
+2024-07-29 21:17:56,118 - INFO - Test passed for shift 8, phrase: mysterious laughter ...
+2024-07-29 21:17:56,323 - INFO - API call completed. Status: 200
+2024-07-29 21:17:56,324 - INFO - Test passed for shift 8, phrase: the sun peeked throu...
+2024-07-29 21:17:56,410 - INFO - API call completed. Status: 200
+2024-07-29 21:17:56,410 - INFO - Test passed for shift 8, phrase: laughter echoed thro...
+2024-07-29 21:17:56,829 - INFO - API call completed. Status: 200
+2024-07-29 21:17:56,829 - INFO - Test passed for shift 8, phrase: the gentle breeze ca...
+2024-07-29 21:17:56,865 - INFO - API call completed. Status: 200
+2024-07-29 21:17:56,866 - INFO - Test passed for shift 8, phrase: sunlight filtered th...
+2024-07-29 21:17:56,874 - INFO - API call completed. Status: 200
+2024-07-29 21:17:56,875 - INFO - Test passed for shift 8, phrase: blue sapphire rainbo...
+2024-07-29 21:17:56,885 - INFO - API call completed. Status: 200
+2024-07-29 21:17:56,886 - INFO - Test passed for shift 8, phrase: a gentle breeze care...
+2024-07-29 21:17:57,235 - INFO - API call completed. Status: 200
+2024-07-29 21:17:57,235 - ERROR - Test failed for shift 8, phrase: washed clothes hung ...
+2024-07-29 21:17:57,235 - ERROR - Original: washed clothes hung on the line danced in the breeze
+2024-07-29 21:17:57,236 - ERROR - Encoded:  eiapml ktwbpma pcvo wv bpm tqvm livkml qv bpm jzmmhm
+2024-07-29 21:17:57,236 - ERROR - Deciphered: washer clothes hung on the line danced in the breeze
+2024-07-29 21:17:57,763 - INFO - API call completed. Status: 200
+2024-07-29 21:17:57,764 - INFO - Test passed for shift 8, phrase: misty moonlight glim...
+2024-07-29 21:17:58,126 - INFO - API call completed. Status: 200
+2024-07-29 21:17:58,127 - INFO - Test passed for shift 8, phrase: shadows danced acros...
+2024-07-29 21:17:58,127 - INFO - Completed testing for shift 8
+2024-07-29 21:17:58,127 - INFO - Testing shift 9
+2024-07-29 21:17:58,127 - INFO - Attempting to decipher phrase using Claude API: crmju yxxub byjatunm urtn pnvb rw cqn nenwrwp urpqc
+2024-07-29 21:17:58,128 - INFO - Attempting to decipher phrase using Claude API: jw rlh frwm qxfunm cqaxdpq cqn mjat, oxapxccnw juunhb
+2024-07-29 21:17:58,128 - INFO - Attempting to decipher phrase using Claude API: Bdwurpqc mjwlnm xw cqn aryyurwp ujtn, wjcdan'b bhvyqxwh
+2024-07-29 21:17:58,128 - INFO - Attempting to decipher phrase using Claude API: cqxbn fqx fjut juxwn jan xocnw uxwnuh kdc wxc juxwn
+2024-07-29 21:17:58,129 - INFO - Attempting to decipher phrase using Claude API: ncnawju fqrbynab mjwlnm jvrm crvnunbb jdcdvw unjenb
+2024-07-29 21:17:58,129 - INFO - Attempting to decipher phrase using Claude API: cqn pjamnw kuxxvnm frcq j tjunrmxblxyn xo erkajwc qdnb
+2024-07-29 21:17:58,129 - INFO - Attempting to decipher phrase using Claude API: onjbcrwp dyxw manjvb xo byarwp'b jaareju jwm ankracq
+2024-07-29 21:17:58,130 - INFO - Attempting to decipher phrase using Claude API: karpqc bdwurpqc orucnanm cqaxdpq cqn bcjrwnm pujbb
+2024-07-29 21:17:58,130 - INFO - Attempting to decipher phrase using Claude API: cqn frwm fqrbynanm bnlancb cqaxdpq cqn cjuu pajbbnb
+2024-07-29 21:17:58,130 - INFO - Attempting to decipher phrase using Claude API: cqn bdw ynntnm cqaxdpq cqn luxdmb, kjcqrwp cqn vnjmxf
+2024-07-29 21:18:01,003 - INFO - API call completed. Status: 200
+2024-07-29 21:18:01,003 - ERROR - Test failed for shift 9, phrase: feasting upon dreams...
+2024-07-29 21:18:01,004 - ERROR - Original: feasting upon dreams of spring's arrival and rebirth
+2024-07-29 21:18:01,004 - ERROR - Encoded:  onjbcrwp dyxw manjvb xo byarwp'b jaareju jwm ankracq
+2024-07-29 21:18:01,004 - ERROR - Deciphered: jumping upon dreams of spring's arrival and rebirth
+2024-07-29 21:18:01,193 - INFO - API call completed. Status: 200
+2024-07-29 21:18:01,194 - INFO - Test passed for shift 9, phrase: the garden bloomed w...
+2024-07-29 21:18:01,239 - INFO - API call completed. Status: 200
+2024-07-29 21:18:01,239 - ERROR - Test failed for shift 9, phrase: Sunlight danced on t...
+2024-07-29 21:18:01,239 - ERROR - Original: Sunlight danced on the rippling lake, nature's symphony
+2024-07-29 21:18:01,240 - ERROR - Encoded:  Bdwurpqc mjwlnm xw cqn aryyurwp ujtn, wjcdan'b bhvyqxwh
+2024-07-29 21:18:01,240 - ERROR - Deciphered: Waterlily blooms on the rippling lake, nature's symphony
+2024-07-29 21:18:01,449 - INFO - API call completed. Status: 200
+2024-07-29 21:18:01,450 - ERROR - Test failed for shift 9, phrase: bright sunlight filt...
+2024-07-29 21:18:01,450 - ERROR - Original: bright sunlight filtered through the stained glass
+2024-07-29 21:18:01,450 - ERROR - Encoded:  karpqc bdwurpqc orucnanm cqaxdpq cqn bcjrwnm pujbb
+2024-07-29 21:18:01,450 - ERROR - Deciphered: famous churches glowered through the stained glass
+2024-07-29 21:18:01,599 - INFO - API call completed. Status: 200
+2024-07-29 21:18:01,600 - INFO - Test passed for shift 9, phrase: the sun peeked throu...
+2024-07-29 21:18:01,621 - INFO - API call completed. Status: 200
+2024-07-29 21:18:01,621 - ERROR - Test failed for shift 9, phrase: an icy wind howled t...
+2024-07-29 21:18:01,621 - ERROR - Original: an icy wind howled through the dark, forgotten alleys
+2024-07-29 21:18:01,622 - ERROR - Encoded:  jw rlh frwm qxfunm cqaxdpq cqn mjat, oxapxccnw juunhb
+2024-07-29 21:18:01,622 - ERROR - Deciphered: er mgc came slashing through the dark, forgotten alleys
+2024-07-29 21:18:01,705 - INFO - API call completed. Status: 200
+2024-07-29 21:18:01,705 - INFO - Test passed for shift 9, phrase: the wind whispered s...
+2024-07-29 21:18:02,007 - INFO - API call completed. Status: 200
+2024-07-29 21:18:02,007 - INFO - Test passed for shift 9, phrase: those who walk alone...
+2024-07-29 21:18:03,297 - INFO - API call completed. Status: 200
+2024-07-29 21:18:03,297 - ERROR - Test failed for shift 9, phrase: tidal pools sparkled...
+2024-07-29 21:18:03,297 - ERROR - Original: tidal pools sparkled like gems in the evening light
+2024-07-29 21:18:03,298 - ERROR - Encoded:  crmju yxxub byjatunm urtn pnvb rw cqn nenwrwp urpqc
+2024-07-29 21:18:03,298 - ERROR - Deciphered: xhep tsspw wtevoir pomi kiqs mr xli izirmrk pmklx
+2024-07-29 21:18:03,384 - INFO - API call completed. Status: 200
+2024-07-29 21:18:03,385 - ERROR - Test failed for shift 9, phrase: eternal whispers dan...
+2024-07-29 21:18:03,385 - ERROR - Original: eternal whispers danced amid timeless autumn leaves
+2024-07-29 21:18:03,385 - ERROR - Encoded:  ncnawju fqrbynab mjwlnm jvrm crvnunbb jdcdvw unjenb
+2024-07-29 21:18:03,385 - ERROR - Deciphered: ixivrep almtiws herged amid timeless autumn leaves
+2024-07-29 21:18:03,385 - INFO - Completed testing for shift 9
+2024-07-29 21:18:03,385 - INFO - Testing shift 10
+2024-07-29 21:18:03,386 - INFO - Attempting to decipher phrase using Claude API: drosb cex-nkzzvon vkeqrdob omryon drbyeqr dro woknyg
+2024-07-29 21:18:03,386 - INFO - Attempting to decipher phrase using Claude API: kx yvn cyev gsdr k usxn rokbd kxn gsco oioc
+2024-07-29 21:18:03,387 - INFO - Attempting to decipher phrase using Claude API: gkcron mvydroc rexq yx dro vsxo nkxmon sx dro lboojo
+2024-07-29 21:18:03,387 - INFO - Attempting to decipher phrase using Claude API: yxo rkxn qboodon dro ydrob kwsncd drexnobyec kzzvkeco
+2024-07-29 21:18:03,388 - INFO - Attempting to decipher phrase using Claude API: k qoxdvo lboojo mkboccon dro vokfoc yx dro yvn yku dboo
+2024-07-29 21:18:03,388 - INFO - Attempting to decipher phrase using Claude API: pbyw dro pybocd czbkxq k lveb yp peb kxn pobymsdi
+2024-07-29 21:18:03,388 - INFO - Attempting to decipher phrase using Claude API: S ckg dro pvygobc lvyywsxq sx dro gkbw cewwob lboojo.
+2024-07-29 21:18:03,389 - INFO - Attempting to decipher phrase using Claude API: lveo ckzzrsbo bksxlygc wovdon sxdy dro ymokx'c nozdrc
+2024-07-29 21:18:03,389 - INFO - Attempting to decipher phrase using Claude API: zevcsxq yblc yp vsqrd nkxmon kbyexn dro kxmsoxd dboo
+2024-07-29 21:18:03,389 - INFO - Attempting to decipher phrase using Claude API: dro gsxn grsczobon combodc drbyeqr dro dkvv qbkccoc
+2024-07-29 21:18:05,919 - INFO - API call completed. Status: 200
+2024-07-29 21:18:05,919 - INFO - Test passed for shift 10, phrase: a gentle breeze care...
+2024-07-29 21:18:05,963 - INFO - API call completed. Status: 200
+2024-07-29 21:18:05,964 - INFO - Test passed for shift 10, phrase: one hand greeted the...
+2024-07-29 21:18:06,289 - INFO - API call completed. Status: 200
+2024-07-29 21:18:06,290 - INFO - Test passed for shift 10, phrase: I saw the flowers bl...
+2024-07-29 21:18:06,340 - INFO - API call completed. Status: 200
+2024-07-29 21:18:06,340 - INFO - Test passed for shift 10, phrase: from the forest spra...
+2024-07-29 21:18:06,641 - INFO - API call completed. Status: 200
+2024-07-29 21:18:06,642 - INFO - Test passed for shift 10, phrase: the wind whispered s...
+2024-07-29 21:18:06,727 - INFO - API call completed. Status: 200
+2024-07-29 21:18:06,728 - ERROR - Test failed for shift 10, phrase: an old soul with a k...
+2024-07-29 21:18:06,728 - ERROR - Original: an old soul with a kind heart and wise eyes
+2024-07-29 21:18:06,728 - ERROR - Encoded:  kx yvn cyev gsdr k usxn rokbd kxn gsco oioc
+2024-07-29 21:18:06,728 - ERROR - Deciphered: an old man with a kind heart and wise eyes
+2024-07-29 21:18:07,175 - INFO - API call completed. Status: 200
+2024-07-29 21:18:07,176 - INFO - Test passed for shift 10, phrase: washed clothes hung ...
+2024-07-29 21:18:07,306 - INFO - API call completed. Status: 200
+2024-07-29 21:18:07,307 - ERROR - Test failed for shift 10, phrase: their sun-dappled la...
+2024-07-29 21:18:07,307 - ERROR - Original: their sun-dappled laughter echoed through the meadow
+2024-07-29 21:18:07,307 - ERROR - Encoded:  drosb cex-nkzzvon vkeqrdob omryon drbyeqr dro woknyg
+2024-07-29 21:18:07,307 - ERROR - Deciphered: noisy cow-butterd laughter echoes through the meadow
+2024-07-29 21:18:07,396 - INFO - API call completed. Status: 200
+2024-07-29 21:18:07,396 - INFO - Test passed for shift 10, phrase: blue sapphire rainbo...
+2024-07-29 21:18:07,502 - INFO - API call completed. Status: 200
+2024-07-29 21:18:07,503 - ERROR - Test failed for shift 10, phrase: pulsing orbs of ligh...
+2024-07-29 21:18:07,503 - ERROR - Original: pulsing orbs of light danced around the ancient tree
+2024-07-29 21:18:07,503 - ERROR - Encoded:  zevcsxq yblc yp vsqrd nkxmon kbyexn dro kxmsoxd dboo
+2024-07-29 21:18:07,503 - ERROR - Deciphered: joining hands of light danced around the ancient tree
+2024-07-29 21:18:07,503 - INFO - Completed testing for shift 10
+2024-07-29 21:18:07,503 - INFO - Testing shift 11
+2024-07-29 21:18:07,504 - INFO - Attempting to decipher phrase using Claude API: fydppy xzxpyed dwta esczfrs esp nclnvd zq apcnpaetzy
+2024-07-29 21:18:07,504 - INFO - Attempting to decipher phrase using Claude API: T dlh esp qwzhpcd mwzzxtyr ty esp hlcx dfxxpc mcppkp.
+2024-07-29 21:18:07,504 - INFO - Attempting to decipher phrase using Claude API: ty esp bftpe zq esp ytrse, hstdapcd pnszpo esczfrs
+2024-07-29 21:18:07,505 - INFO - Attempting to decipher phrase using Claude API: esp wplgpd olynpo ty esp htyo, ylefcp'd pwprlye mlwwpe
+2024-07-29 21:18:07,505 - INFO - Attempting to decipher phrase using Claude API: afwdtyr zcmd zq wtrse olynpo lczfyo esp lyntpye ecpp
+2024-07-29 21:18:07,505 - INFO - Attempting to decipher phrase using Claude API: ly tnj htyo szhwpo esczfrs esp olcv, qzcrzeepy lwwpjd
+2024-07-29 21:18:07,505 - INFO - Attempting to decipher phrase using Claude API: dfy-ocpynspo xplozhd hstdapcpo dpncped ez esp mcppkp
+2024-07-29 21:18:07,506 - INFO - Attempting to decipher phrase using Claude API: Esp dxpww zq qcpds mlvpo mcplo qtwwpo esp nzkj vtenspy.
+2024-07-29 21:18:07,506 - INFO - Attempting to decipher phrase using Claude API: ly tynpddlye decplx zq wlfrsepc pnszpo esczfrs esp slwwd
+2024-07-29 21:18:07,506 - INFO - Attempting to decipher phrase using Claude API: l rpyewp mcppkp nlcpddpo esp wplgpd zy esp zwo zlv ecpp
+2024-07-29 21:18:09,560 - INFO - API call completed. Status: 200
+2024-07-29 21:18:09,561 - ERROR - Test failed for shift 11, phrase: unseen moments slip ...
+2024-07-29 21:18:09,561 - ERROR - Original: unseen moments slip through the cracks of perception
+2024-07-29 21:18:09,561 - ERROR - Encoded:  fydppy xzxpyed dwta esczfrs esp nclnvd zq apcnpaetzy
+2024-07-29 21:18:09,561 - ERROR - Deciphered: elusive moments slip through the cracks of perception
+2024-07-29 21:18:09,674 - INFO - API call completed. Status: 200
+2024-07-29 21:18:09,675 - INFO - Test passed for shift 11, phrase: I saw the flowers bl...
+2024-07-29 21:18:10,211 - INFO - API call completed. Status: 200
+2024-07-29 21:18:10,212 - INFO - Test passed for shift 11, phrase: a gentle breeze care...
+2024-07-29 21:18:10,559 - INFO - API call completed. Status: 200
+2024-07-29 21:18:10,560 - INFO - Test passed for shift 11, phrase: an incessant stream ...
+2024-07-29 21:18:10,659 - INFO - API call completed. Status: 200
+2024-07-29 21:18:10,660 - INFO - Test passed for shift 11, phrase: in the quiet of the ...
+2024-07-29 21:18:10,716 - INFO - API call completed. Status: 200
+2024-07-29 21:18:10,716 - INFO - Test passed for shift 11, phrase: an icy wind howled t...
+2024-07-29 21:18:10,964 - INFO - API call completed. Status: 200
+2024-07-29 21:18:10,964 - INFO - Test passed for shift 11, phrase: the leaves danced in...
+2024-07-29 21:18:11,183 - INFO - API call completed. Status: 200
+2024-07-29 21:18:11,183 - ERROR - Test failed for shift 11, phrase: sun-drenched meadows...
+2024-07-29 21:18:11,183 - ERROR - Original: sun-drenched meadows whispered secrets to the breeze
+2024-07-29 21:18:11,184 - ERROR - Encoded:  dfy-ocpynspo xplozhd hstdapcpo dpncped ez esp mcppkp
+2024-07-29 21:18:11,184 - ERROR - Deciphered: sun-scorched whispered secrets to the breeze
+2024-07-29 21:18:11,666 - INFO - API call completed. Status: 200
+2024-07-29 21:18:11,667 - ERROR - Test failed for shift 11, phrase: pulsing orbs of ligh...
+2024-07-29 21:18:11,667 - ERROR - Original: pulsing orbs of light danced around the ancient tree
+2024-07-29 21:18:11,667 - ERROR - Encoded:  afwdtyr zcmd zq wtrse olynpo lczfyo esp lyntpye ecpp
+2024-07-29 21:18:11,667 - ERROR - Deciphered: pulling some of light danced around the ancient tree
+2024-07-29 21:18:11,790 - INFO - API call completed. Status: 200
+2024-07-29 21:18:11,791 - INFO - Test passed for shift 11, phrase: The smell of fresh b...
+2024-07-29 21:18:11,791 - INFO - Completed testing for shift 11
+2024-07-29 21:18:11,791 - INFO - Testing shift 12
+2024-07-29 21:18:11,791 - INFO - Attempting to decipher phrase using Claude API: Egzxustf pmzoqp az ftq dubbxuzs xmwq, zmfgdq'e ekybtazk
+2024-07-29 21:18:11,792 - INFO - Attempting to decipher phrase using Claude API: egz-pdqzotqp yqmpaie ituebqdqp eqodqfe fa ftq ndqqlq
+2024-07-29 21:18:11,792 - INFO - Attempting to decipher phrase using Claude API: U emi ftq rxaiqde nxaayuzs uz ftq imdy egyyqd ndqqlq.
+2024-07-29 21:18:11,793 - INFO - Attempting to decipher phrase using Claude API: nxgq embbtudq dmuznaie yqxfqp uzfa ftq aoqmz'e pqbfte
+2024-07-29 21:18:11,793 - INFO - Attempting to decipher phrase using Claude API: eqm etqxxe odgzotqp nqzqmft agd nmdq rqqf me iq efdaxxqp
+2024-07-29 21:18:11,793 - INFO - Attempting to decipher phrase using Claude API: az saxpqz ruqxpe itqdq egzrxaiqde pmzoq uz ftq ndqqlq
+2024-07-29 21:18:11,794 - INFO - Attempting to decipher phrase using Claude API: ftq yadzuzs xustf ruxfqdqp ftdagst ftq fdqqe' omzabk
+2024-07-29 21:18:11,794 - INFO - Attempting to decipher phrase using Claude API: itqdq mdq ftq mbbxqe oazoqmxuzs yk xaef puzaemgd fak?
+2024-07-29 21:18:11,794 - INFO - Attempting to decipher phrase using Claude API: ndustf egzxustf ruxfqdqp ftdagst ftq efmuzqp sxmee
+2024-07-29 21:18:11,795 - INFO - Attempting to decipher phrase using Claude API: m sqzfxq ndqqlq omdqeeqp ftq xqmhqe az ftq axp amw fdqq
+2024-07-29 21:18:13,664 - INFO - API call completed. Status: 200
+2024-07-29 21:18:13,665 - INFO - Test passed for shift 12, phrase: the morning light fi...
+2024-07-29 21:18:14,310 - INFO - API call completed. Status: 200
+2024-07-29 21:18:14,311 - ERROR - Test failed for shift 12, phrase: Sunlight danced on t...
+2024-07-29 21:18:14,311 - ERROR - Original: Sunlight danced on the rippling lake, nature's symphony
+2024-07-29 21:18:14,311 - ERROR - Encoded:  Egzxustf pmzoqp az ftq dubbxuzs xmwq, zmfgdq'e ekybtazk
+2024-07-29 21:18:14,311 - ERROR - Deciphered: Swallows danced on the rippling lake, nature's symphony
+2024-07-29 21:18:14,626 - INFO - API call completed. Status: 200
+2024-07-29 21:18:14,627 - ERROR - Test failed for shift 12, phrase: I saw the flowers bl...
+2024-07-29 21:18:14,627 - ERROR - Original: I saw the flowers blooming in the warm summer breeze.
+2024-07-29 21:18:14,627 - ERROR - Encoded:  U emi ftq rxaiqde nxaayuzs uz ftq imdy egyyqd ndqqlq.
+2024-07-29 21:18:14,627 - ERROR - Deciphered: O see the flowers blooming in the warm summer breeze.
+2024-07-29 21:18:14,735 - INFO - API call completed. Status: 200
+2024-07-29 21:18:14,735 - ERROR - Test failed for shift 12, phrase: bright sunlight filt...
+2024-07-29 21:18:14,735 - ERROR - Original: bright sunlight filtered through the stained glass
+2024-07-29 21:18:14,736 - ERROR - Encoded:  ndustf egzxustf ruxfqdqp ftdagst ftq efmuzqp sxmee
+2024-07-29 21:18:14,736 - ERROR - Deciphered: hungry foxhound bickered through the stained glass
+2024-07-29 21:18:14,901 - INFO - API call completed. Status: 200
+2024-07-29 21:18:14,912 - INFO - Test passed for shift 12, phrase: a gentle breeze care...
+2024-07-29 21:18:15,001 - INFO - API call completed. Status: 200
+2024-07-29 21:18:15,002 - ERROR - Test failed for shift 12, phrase: blue sapphire rainbo...
+2024-07-29 21:18:15,002 - ERROR - Original: blue sapphire rainbows melted into the ocean's depths
+2024-07-29 21:18:15,002 - ERROR - Encoded:  nxgq embbtudq dmuznaie yqxfqp uzfa ftq aoqmz'e pqbfte
+2024-07-29 21:18:15,002 - ERROR - Deciphered: iced buttermilk dumplings melted into the ocean's depths
+2024-07-29 21:18:15,526 - INFO - API call completed. Status: 200
+2024-07-29 21:18:15,526 - ERROR - Test failed for shift 12, phrase: sun-drenched meadows...
+2024-07-29 21:18:15,526 - ERROR - Original: sun-drenched meadows whispered secrets to the breeze
+2024-07-29 21:18:15,527 - ERROR - Encoded:  egz-pdqzotqp yqmpaie ituebqdqp eqodqfe fa ftq ndqqlq
+2024-07-29 21:18:15,527 - ERROR - Deciphered: zbu-kluyjolk xlymuqy cdcmjylyk mlyljnm ni ndl wlltty
+2024-07-29 21:18:15,593 - INFO - API call completed. Status: 200
+2024-07-29 21:18:15,593 - ERROR - Test failed for shift 12, phrase: on golden fields whe...
+2024-07-29 21:18:15,594 - ERROR - Original: on golden fields where sunflowers dance in the breeze
+2024-07-29 21:18:15,594 - ERROR - Encoded:  az saxpqz ruqxpe itqdq egzrxaiqde pmzoq uz ftq ndqqlq
+2024-07-29 21:18:15,594 - ERROR - Deciphered: at market baker where sunflowers dance in the breeze
+2024-07-29 21:18:16,334 - INFO - API call completed. Status: 200
+2024-07-29 21:18:16,334 - INFO - Test passed for shift 12, phrase: where are the apples...
+2024-07-29 21:18:16,608 - INFO - API call completed. Status: 200
+2024-07-29 21:18:16,609 - ERROR - Test failed for shift 12, phrase: sea shells crunched ...
+2024-07-29 21:18:16,609 - ERROR - Original: sea shells crunched beneath our bare feet as we strolled
+2024-07-29 21:18:16,609 - ERROR - Encoded:  eqm etqxxe odgzotqp nqzqmft agd nmdq rqqf me iq efdaxxqp
+2024-07-29 21:18:16,610 - ERROR - Deciphered: To decode this Caesar cipher, I'll try shifting the letters backward in the alphabet until I find a meaningful sentence. After some attempts, I found that shifting 12 positions backward produces a coherent message.
+
+Here's the decoding:
+e -> s
+q -> e
+m -> a
+ ->  (space remains unchanged)
+e -> s
+t -> h
+q -> e
+x -> l
+x -> l
+e -> s
+ ->  (space)
+o -> c
+d -> r
+g -> u
+z -> n
+o -> c
+t -> h
+q -> e
+p -> d
+ ->  (space)
+n -> b
+q -> e
+z -> n
+q -> e
+m -> a
+f -> t
+t -> h
+ ->  (space)
+a -> o
+g -> u
+d -> r
+ ->  (space)
+n -> b
+m -> a
+d -> r
+q -> e
+ ->  (space)
+r -> f
+q -> e
+q -> e
+f -> t
+ ->  (space)
+m -> a
+e -> s
+ ->  (space)
+i -> w
+q -> e
+ ->  (space)
+e -> s
+f -> t
+d -> r
+a -> o
+x -> l
+x -> l
+q -> e
+p
+2024-07-29 21:18:16,613 - INFO - Completed testing for shift 12
+2024-07-29 21:18:16,613 - INFO - Testing shift 13
+2024-07-29 21:18:16,613 - INFO - Attempting to decipher phrase using Claude API: n qnl svyyrq jvgu fhafuvar naq ynhtugre, perngvat zrzbevrf.
+2024-07-29 21:18:16,614 - INFO - Attempting to decipher phrase using Claude API: gur dhvpx oebja sbk whzcf bire gur ynml fyrrcvat qbt
+2024-07-29 21:18:16,614 - INFO - Attempting to decipher phrase using Claude API: n phevbhf png rkcyberq gur ohfgyvat pvgl fgerrgf
+2024-07-29 21:18:16,614 - INFO - Attempting to decipher phrase using Claude API: gurve fha-qnccyrq ynhtugre rpubrq guebhtu gur zrnqbj
+2024-07-29 21:18:16,615 - INFO - Attempting to decipher phrase using Claude API: jbeqf ghzoyr sbegu sebz ure zbhgu yvxr jvyqsybjref
+2024-07-29 21:18:16,615 - INFO - Attempting to decipher phrase using Claude API: oevtug fhafuvar qnaprq npebff gur tbyqra zrnqbj cngu.
+2024-07-29 21:18:16,615 - INFO - Attempting to decipher phrase using Claude API: guvpx sbt ebyyrq bire gur inyyrl, oynaxrgvat gur uvyyf
+2024-07-29 21:18:16,616 - INFO - Attempting to decipher phrase using Claude API: Fhayvtug qnaprq npebff gur evccyvat fhesnpr bs gur ynxr.
+2024-07-29 21:18:16,616 - INFO - Attempting to decipher phrase using Claude API: jrrqvat gur frer sybjref jvgu n qryvpngr cngvrapr
+2024-07-29 21:18:16,616 - INFO - Attempting to decipher phrase using Claude API: gur tneqra oybbzrq jvgu n xnyrvqbfpbcr bs ivoenag uhrf
+2024-07-29 21:18:19,353 - INFO - API call completed. Status: 200
+2024-07-29 21:18:19,354 - INFO - Test passed for shift 13, phrase: bright sunshine danc...
+2024-07-29 21:18:19,432 - INFO - API call completed. Status: 200
+2024-07-29 21:18:19,432 - INFO - Test passed for shift 13, phrase: words tumble forth f...
+2024-07-29 21:18:19,519 - INFO - API call completed. Status: 200
+2024-07-29 21:18:19,520 - INFO - Test passed for shift 13, phrase: a day filled with su...
+2024-07-29 21:18:19,556 - INFO - API call completed. Status: 200
+2024-07-29 21:18:19,557 - INFO - Test passed for shift 13, phrase: the garden bloomed w...
+2024-07-29 21:18:19,645 - INFO - API call completed. Status: 200
+2024-07-29 21:18:19,645 - INFO - Test passed for shift 13, phrase: Sunlight danced acro...
+2024-07-29 21:18:19,966 - INFO - API call completed. Status: 200
+2024-07-29 21:18:19,966 - INFO - Test passed for shift 13, phrase: their sun-dappled la...
+2024-07-29 21:18:20,514 - INFO - API call completed. Status: 200
+2024-07-29 21:18:20,514 - INFO - Test passed for shift 13, phrase: a curious cat explor...
+2024-07-29 21:18:20,871 - INFO - API call completed. Status: 200
+2024-07-29 21:18:20,872 - INFO - Test passed for shift 13, phrase: weeding the sere flo...
+2024-07-29 21:18:20,885 - INFO - API call completed. Status: 200
+2024-07-29 21:18:20,885 - INFO - Test passed for shift 13, phrase: thick fog rolled ove...
+2024-07-29 21:18:21,252 - INFO - API call completed. Status: 200
+2024-07-29 21:18:21,252 - INFO - Test passed for shift 13, phrase: the quick brown fox ...
+2024-07-29 21:18:21,252 - INFO - Completed testing for shift 13
+2024-07-29 21:18:21,253 - INFO - Testing shift 14
+2024-07-29 21:18:21,253 - INFO - Attempting to decipher phrase using Claude API: xorsr zoiuvhsf sqvcsr hvfciuv hvs rwazm zwh ozzsmkom
+2024-07-29 21:18:21,253 - INFO - Attempting to decipher phrase using Claude API: o usbhzs pfssns qoffwsr hvs gqsbh ct pzccawbu tzcksfg
+2024-07-29 21:18:21,254 - INFO - Attempting to decipher phrase using Claude API: kvsfs ofs hvs oddzsg qcbqsozwbu am zcgh rwbcgoif hcm?
+2024-07-29 21:18:21,254 - INFO - Attempting to decipher phrase using Claude API: uczrsb zsojsg robqsr wb hvs qfwgd oihiab pfssns.
+2024-07-29 21:18:21,255 - INFO - Attempting to decipher phrase using Claude API: hvcgs kvc kozy ozcbs ofs cthsb zcbszm pih bch ozcbs
+2024-07-29 21:18:21,255 - INFO - Attempting to decipher phrase using Claude API: hvwg czr hfowb foapzsr ozcbu hvs kwbrwbu hfoqy hcrom
+2024-07-29 21:18:21,255 - INFO - Attempting to decipher phrase using Claude API: kcfrg hiapzs tcfhv tfca vsf acihv zwys kwzrtzcksfg
+2024-07-29 21:18:21,256 - INFO - Attempting to decipher phrase using Claude API: hvswf gib-roddzsr zoiuvhsf sqvcsr hvfciuv hvs asorck
+2024-07-29 21:18:21,256 - INFO - Attempting to decipher phrase using Claude API: tziffwsg ct rfoucbtzwsg robqsr ofcibr hvs pzccawbu zwzoqg
+2024-07-29 21:18:21,256 - INFO - Attempting to decipher phrase using Claude API: uczrsb gibzwuvh robqsr oqfcgg hvs hfobeiwz asorck
+2024-07-29 21:18:23,882 - INFO - API call completed. Status: 200
+2024-07-29 21:18:23,883 - ERROR - Test failed for shift 14, phrase: golden sunlight danc...
+2024-07-29 21:18:23,883 - ERROR - Original: golden sunlight danced across the tranquil meadow
+2024-07-29 21:18:23,883 - ERROR - Encoded:  uczrsb gibzwuvh robqsr oqfcgg hvs hfobeiwz asorck
+2024-07-29 21:18:23,884 - ERROR - Deciphered: murky shadows danced across the tranquil meadow
+2024-07-29 21:18:23,941 - INFO - API call completed. Status: 200
+2024-07-29 21:18:23,942 - INFO - Test passed for shift 14, phrase: a gentle breeze carr...
+2024-07-29 21:18:24,332 - INFO - API call completed. Status: 200
+2024-07-29 21:18:24,333 - ERROR - Test failed for shift 14, phrase: flurries of dragonfl...
+2024-07-29 21:18:24,333 - ERROR - Original: flurries of dragonflies danced around the blooming lilacs
+2024-07-29 21:18:24,333 - ERROR - Encoded:  tziffwsg ct rfoucbtzwsg robqsr ofcibr hvs pzccawbu zwzoqg
+2024-07-29 21:18:24,333 - ERROR - Deciphered: children of munchkins danced around the blooming lilacs
+2024-07-29 21:18:24,833 - INFO - API call completed. Status: 200
+2024-07-29 21:18:24,834 - ERROR - Test failed for shift 14, phrase: those who walk alone...
+2024-07-29 21:18:24,834 - ERROR - Original: those who walk alone are often lonely but not alone
+2024-07-29 21:18:24,834 - ERROR - Encoded:  hvcgs kvc kozy ozcbs ofs cthsb zcbszm pih bch ozcbs
+2024-07-29 21:18:24,834 - ERROR - Deciphered: bpwam epc eit sits are often lonely but not alone
+2024-07-29 21:18:25,010 - INFO - API call completed. Status: 200
+2024-07-29 21:18:25,011 - ERROR - Test failed for shift 14, phrase: where are the apples...
+2024-07-29 21:18:25,011 - ERROR - Original: where are the apples concealing my lost dinosaur toy?
+2024-07-29 21:18:25,011 - ERROR - Encoded:  kvsfs ofs hvs oddzsg qcbqsozwbu am zcgh rwbcgoif hcm?
+2024-07-29 21:18:25,012 - ERROR - Deciphered: where are the valleys concealing my lost dinosaur toy?
+2024-07-29 21:18:25,303 - INFO - API call completed. Status: 200
+2024-07-29 21:18:25,303 - ERROR - Test failed for shift 14, phrase: words tumble forth f...
+2024-07-29 21:18:25,304 - ERROR - Original: words tumble forth from her mouth like wildflowers
+2024-07-29 21:18:25,304 - ERROR - Encoded:  kcfrg hiapzs tcfhv tfca vsf acihv zwys kwzrtzcksfg
+2024-07-29 21:18:25,304 - ERROR - Deciphered: umbra shaped drops from her mouth like wildflowers
+2024-07-29 21:18:25,473 - INFO - API call completed. Status: 200
+2024-07-29 21:18:25,474 - ERROR - Test failed for shift 14, phrase: their sun-dappled la...
+2024-07-29 21:18:25,474 - ERROR - Original: their sun-dappled laughter echoed through the meadow
+2024-07-29 21:18:25,474 - ERROR - Encoded:  hvswf gib-roddzsr zoiuvhsf sqvcsr hvfciuv hvs asorck
+2024-07-29 21:18:25,474 - ERROR - Deciphered: drosb cex-nkzvon zoieqrd smiord hvfciuv hvs asorck
+2024-07-29 21:18:25,895 - INFO - API call completed. Status: 200
+2024-07-29 21:18:25,896 - ERROR - Test failed for shift 14, phrase: golden leaves danced...
+2024-07-29 21:18:25,896 - ERROR - Original: golden leaves danced in the crisp autumn breeze.
+2024-07-29 21:18:25,896 - ERROR - Encoded:  uczrsb zsojsg robqsr wb hvs qfwgd oihiab pfssns.
+2024-07-29 21:18:25,896 - ERROR - Deciphered: ewibc elicyt cabbed in the crisp autumn breeze.
+2024-07-29 21:18:26,072 - INFO - API call completed. Status: 200
+2024-07-29 21:18:26,073 - ERROR - Test failed for shift 14, phrase: this old train rambl...
+2024-07-29 21:18:26,073 - ERROR - Original: this old train rambled along the winding track today
+2024-07-29 21:18:26,073 - ERROR - Encoded:  hvwg czr hfowb foapzsr ozcbu hvs kwbrwbu hfoqy hcrom
+2024-07-29 21:18:26,073 - ERROR - Deciphered: this old turtle crawled along the winding track today
+2024-07-29 21:18:26,328 - INFO - API call completed. Status: 200
+2024-07-29 21:18:26,329 - ERROR - Test failed for shift 14, phrase: jaded laughter echoe...
+2024-07-29 21:18:26,329 - ERROR - Original: jaded laughter echoed through the dimly lit alleyway
+2024-07-29 21:18:26,329 - ERROR - Encoded:  xorsr zoiuvhsf sqvcsr hvfciuv hvs rwazm zwh ozzsmkom
+2024-07-29 21:18:26,329 - ERROR - Deciphered: simon judpson sl
+2024-07-29 21:18:26,330 - INFO - Completed testing for shift 14
+2024-07-29 21:18:26,330 - INFO - Testing shift 15
+2024-07-29 21:18:26,330 - INFO - Attempting to decipher phrase using Claude API: ixspa eddah hepgzats axzt vtbh xc iwt tktcxcv axvwi
+2024-07-29 21:18:26,330 - INFO - Attempting to decipher phrase using Claude API: iwt lxcs lwxhetgts htrgtih iwgdjvw iwt ipaa vgphhth
+2024-07-29 21:18:26,331 - INFO - Attempting to decipher phrase using Claude API: apjvwitg trwdts iwgdjvw iwt tbein higttih pi bxscxvwi
+2024-07-29 21:18:26,331 - INFO - Attempting to decipher phrase using Claude API: btbdgxth du hjbbtg spnh axcvtg axzt sjhi xc hjcqtpbh
+2024-07-29 21:18:26,332 - INFO - Attempting to decipher phrase using Claude API: iwt hjc ettzts iwgdjvw iwt radjsh, qpiwxcv iwt btpsdl
+2024-07-29 21:18:26,332 - INFO - Attempting to decipher phrase using Claude API: p rjgxdjh rpi tmeadgts iwt qjhiaxcv rxin higttih
+2024-07-29 21:18:26,333 - INFO - Attempting to decipher phrase using Claude API: qajt hpeewxgt gpxcqdlh btaits xcid iwt drtpc'h steiwh
+2024-07-29 21:18:26,333 - INFO - Attempting to decipher phrase using Claude API: xc iwt fjxti du iwt cxvwi, lwxhetgh trwdts iwgdjvw
+2024-07-29 21:18:26,333 - INFO - Attempting to decipher phrase using Claude API: bxhin bddcaxvwi vaxbbtgts dc iwt tktgvgttc apzt, epxcixcv
+2024-07-29 21:18:26,334 - INFO - Attempting to decipher phrase using Claude API: Hjcaxvwi spcrts dc iwt gxeeaxcv apzt, cpijgt'h hnbewdcn
+2024-07-29 21:18:28,504 - INFO - API call completed. Status: 200
+2024-07-29 21:18:28,504 - ERROR - Test failed for shift 15, phrase: blue sapphire rainbo...
+2024-07-29 21:18:28,504 - ERROR - Original: blue sapphire rainbows melted into the ocean's depths
+2024-07-29 21:18:28,505 - ERROR - Encoded:  qajt hpeewxgt gpxcqdlh btaits xcid iwt drtpc'h steiwh
+2024-07-29 21:18:28,505 - ERROR - Deciphered: like seawater gradually melted into the ocean's depths
+2024-07-29 21:18:28,526 - INFO - API call completed. Status: 200
+2024-07-29 21:18:28,527 - ERROR - Test failed for shift 15, phrase: Sunlight danced on t...
+2024-07-29 21:18:28,527 - ERROR - Original: Sunlight danced on the rippling lake, nature's symphony
+2024-07-29 21:18:28,527 - ERROR - Encoded:  Hjcaxvwi spcrts dc iwt gxeeaxcv apzt, cpijgt'h hnbewdcn
+2024-07-29 21:18:28,527 - ERROR - Deciphered: Moonlight dances on the rippling lake, nature's symphony
+2024-07-29 21:18:28,662 - INFO - API call completed. Status: 200
+2024-07-29 21:18:28,663 - INFO - Test passed for shift 15, phrase: memories of summer d...
+2024-07-29 21:18:28,729 - INFO - API call completed. Status: 200
+2024-07-29 21:18:28,730 - INFO - Test passed for shift 15, phrase: in the quiet of the ...
+2024-07-29 21:18:28,944 - INFO - API call completed. Status: 200
+2024-07-29 21:18:28,945 - INFO - Test passed for shift 15, phrase: the sun peeked throu...
+2024-07-29 21:18:29,238 - INFO - API call completed. Status: 200
+2024-07-29 21:18:29,238 - INFO - Test passed for shift 15, phrase: the wind whispered s...
+2024-07-29 21:18:29,242 - INFO - API call completed. Status: 200
+2024-07-29 21:18:29,242 - ERROR - Test failed for shift 15, phrase: laughter echoed thro...
+2024-07-29 21:18:29,242 - ERROR - Original: laughter echoed through the empty streets at midnight
+2024-07-29 21:18:29,242 - ERROR - Encoded:  apjvwitg trwdts iwgdjvw iwt tbein higttih pi bxscxvwi
+2024-07-29 21:18:29,242 - ERROR - Deciphered: vampire creeps through the empty streets at midnight
+2024-07-29 21:18:29,584 - INFO - API call completed. Status: 200
+2024-07-29 21:18:29,585 - ERROR - Test failed for shift 15, phrase: misty moonlight glim...
+2024-07-29 21:18:29,585 - ERROR - Original: misty moonlight glimmered on the evergreen lake, painting
+2024-07-29 21:18:29,585 - ERROR - Encoded:  bxhin bddcaxvwi vaxbbtgts dc iwt tktgvgttc apzt, epxcixcv
+2024-07-29 21:18:29,585 - ERROR - Deciphered: white moonlight glimmered on the evergreen lake, painting
+2024-07-29 21:18:29,902 - INFO - API call completed. Status: 200
+2024-07-29 21:18:29,903 - ERROR - Test failed for shift 15, phrase: a curious cat explor...
+2024-07-29 21:18:29,903 - ERROR - Original: a curious cat explored the bustling city streets
+2024-07-29 21:18:29,903 - ERROR - Encoded:  p rjgxdjh rpi tmeadgts iwt qjhiaxcv rxin higttih
+2024-07-29 21:18:29,903 - ERROR - Deciphered: k curious man explored the bustling city streets
+2024-07-29 21:18:29,923 - INFO - API call completed. Status: 200
+2024-07-29 21:18:29,924 - ERROR - Test failed for shift 15, phrase: tidal pools sparkled...
+2024-07-29 21:18:29,924 - ERROR - Original: tidal pools sparkled like gems in the evening light
+2024-07-29 21:18:29,924 - ERROR - Encoded:  ixspa eddah hepgzats axzt vtbh xc iwt tktcxcv axvwi
+2024-07-29 21:18:29,925 - ERROR - Deciphered: drink vodka perhaps like beer in the evening light
+2024-07-29 21:18:29,925 - INFO - Completed testing for shift 15
+2024-07-29 21:18:29,925 - INFO - Caesar cipher test completed
+2024-07-29 21:18:29,925 - INFO - Test Results:
+2024-07-29 21:18:29,925 - INFO - Shift 1: Passed 9, Failed 1
+2024-07-29 21:18:29,925 - INFO - Shift 2: Passed 10, Failed 0
+2024-07-29 21:18:29,926 - INFO - Shift 3: Passed 10, Failed 0
+2024-07-29 21:18:29,926 - INFO - Shift 4: Passed 9, Failed 1
+2024-07-29 21:18:29,926 - INFO - Shift 5: Passed 10, Failed 0
+2024-07-29 21:18:29,926 - INFO - Shift 6: Passed 7, Failed 3
+2024-07-29 21:18:29,926 - INFO - Shift 7: Passed 10, Failed 0
+2024-07-29 21:18:29,926 - INFO - Shift 8: Passed 9, Failed 1
+2024-07-29 21:18:29,927 - INFO - Shift 9: Passed 4, Failed 6
+2024-07-29 21:18:29,927 - INFO - Shift 10: Passed 7, Failed 3
+2024-07-29 21:18:29,927 - INFO - Shift 11: Passed 7, Failed 3
+2024-07-29 21:18:29,927 - INFO - Shift 12: Passed 3, Failed 7
+2024-07-29 21:18:29,927 - INFO - Shift 13: Passed 10, Failed 0
+2024-07-29 21:18:29,927 - INFO - Shift 14: Passed 1, Failed 9
+2024-07-29 21:18:29,927 - INFO - Shift 15: Passed 4, Failed 6
+2024-07-29 21:18:29,927 - INFO - Total tests: 150
+2024-07-29 21:18:29,928 - INFO - Total passed: 110
+2024-07-29 21:18:29,928 - INFO - Total failed: 40
+2024-07-29 21:18:29,928 - INFO - Success rate: 73.33%
