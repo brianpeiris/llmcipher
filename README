@@ -1,4 +1,4 @@
-# Caesar Cipher LLM Decryption Test
+# Caesar Cipher LLM Testing
 
 This project tests the ability of Claude 3.5 Sonnet, a large language model (LLM), to decrypt messages encoded with Caesar ciphers of varying shift values.
 
