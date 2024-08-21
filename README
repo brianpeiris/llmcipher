@@ -113,10 +113,10 @@ Success rates for different shift values for different models:
 ## Observations
 
 1. LLMs can generalize to shift ciphers at any model size.
-2. GPT4o-mini might have been given training data different to GPT4o, given its repeated performance ahead of GPT4o despite being smaller.
-  -**Speculation** this may indicate significant synthetic data used heavily to train gpt4o-mini
-3. Higher failure rates at higher shift values indicate difficulty on these tasks, though the reason is unclear.
-4. The model occasionally makes errors in word choice while preserving the overall meaning of the phrase.  
+2. **Speculation** GPT4o-mini might have been given training data different to GPT4o, given its repeated performance ahead of GPT4o despite being smaller.
+   **Speculation** this may indicate significant synthetic data used heavily to train gpt4o-mini
+3. The increased failure rates at higher shift values suggest these tasks are more challenging, although the exact cause is uncertain. It is likely related to the distribution of training data.
+4. The models occasionally makes errors in word choice while preserving the overall meaning of the phrase. This phenomenon is demonstrated in Embers of Autoregression, where high output probability tokens are more likely to be used. This occurs because the transformer model correlates these tokens with those that should be used during training. Consequently, some words are translated more predictably. I believe the true challenge lies in evaluating these low output probability tokens, as they may not align with the expected or most common translations, yet they hold significance in understanding the model's decision-making process.
    - Example:  
      - **Original:** "golden sunbeams danced across the rippling lake water"  
      - **Encoded:** "ksphir wyrfieqw hergih egvsww xli vmttpmrk peoi aexiv"  
