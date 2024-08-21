@@ -223,7 +223,7 @@ async def test_caesar_cipher():
             return "fail"
 
     # for provider in ["claude", "openai"]:
-    for provider in ["openai"]:
+    for provider in ["openai", "claude"]:
         provider_logger = logging.getLogger(f"{provider}_logger")
         file_handler = logging.FileHandler(f"{provider}_cipher_test.log", mode='w')
         file_handler.setLevel(logging.INFO)
