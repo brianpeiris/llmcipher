@@ -16,7 +16,7 @@ The main script `test.py` performs the following tasks:
 - `test.py`: The main Python script that runs the tests
 - `test_phrases.txt`: A file containing the test phrases
 - `caesar_cipher_test.log`: A log file that records the test results
-
+- `caesar_(model)_cipher_test.log` A log file for each model to review run data
 ## Results Summary
 
 Success rates for different shift values for different models:
