@@ -260,4 +260,11 @@ async def test_caesar_cipher():
         file_handler.close()
 
 if __name__ == "__main__":
-    asyncio.run(test_caesar_cipher())
+    try:
+        asyncio.run(test_caesar_cipher())
+    except Exception as e:
+        logger.error(f"An error occurred: {e}")
+    finally:
+        # Explicitly close the event loop
+        loop = asyncio.get_event_loop()
+        loop.close()
