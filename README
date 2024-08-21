@@ -1,6 +1,6 @@
 # Caesar Cipher LLM Decryption Test
 
-This project tests the ability of Claude 3.5 Sonnet, a large language model (LLM), to decrypt messages encoded with Caesar ciphers of varying shift values.
+This project tests the ability of a large language model (LLM), to decrypt messages encoded with Caesar ciphers of varying shift values.
 
 ## Project Overview
 
@@ -8,7 +8,7 @@ The main script `test.py` performs the following tasks:
 
 1. Generates or loads a set of test phrases
 2. Encodes these phrases using Caesar ciphers with shifts from 1 to 15
-3. Sends the encoded phrases to Claude 3.5 Sonnet for decryption
+3. Sends the encoded phrases to LLM for decryption
 4. Evaluates the accuracy of the LLM's decryption attempts
 
 ## Key Components
@@ -19,41 +19,129 @@ The main script `test.py` performs the following tasks:
 
 ## Results Summary
 
-Based on the log file, here are the success rates for different shift values:
+Success rates for different shift values for different models:
 
-- Shift 1: 90% success (9/10)
+### Claude 3.5 Sonnet:
+- Shift 1: 100% success (10/10)
 - Shift 2: 100% success (10/10)
+- Shift 3: 90% success (9/10)
+- Shift 4: 100% success (10/10)
+- Shift 5: 90% success (9/10)
+- Shift 6: 60% success (6/10)
+- Shift 7: 100% success (10/10)
+- Shift 8: 100% success (10/10)
+- Shift 9: 40% success (4/10)
+- Shift 10: 80% success (8/10)
+- Shift 11: 70% success (7/10)
+- Shift 12: 20% success (2/10)
+- Shift 13: 100% success (10/10), notable as it corresponds to ROT13
+  (This perfect score for ROT13 aligns with findings in the Embers of Autoregression paper,
+   suggesting LLMs may have particular aptitude for this classic cipher due to training data
+   https://arxiv.org/pdf/2309.13638 figure 5.2)
+- Shift 14: 40% success (4/10)
+- Shift 15: 50% success (5/10)
+- Overall: 76% success
+### Claude 3 Haiku:
+- Shift 1: 60% success (6/10)
+- Shift 2: 30% success (3/10)
 - Shift 3: 100% success (10/10)
+- Shift 4: 20% success (2/10)
+- Shift 5: 20% success (2/10)
+- Shift 6: 10% success (1/10)
+- Shift 7: 30% success (3/10)
+- Shift 8: 20% success (2/10)
+- Shift 9: 10% success (1/10)
+- Shift 10: 0% success (0/10)
+- Shift 11: 0% success (0/10)
+- Shift 12: 10% success (1/10)
+- Shift 13: 70% success (7/10) noteable success at shift 13 again
+- Shift 14: 0% success (0/10)
+- Shift 15: 0% success (0/10)
+- Overall: 25.33% success
+### OpenAI GPT-4o-2024-08-06:
+- Shift 1: 90% success (9/10)
+- Shift 2: 90% success (9/10)
+- Shift 3: 60% success (6/10)
+- Shift 4: 100% success (10/10)
+- Shift 5: 40% success (4/10)
+- Shift 6: 30% success (3/10)
+- Shift 7: 40% success (4/10)
+- Shift 8: 10% success (1/10)
+- Shift 9: 20% success (2/10)
+- Shift 10: 20% success (2/10)
+- Shift 11: 20% success (2/10)
+- Shift 12: 20% success (2/10)
+- Shift 13: 40% success (4/10)
+- Shift 14: 0% success (0/10)
+- Shift 15: 0% success (0/10)
+- Overall: 38.67% success
+### GPT-4o-Mini:
+- Shift 1: 100% success (10/10)
+- Shift 2: 90% success (9/10)
+- Shift 3: 90% success (9/10)
 - Shift 4: 90% success (9/10)
-- Shifts 5-13: Results vary, but generally high success rates
-- Shifts 14-15: Lower success rates, indicating increased difficulty
+- Shift 5: 100% success (10/10)
+- Shift 6: 90% success (9/10)
+- Shift 7: 100% success (10/10)
+- Shift 8: 90% success (9/10)
+- Shift 9: 80% success (8/10)
+- Shift 10: 40% success (4/10)
+- Shift 11: 20% success (2/10)
+- Shift 12: 20% success (2/10)
+- Shift 13: 90% success (9/10)
+- Shift 14: 40% success (4/10)
+- Shift 15: 50% success (5/10)
+- Overall: 72.67% success
+### Embers of Autoregression (GPT-4):
+- Shift 1: 75% success
+- Shift 2: 0% success
+- Shift 3: 75% success
+- Shift 4: 0% success
+- Shift 5: 0% success
+- Shift 6: 0% success
+- Shift 7: 0% success
+- Shift 8: 0% success
+- Shift 9: 0% success
+- Shift 10: 0% success
+- Shift 11: 0% success
+- Shift 12: 0% success
+- Shift 13: 50% success
+- Shift 14: 0% success
+- Shift 15: 0% success
+- Overall: 13.33% success
 
 ## Observations
 
-1. Claude 3.5 Sonnet performs exceptionally well on lower shift values (1-4), with near-perfect accuracy.
-2. The LLM maintains high accuracy for medium shift values.
-3. Performance degrades for higher shift values (14-15), suggesting increased difficulty in decryption.
-4. The model sometimes makes errors in word choice while maintaining the general meaning of the phrase.
+1. LLMs can generalize to shift ciphers at any model size.
+2. GPT4o-mini might have been given training data different to GPT4o, given its repeated performance ahead of GPT4o despite being smaller.
+  -**Speculation** this may indicate significant synthetic data used heavily to train gpt4o-mini
+3. Higher failure rates at higher shift values indicate difficulty on these tasks, though the reason is unclear.
+4. The model occasionally makes errors in word choice while preserving the overall meaning of the phrase.  
+   - Example:  
+     - **Original:** "golden sunbeams danced across the rippling lake water"  
+     - **Encoded:** "ksphir wyrfieqw hergih egvsww xli vmttpmrk peoi aexiv"  
+     - **Deciphered:** "golden fireflies danced across the rippling lake water"  
 
 ## Conclusion
 
-This project demonstrates that Claude 3.5 Sonnet can effectively generalize to decrypting Caesar ciphers with various shift values, particularly for lower and medium shifts. The model's performance on higher shifts suggests room for improvement in handling more complex encodings.
+This project demonstrates that LLMs, regardless of size, can generalize to decrypting Caesar ciphers with various shift values. The extraordinary performance of gpt4o-mini may indicate training data may have a substantial role on the ability to learn this. However, the higher failure rates at larger shifts indicate a challenge that remains to be fully understood but indicates difficulty.
 
 ## Usage
 
 To run the tests:
 
-1. Ensure you have the required Python libraries installed (asyncio, aiohttp, etc.)
-2. Set up your Anthropic API key as an environment variable
-3. Run the script: `python test.py`
+1. Ensure you have the required Python libraries installed (asyncio, aiohttp, etc.).
+2. Set up your API keys as an environment variable.
+3. Run the script: `python test.py`.
 
 Note: The script uses the Anthropic API, so make sure you have the necessary credentials and permissions.
 
 ## Future Work
 
-- Expand the test set to include a wider variety of phrases and languages
-- Test with other types of simple substitution ciphers
-- Analyze the model's performance on negative shift values
-- Analyze the model's performance on very large shift values (>15)
-- Investigate strategies to improve performance on higher shift values
-- Many more samples
+- Broaden the test set to encompass a more diverse range of phrases and languages, focusing on challenging phrases rather than those generated by a model, which might have an inherent distribution.
+- Test with other types of simple substitution ciphers.
+- Analyze the model's performance on negative shift values.
+- Analyze the model's performance on very large shift values (>15).
+- Eval statistics on inputs & outputs
+- Investigate strategies to improve performance on higher shift values.
+- Many more samples.

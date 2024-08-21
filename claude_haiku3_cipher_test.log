@@ -1,0 +1,539 @@
+2024-08-20 18:47:44,733 - INFO - Testing with Claude
+2024-08-20 18:47:44,733 - INFO - Testing shift 1
+2024-08-20 18:47:45,324 - INFO - Test passed for claude, shift 1, phrase: sparkling dew drops ...
+2024-08-20 18:47:45,350 - INFO - Test passed for claude, shift 1, phrase: those who walk alone...
+2024-08-20 18:47:45,356 - INFO - Test passed for claude, shift 1, phrase: laughter echoed thro...
+2024-08-20 18:47:45,359 - ERROR - Test failed for claude, shift 1, phrase: pulsing orbs of ligh...
+2024-08-20 18:47:45,359 - ERROR - Original: pulsing orbs of light danced around the ancient tree
+2024-08-20 18:47:45,375 - ERROR - Encoded:  qvmtjoh psct pg mjhiu ebodfe bspvoe uif bodjfou usff
+2024-08-20 18:47:45,375 - ERROR - Deciphered: dancing orbs of light danced around the ancient tree
+2024-08-20 18:47:45,377 - INFO - Test passed for claude, shift 1, phrase: The smell of fresh b...
+2024-08-20 18:47:45,377 - INFO - Test passed for claude, shift 1, phrase: The sun peeked over ...
+2024-08-20 18:47:45,384 - ERROR - Test failed for claude, shift 1, phrase: an icy wind howled t...
+2024-08-20 18:47:45,385 - ERROR - Original: an icy wind howled through the dark, forgotten alleys
+2024-08-20 18:47:45,385 - ERROR - Encoded:  bo jdz xjoe ipxmfe uispvhi uif ebsl, gpshpuufo bmmfzt
+2024-08-20 18:47:45,385 - ERROR - Deciphered: the gray wind howled through the dark, forgotten alleys
+2024-08-20 18:47:45,518 - INFO - Test passed for claude, shift 1, phrase: the salty breeze car...
+2024-08-20 18:47:45,622 - ERROR - Test failed for claude, shift 1, phrase: sunlight filtered th...
+2024-08-20 18:47:45,622 - ERROR - Original: sunlight filtered through autumn leaves onto the forest floor
+2024-08-20 18:47:45,622 - ERROR - Encoded:  tvomjhiu gjmufsfe uispvhi bvuvno mfbwft poup uif gpsftu gmpps
+2024-08-20 18:47:45,622 - ERROR - Deciphered: midnight filtered through autumn leaves onto the forest floor
+2024-08-20 18:47:45,635 - ERROR - Test failed for claude, shift 1, phrase: sun-drenched meadows...
+2024-08-20 18:47:45,635 - ERROR - Original: sun-drenched meadows whispered secrets to the breeze
+2024-08-20 18:47:45,635 - ERROR - Encoded:  tvo-esfodife nfbepxt xijtqfsfe tfdsfut up uif csffaf
+2024-08-20 18:47:45,635 - ERROR - Deciphered: two-drenched meadows whispered secrets to the breeze
+2024-08-20 18:47:45,635 - INFO - Completed testing for claude, shift 1
+2024-08-20 18:47:45,635 - INFO - Testing shift 2
+2024-08-20 18:47:46,137 - INFO - Test passed for claude, shift 2, phrase: three curious squirr...
+2024-08-20 18:47:46,181 - ERROR - Test failed for claude, shift 2, phrase: words tumble forth f...
+2024-08-20 18:47:46,181 - ERROR - Original: words tumble forth from her mouth like wildflowers
+2024-08-20 18:47:46,181 - ERROR - Encoded:  yqtfu vwodng hqtvj htqo jgt oqwvj nkmg yknfhnqygtu
+2024-08-20 18:47:46,181 - ERROR - Deciphered: come tumbling forth from her mouth like wildflowers
+2024-08-20 18:47:46,236 - ERROR - Test failed for claude, shift 2, phrase: sun-drenched meadows...
+2024-08-20 18:47:46,236 - ERROR - Original: sun-drenched meadows whispered secrets to the breeze
+2024-08-20 18:47:46,236 - ERROR - Encoded:  uwp-ftgpejgf ogcfqyu yjkurgtgf ugetgvu vq vjg dtggbg
+2024-08-20 18:47:46,236 - ERROR - Deciphered: the enchanted meadows whispered secrets to the breeze
+2024-08-20 18:47:46,252 - ERROR - Test failed for claude, shift 2, phrase: feathers on the bree...
+2024-08-20 18:47:46,252 - ERROR - Original: feathers on the breeze danced with sunbeams flickering
+2024-08-20 18:47:46,252 - ERROR - Encoded:  hgcvjgtu qp vjg dtggbg fcpegf ykvj uwpdgcou hnkemgtkpi
+2024-08-20 18:47:46,252 - ERROR - Deciphered: Sailors on the breeze danced with sunbeams flickering
+2024-08-20 18:47:46,263 - ERROR - Test failed for claude, shift 2, phrase: feasting upon dreams...
+2024-08-20 18:47:46,263 - ERROR - Original: feasting upon dreams of spring's arrival and rebirth
+2024-08-20 18:47:46,263 - ERROR - Encoded:  hgcuvkpi wrqp ftgcou qh urtkpi'u cttkxcn cpf tgdktvj
+2024-08-20 18:47:46,263 - ERROR - Deciphered: Waiting upon dreams of spring's arrival and rebirth
+2024-08-20 18:47:46,300 - ERROR - Test failed for claude, shift 2, phrase: a gentle breeze carr...
+2024-08-20 18:47:46,301 - ERROR - Original: a gentle breeze carried the scent of blooming flowers
+2024-08-20 18:47:46,301 - ERROR - Encoded:  c igpvng dtggbg ecttkgf vjg uegpv qh dnqqokpi hnqygtu
+2024-08-20 18:47:46,301 - ERROR - Deciphered: the gentle breeze carried the scent of blooming flowers
+2024-08-20 18:47:46,301 - INFO - Test passed for claude, shift 2, phrase: sparkling dew drops ...
+2024-08-20 18:47:46,309 - ERROR - Test failed for claude, shift 2, phrase: golden sunbeams danc...
+2024-08-20 18:47:46,309 - ERROR - Original: golden sunbeams danced across the rippling lake water
+2024-08-20 18:47:46,309 - ERROR - Encoded:  iqnfgp uwpdgcou fcpegf cetquu vjg tkrrnkpi ncmg ycvgt
+2024-08-20 18:47:46,309 - ERROR - Deciphered: the young dancers danced across the rippling lake water
+2024-08-20 18:47:46,324 - INFO - Test passed for claude, shift 2, phrase: the sun peeked throu...
+2024-08-20 18:47:46,342 - ERROR - Test failed for claude, shift 2, phrase: an unexspected detou...
+2024-08-20 18:47:46,342 - ERROR - Original: an unexspected detour led to an adventure under the stars
+2024-08-20 18:47:46,342 - ERROR - Encoded:  cp wpgzurgevgf fgvqwt ngf vq cp cfxgpvwtg wpfgt vjg uvctu
+2024-08-20 18:47:46,342 - ERROR - Deciphered: the adventures await us on an adventure under the stars
+2024-08-20 18:47:46,342 - INFO - Completed testing for claude, shift 2
+2024-08-20 18:47:46,343 - INFO - Testing shift 3
+2024-08-20 18:47:46,826 - INFO - Test passed for claude, shift 3, phrase: the quick brown fox ...
+2024-08-20 18:47:46,903 - INFO - Test passed for claude, shift 3, phrase: the gentle breeze ca...
+2024-08-20 18:47:46,958 - INFO - Test passed for claude, shift 3, phrase: the salty breeze car...
+2024-08-20 18:47:46,970 - INFO - Test passed for claude, shift 3, phrase: scattered clouds hov...
+2024-08-20 18:47:46,979 - INFO - Test passed for claude, shift 3, phrase: The sun peeked over ...
+2024-08-20 18:47:46,985 - INFO - Test passed for claude, shift 3, phrase: sweet dreams are mad...
+2024-08-20 18:47:46,987 - INFO - Test passed for claude, shift 3, phrase: bright sunshine danc...
+2024-08-20 18:47:47,026 - INFO - Test passed for claude, shift 3, phrase: the sun peeked throu...
+2024-08-20 18:47:47,036 - INFO - Test passed for claude, shift 3, phrase: golden sunbeams danc...
+2024-08-20 18:47:47,120 - INFO - Test passed for claude, shift 3, phrase: this old train rambl...
+2024-08-20 18:47:47,120 - INFO - Completed testing for claude, shift 3
+2024-08-20 18:47:47,120 - INFO - Testing shift 4
+2024-08-20 18:47:47,607 - ERROR - Test failed for claude, shift 4, phrase: three curious squirr...
+2024-08-20 18:47:47,607 - ERROR - Original: three curious squirrels scampered across the fallen log
+2024-08-20 18:47:47,607 - ERROR - Encoded:  xlvii gyvmsyw wuymvvipw wgeqtivih egvsww xli jeppir psk
+2024-08-20 18:47:47,607 - ERROR - Deciphered: the curious squirrels scampered across the fallen log
+2024-08-20 18:47:47,679 - ERROR - Test failed for claude, shift 4, phrase: clouds float across ...
+2024-08-20 18:47:47,679 - ERROR - Original: clouds float across the summer sky like slow dreams
+2024-08-20 18:47:47,679 - ERROR - Encoded:  gpsyhw jpsex egvsww xli wyqqiv woc pmoi wpsa hvieqw
+2024-08-20 18:47:47,679 - ERROR - Deciphered: forest green across the summer sky like slow dreams
+2024-08-20 18:47:47,702 - ERROR - Test failed for claude, shift 4, phrase: an icy wind howled t...
+2024-08-20 18:47:47,702 - ERROR - Original: an icy wind howled through the dark, forgotten alleys
+2024-08-20 18:47:47,702 - ERROR - Encoded:  er mgc amrh lsapih xlvsykl xli hevo, jsvksxxir eppicw
+2024-08-20 18:47:47,702 - ERROR - Deciphered: we can walk through the dark, forgotten alleys
+2024-08-20 18:47:47,705 - ERROR - Test failed for claude, shift 4, phrase: jaded laughter echoe...
+2024-08-20 18:47:47,705 - ERROR - Original: jaded laughter echoed through the dimly lit alleyway
+2024-08-20 18:47:47,706 - ERROR - Encoded:  nehih peyklxiv iglsih xlvsykl xli hmqpc pmx eppicaec
+2024-08-20 18:47:47,706 - ERROR - Deciphered: this computer school throught the dimply lit alleyway
+2024-08-20 18:47:47,717 - INFO - Test passed for claude, shift 4, phrase: the quick brown fox ...
+2024-08-20 18:47:47,770 - ERROR - Test failed for claude, shift 4, phrase: dripping candlewax p...
+2024-08-20 18:47:47,770 - ERROR - Original: dripping candlewax painted the table's wobbly surface
+2024-08-20 18:47:47,770 - ERROR - Encoded:  hvmttmrk gerhpiaeb temrxih xli xefpi'w asffpc wyvjegi
+2024-08-20 18:47:47,770 - ERROR - Deciphered: walking carefully painted the table's marble surface
+2024-08-20 18:47:47,795 - ERROR - Test failed for claude, shift 4, phrase: sunlight danced on c...
+2024-08-20 18:47:47,795 - ERROR - Original: sunlight danced on crimson leaves as autumn arrived.
+2024-08-20 18:47:47,795 - ERROR - Encoded:  wyrpmklx hergih sr gvmqwsr pieziw ew eyxyqr evvmzih.
+2024-08-20 18:47:47,795 - ERROR - Deciphered: dancing danced on crimson leaves as autumn arrived.
+2024-08-20 18:47:47,796 - ERROR - Test failed for claude, shift 4, phrase: while others sought ...
+2024-08-20 18:47:47,796 - ERROR - Original: while others sought glory, he found solace in silence.
+2024-08-20 18:47:47,796 - ERROR - Encoded:  almpi sxlivw wsyklx kpsvc, li jsyrh wspegi mr wmpirgi.
+2024-08-20 18:47:47,796 - ERROR - Deciphered: all others sought glory, he found peace in silence.
+2024-08-20 18:47:47,801 - ERROR - Test failed for claude, shift 4, phrase: quiet hours melt lik...
+2024-08-20 18:47:47,801 - ERROR - Original: quiet hours melt like marshmallow cream in tea cups
+2024-08-20 18:47:47,801 - ERROR - Encoded:  uymix lsyvw qipx pmoi qevwlqeppsa gvieq mr xie gytw
+2024-08-20 18:47:47,801 - ERROR - Deciphered: this looks just like marshmallow cream in tea cups
+2024-08-20 18:47:47,806 - INFO - Test passed for claude, shift 4, phrase: the dusk sky painted...
+2024-08-20 18:47:47,806 - INFO - Completed testing for claude, shift 4
+2024-08-20 18:47:47,806 - INFO - Testing shift 5
+2024-08-20 18:47:48,333 - ERROR - Test failed for claude, shift 5, phrase: bright sunlight filt...
+2024-08-20 18:47:48,333 - ERROR - Original: bright sunlight filtered through the stained glass
+2024-08-20 18:47:48,333 - ERROR - Encoded:  gwnlmy xzsqnlmy knqyjwji ymwtzlm ymj xyfnsji lqfxx
+2024-08-20 18:47:48,333 - ERROR - Deciphered: the enemy soldiers marched through the stained glass
+2024-08-20 18:47:48,347 - ERROR - Test failed for claude, shift 5, phrase: memories of summer d...
+2024-08-20 18:47:48,347 - ERROR - Original: memories of summer days linger like dust in sunbeams
+2024-08-20 18:47:48,347 - ERROR - Encoded:  rjrtwnjx tk xzrrjw ifdx qnsljw qnpj izxy ns xzsgjfrx
+2024-08-20 18:47:48,347 - ERROR - Deciphered: summer days longer like just in sunbeams
+2024-08-20 18:47:48,365 - ERROR - Test failed for claude, shift 5, phrase: raging storms unleas...
+2024-08-20 18:47:48,365 - ERROR - Original: raging storms unleashed their fury upon the coastal town
+2024-08-20 18:47:48,365 - ERROR - Encoded:  wflnsl xytwrx zsqjfxmji ymjnw kzwd zuts ymj htfxyfq ytbs
+2024-08-20 18:47:48,365 - ERROR - Deciphered: coastal town unleashed their fury upon the
+2024-08-20 18:47:48,394 - INFO - Test passed for claude, shift 5, phrase: the sun sparkled on ...
+2024-08-20 18:47:48,399 - ERROR - Test failed for claude, shift 5, phrase: the salty breeze car...
+2024-08-20 18:47:48,399 - ERROR - Original: the salty breeze carried the scent of distant lands
+2024-08-20 18:47:48,399 - ERROR - Encoded:  ymj xfqyd gwjjej hfwwnji ymj xhjsy tk inxyfsy qfsix
+2024-08-20 18:47:48,400 - ERROR - Deciphered: the salad breeze carried the scent of distant lands
+2024-08-20 18:47:48,419 - ERROR - Test failed for claude, shift 5, phrase: sun-drenched meadows...
+2024-08-20 18:47:48,420 - ERROR - Original: sun-drenched meadows whispered secrets to the breeze
+2024-08-20 18:47:48,420 - ERROR - Encoded:  xzs-iwjshmji rjfitbx bmnxujwji xjhwjyx yt ymj gwjjej
+2024-08-20 18:47:48,420 - ERROR - Deciphered: the-president revealed whispered secrets to the breeze
+2024-08-20 18:47:48,431 - INFO - Test passed for claude, shift 5, phrase: the sun peeked throu...
+2024-08-20 18:47:48,433 - ERROR - Test failed for claude, shift 5, phrase: yellow leaves floate...
+2024-08-20 18:47:48,433 - ERROR - Original: yellow leaves floated down the stream like tiny boats
+2024-08-20 18:47:48,433 - ERROR - Encoded:  djqqtb qjfajx kqtfyji itbs ymj xywjfr qnpj ynsd gtfyx
+2024-08-20 18:47:48,433 - ERROR - Deciphered: hello there joined dark the stream like tiny boats
+2024-08-20 18:47:48,465 - ERROR - Test failed for claude, shift 5, phrase: sweet dreams are mad...
+2024-08-20 18:47:48,465 - ERROR - Original: sweet dreams are made of sugar and lemon drops.
+2024-08-20 18:47:48,465 - ERROR - Encoded:  xbjjy iwjfrx fwj rfij tk xzlfw fsi qjrts iwtux.
+2024-08-20 18:47:48,465 - ERROR - Deciphered: happy times are made of sugar and lemon drops.
+2024-08-20 18:47:48,530 - ERROR - Test failed for claude, shift 5, phrase: one hand greeted the...
+2024-08-20 18:47:48,530 - ERROR - Original: one hand greeted the other amidst thunderous applause
+2024-08-20 18:47:48,530 - ERROR - Encoded:  tsj mfsi lwjjyji ymj tymjw frnixy ymzsijwtzx fuuqfzxj
+2024-08-20 18:47:48,530 - ERROR - Deciphered: the king greeted the other amidst thunderous applause
+2024-08-20 18:47:48,530 - INFO - Completed testing for claude, shift 5
+2024-08-20 18:47:48,531 - INFO - Testing shift 6
+2024-08-20 18:47:49,059 - ERROR - Test failed for claude, shift 6, phrase: unexpected memories ...
+2024-08-20 18:47:49,059 - ERROR - Original: unexpected memories flooded back from long ago
+2024-08-20 18:47:49,059 - ERROR - Encoded:  atkdvkizkj sksuxoky lruujkj hgiq lxus rutm gmu
+2024-08-20 18:47:49,059 - ERROR - Deciphered: the quick brown foxes jumped back from long ago
+2024-08-20 18:47:49,069 - ERROR - Test failed for claude, shift 6, phrase: a curious cat explor...
+2024-08-20 18:47:49,069 - ERROR - Original: a curious cat explored the bustling city streets
+2024-08-20 18:47:49,069 - ERROR - Encoded:  g iaxouay igz kdvruxkj znk hayzrotm ioze yzxkkzy
+2024-08-20 18:47:49,069 - ERROR - Deciphered: the mystery has captured the bustling city streets
+2024-08-20 18:47:49,078 - ERROR - Test failed for claude, shift 6, phrase: sunshine filtered th...
+2024-08-20 18:47:49,078 - ERROR - Original: sunshine filtered through the leaves, casting shadows
+2024-08-20 18:47:49,078 - ERROR - Encoded:  yatynotk lorzkxkj znxuamn znk rkgbky, igyzotm yngjucy
+2024-08-20 18:47:49,079 - ERROR - Deciphered: the enemy entered through the leaves, casting shadows
+2024-08-20 18:47:49,110 - ERROR - Test failed for claude, shift 6, phrase: dripping candlewax p...
+2024-08-20 18:47:49,110 - ERROR - Original: dripping candlewax painted the table's wobbly surface
+2024-08-20 18:47:49,110 - ERROR - Encoded:  jxovvotm igtjrkcgd vgotzkj znk zghrk'y cuhhre yaxlgik
+2024-08-20 18:47:49,110 - ERROR - Deciphered: meeting handshake painted the table's mobile surface
+2024-08-20 18:47:49,114 - ERROR - Test failed for claude, shift 6, phrase: weeding the sere flo...
+2024-08-20 18:47:49,114 - ERROR - Original: weeding the sere flowers with a delicate patience
+2024-08-20 18:47:49,114 - ERROR - Encoded:  ckkjotm znk ykxk lruckxy cozn g jkroigzk vgzoktik
+2024-08-20 18:47:49,114 - ERROR - Deciphered: meeting the sure flowers with a delicate patience
+2024-08-20 18:47:49,136 - ERROR - Test failed for claude, shift 6, phrase: clear blue skies and...
+2024-08-20 18:47:49,136 - ERROR - Original: clear blue skies and warm sunshine awaited them
+2024-08-20 18:47:49,136 - ERROR - Encoded:  irkgx hrak yqoky gtj cgxs yatynotk gcgozkj znks
+2024-08-20 18:47:49,136 - ERROR - Deciphered: the dark night sky and warm sunshine awaited them
+2024-08-20 18:47:49,141 - INFO - Test passed for claude, shift 6, phrase: the morning light fi...
+2024-08-20 18:47:49,179 - ERROR - Test failed for claude, shift 6, phrase: golden sunbeams danc...
+2024-08-20 18:47:49,179 - ERROR - Original: golden sunbeams danced across the rippling lake water
+2024-08-20 18:47:49,179 - ERROR - Encoded:  murjkt yathkgsy jgtikj gixuyy znk xovvrotm rgqk cgzkx
+2024-08-20 18:47:49,180 - ERROR - Deciphered: across the rippling lake water
+2024-08-20 18:47:49,213 - ERROR - Test failed for claude, shift 6, phrase: silver bells tinkled...
+2024-08-20 18:47:49,213 - ERROR - Original: silver bells tinkled merrily in the crisp winter air
+2024-08-20 18:47:49,213 - ERROR - Encoded:  yorbkx hkrry zotqrkj skxxore ot znk ixoyv cotzkx gox
+2024-08-20 18:47:49,213 - ERROR - Deciphered: happy harry planned surprise party in the crisp winter air
+2024-08-20 18:47:49,250 - ERROR - Test failed for claude, shift 6, phrase: golden sunlight danc...
+2024-08-20 18:47:49,251 - ERROR - Original: golden sunlight danced across the tranquil meadow
+2024-08-20 18:47:49,251 - ERROR - Encoded:  murjkt yatromnz jgtikj gixuyy znk zxgtwaor skgjuc
+2024-08-20 18:47:49,251 - ERROR - Deciphered: the hidden message reads across the tranquil meadow
+2024-08-20 18:47:49,251 - INFO - Completed testing for claude, shift 6
+2024-08-20 18:47:49,251 - INFO - Testing shift 7
+2024-08-20 18:47:49,749 - ERROR - Test failed for claude, shift 7, phrase: unexpected memories ...
+2024-08-20 18:47:49,749 - ERROR - Original: unexpected memories flooded back from long ago
+2024-08-20 18:47:49,749 - ERROR - Encoded:  bulewljalk tltvyplz msvvklk ihjr myvt svun hnv
+2024-08-20 18:47:49,749 - ERROR - Deciphered: old memories flooded back from long ago
+2024-08-20 18:47:49,773 - ERROR - Test failed for claude, shift 7, phrase: sunshine filtered th...
+2024-08-20 18:47:49,773 - ERROR - Original: sunshine filtered through the leaves, casting shadows
+2024-08-20 18:47:49,773 - ERROR - Encoded:  zbuzopul mpsalylk aoyvbno aol slhclz, jhzapun zohkvdz
+2024-08-20 18:47:49,773 - ERROR - Deciphered: through the leaves, casting shadows
+2024-08-20 18:47:49,805 - ERROR - Test failed for claude, shift 7, phrase: a curious cat explor...
+2024-08-20 18:47:49,805 - ERROR - Original: a curious cat explored the bustling city streets
+2024-08-20 18:47:49,805 - ERROR - Encoded:  h jbypvbz jha lewsvylk aol ibzaspun jpaf zayllaz
+2024-08-20 18:47:49,805 - ERROR - Deciphered: the bustling city streets
+2024-08-20 18:47:49,811 - INFO - Test passed for claude, shift 7, phrase: the gentle breeze ca...
+2024-08-20 18:47:49,895 - ERROR - Test failed for claude, shift 7, phrase: the wind whistled th...
+2024-08-20 18:47:49,896 - ERROR - Original: the wind whistled through the empty streets at night
+2024-08-20 18:47:49,896 - ERROR - Encoded:  aol dpuk dopzaslk aoyvbno aol ltwaf zayllaz ha upnoa
+2024-08-20 18:47:49,896 - ERROR - Deciphered: the city twisted through the empty streets at night
+2024-08-20 18:47:49,897 - INFO - Test passed for claude, shift 7, phrase: the sudden storm dre...
+2024-08-20 18:47:49,897 - ERROR - Test failed for claude, shift 7, phrase: swift spiders spun w...
+2024-08-20 18:47:49,897 - ERROR - Original: swift spiders spun webs in the evening autumn breeze
+2024-08-20 18:47:49,897 - ERROR - Encoded:  zdpma zwpklyz zwbu dliz pu aol lclupun hbabtu iyllgl
+2024-08-20 18:47:49,897 - ERROR - Deciphered: the spiders spin webs in the evening autumn breeze
+2024-08-20 18:47:49,912 - ERROR - Test failed for claude, shift 7, phrase: on golden fields whe...
+2024-08-20 18:47:49,912 - ERROR - Original: on golden fields where sunflowers dance in the breeze
+2024-08-20 18:47:49,912 - ERROR - Encoded:  vu nvsklu mplskz dolyl zbumsvdlyz khujl pu aol iyllgl
+2024-08-20 18:47:49,912 - ERROR - Deciphered: the hidden fields where sunflowers dance in the breeze
+2024-08-20 18:47:49,935 - ERROR - Test failed for claude, shift 7, phrase: golden sunbeams danc...
+2024-08-20 18:47:49,935 - ERROR - Original: golden sunbeams danced across the rippling lake water
+2024-08-20 18:47:49,935 - ERROR - Encoded:  nvsklu zbuilhtz khujlk hjyvzz aol ypwwspun shrl dhaly
+2024-08-20 18:47:49,935 - ERROR - Deciphered: the hidden treasure danced across the rippling lake water
+2024-08-20 18:47:50,020 - INFO - Test passed for claude, shift 7, phrase: a gentle breeze care...
+2024-08-20 18:47:50,021 - INFO - Completed testing for claude, shift 7
+2024-08-20 18:47:50,021 - INFO - Testing shift 8
+2024-08-20 18:47:50,535 - INFO - Test passed for claude, shift 8, phrase: the quick brown fox ...
+2024-08-20 18:47:50,555 - ERROR - Test failed for claude, shift 8, phrase: sea foam delicately ...
+2024-08-20 18:47:50,555 - ERROR - Original: sea foam delicately lapped against sun-kissed shores
+2024-08-20 18:47:50,555 - ERROR - Encoded:  ami nwiu lmtqkibmtg tixxml ioiqvab acv-sqaaml apwzma
+2024-08-20 18:47:50,555 - ERROR - Deciphered: the quick brown fox jumped against sun-kissed shores
+2024-08-20 18:47:50,555 - INFO - Test passed for claude, shift 8, phrase: in the quiet of the ...
+2024-08-20 18:47:50,596 - ERROR - Test failed for claude, shift 8, phrase: bright sunlight filt...
+2024-08-20 18:47:50,596 - ERROR - Original: bright sunlight filtered through the stained glass
+2024-08-20 18:47:50,596 - ERROR - Encoded:  jzqopb acvtqopb nqtbmzml bpzwcop bpm abiqvml otiaa
+2024-08-20 18:47:50,596 - ERROR - Deciphered: the quick brown fox jumped through the styled glass
+2024-08-20 18:47:50,647 - ERROR - Test failed for claude, shift 8, phrase: on golden fields whe...
+2024-08-20 18:47:50,648 - ERROR - Original: on golden fields where sunflowers dance in the breeze
+2024-08-20 18:47:50,648 - ERROR - Encoded:  wv owtlmv nqmtla epmzm acvntwemza livkm qv bpm jzmmhm
+2024-08-20 18:47:50,648 - ERROR - Deciphered: it seems likely where sunflowers dance in the breeze
+2024-08-20 18:47:50,691 - ERROR - Test failed for claude, shift 8, phrase: an icy wind howled t...
+2024-08-20 18:47:50,691 - ERROR - Original: an icy wind howled through the dark, forgotten alleys
+2024-08-20 18:47:50,691 - ERROR - Encoded:  iv qkg eqvl pwetml bpzwcop bpm lizs, nwzowbbmv ittmga
+2024-08-20 18:47:50,691 - ERROR - Deciphered: it was cold winter through the dark, forgotten alley
+2024-08-20 18:47:50,769 - ERROR - Test failed for claude, shift 8, phrase: those who walk alone...
+2024-08-20 18:47:50,769 - ERROR - Original: those who walk alone are often lonely but not alone
+2024-08-20 18:47:50,769 - ERROR - Encoded:  bpwam epw eits itwvm izm wnbmv twvmtg jcb vwb itwvm
+2024-08-20 18:47:50,769 - ERROR - Deciphered: the way the stars are often lonely but not alone
+2024-08-20 18:47:51,272 - ERROR - Test failed for claude, shift 8, phrase: where are the apples...
+2024-08-20 18:47:51,272 - ERROR - Original: where are the apples concealing my lost dinosaur toy?
+2024-08-20 18:47:51,272 - ERROR - Encoded:  epmzm izm bpm ixxtma kwvkmitqvo ug twab lqvwaicz bwg?
+2024-08-20 18:47:51,272 - ERROR - Deciphered: 
+2024-08-20 18:47:51,308 - ERROR - Test failed for claude, shift 8, phrase: the morning light fi...
+2024-08-20 18:47:51,308 - ERROR - Original: the morning light filtered through the trees' canopy
+2024-08-20 18:47:51,308 - ERROR - Encoded:  bpm uwzvqvo tqopb nqtbmzml bpzwcop bpm bzmma' kivwxg
+2024-08-20 18:47:51,308 - ERROR - Deciphered: 
+2024-08-20 18:47:51,309 - ERROR - Test failed for claude, shift 8, phrase: under the watchful e...
+2024-08-20 18:47:51,309 - ERROR - Original: under the watchful eye of the moon, secrets unfold.
+2024-08-20 18:47:51,309 - ERROR - Encoded:  cvlmz bpm eibkpnct mgm wn bpm uwwv, amkzmba cvnwtl.
+2024-08-20 18:47:51,309 - ERROR - Deciphered: 
+2024-08-20 18:47:51,309 - INFO - Completed testing for claude, shift 8
+2024-08-20 18:47:51,309 - INFO - Testing shift 9
+2024-08-20 18:47:51,737 - ERROR - Test failed for claude, shift 9, phrase: feasting upon dreams...
+2024-08-20 18:47:51,737 - ERROR - Original: feasting upon dreams of spring's arrival and rebirth
+2024-08-20 18:47:51,737 - ERROR - Encoded:  onjbcrwp dyxw manjvb xo byarwp'b jaareju jwm ankracq
+2024-08-20 18:47:51,737 - ERROR - Deciphered: 
+2024-08-20 18:47:51,777 - ERROR - Test failed for claude, shift 9, phrase: darkly fascinating p...
+2024-08-20 18:47:51,777 - ERROR - Original: darkly fascinating patterns emerald through the mist
+2024-08-20 18:47:51,777 - ERROR - Encoded:  mjatuh ojblrwjcrwp yjccnawb nvnajum cqaxdpq cqn vrbc
+2024-08-20 18:47:51,777 - ERROR - Deciphered: the quick brown fox jumps over the lazy dog
+2024-08-20 18:47:51,777 - ERROR - Test failed for claude, shift 9, phrase: a curious cat explor...
+2024-08-20 18:47:51,777 - ERROR - Original: a curious cat explored the bustling city streets
+2024-08-20 18:47:51,777 - ERROR - Encoded:  j ldarxdb ljc ngyuxanm cqn kdbcurwp lrch bcanncb
+2024-08-20 18:47:51,777 - ERROR - Deciphered: the meeting was canceled due to the blizzard
+2024-08-20 18:47:51,860 - ERROR - Test failed for claude, shift 9, phrase: yellow leaves floate...
+2024-08-20 18:47:51,860 - ERROR - Original: yellow leaves floated down the stream like tiny boats
+2024-08-20 18:47:51,860 - ERROR - Encoded:  hnuuxf unjenb ouxjcnm mxfw cqn bcanjv urtn crwh kxjcb
+2024-08-20 18:47:51,860 - ERROR - Deciphered: the quick brown fox jumps over the lazy dog
+2024-08-20 18:47:51,940 - ERROR - Test failed for claude, shift 9, phrase: their sun-dappled la...
+2024-08-20 18:47:51,940 - ERROR - Original: their sun-dappled laughter echoed through the meadow
+2024-08-20 18:47:51,940 - ERROR - Encoded:  cqnra bdw-mjyyunm ujdpqcna nlqxnm cqaxdpq cqn vnjmxf
+2024-08-20 18:47:51,940 - ERROR - Deciphered: the six-legged laughter echoed through the meadow
+2024-08-20 18:47:51,942 - ERROR - Test failed for claude, shift 9, phrase: The sun peeked over ...
+2024-08-20 18:47:51,942 - ERROR - Original: The sun peeked over the mountains, illuminating the path.
+2024-08-20 18:47:51,942 - ERROR - Encoded:  Cqn bdw ynntnm xena cqn vxdwcjrwb, ruudvrwjcrwp cqn yjcq.
+2024-08-20 18:47:51,942 - ERROR - Deciphered: The key people over the mountains, illuminating the path.
+2024-08-20 18:47:51,975 - ERROR - Test failed for claude, shift 9, phrase: the wind whispered s...
+2024-08-20 18:47:51,976 - ERROR - Original: the wind whispered secrets through the tall grasses
+2024-08-20 18:47:51,976 - ERROR - Encoded:  cqn frwm fqrbynanm bnlancb cqaxdpq cqn cjuu pajbbnb
+2024-08-20 18:47:51,976 - ERROR - Deciphered: the king whisperes through the tall grasses
+2024-08-20 18:47:51,998 - ERROR - Test failed for claude, shift 9, phrase: Sunlight danced on t...
+2024-08-20 18:47:51,999 - ERROR - Original: Sunlight danced on the rippling lake, nature's symphony
+2024-08-20 18:47:51,999 - ERROR - Encoded:  Bdwurpqc mjwlnm xw cqn aryyurwp ujtn, wjcdan'b bhvyqxwh
+2024-08-20 18:47:51,999 - ERROR - Deciphered: Cryptic minds on the shifting lake, nature's symphony
+2024-08-20 18:47:52,005 - INFO - Test passed for claude, shift 9, phrase: the sun sparkled on ...
+2024-08-20 18:47:52,007 - ERROR - Test failed for claude, shift 9, phrase: sea shells crunched ...
+2024-08-20 18:47:52,007 - ERROR - Original: sea shells crunched beneath our bare feet as we strolled
+2024-08-20 18:47:52,007 - ERROR - Encoded:  bnj bqnuub ladwlqnm knwnjcq xda kjan onnc jb fn bcaxuunm
+2024-08-20 18:47:52,007 - ERROR - Deciphered: the statue located outside for the new been as it installed
+2024-08-20 18:47:52,007 - INFO - Completed testing for claude, shift 9
+2024-08-20 18:47:52,008 - INFO - Testing shift 10
+2024-08-20 18:47:52,320 - ERROR - Test failed for claude, shift 10, phrase: the river flowed ste...
+2024-08-20 18:47:52,320 - ERROR - Original: the river flowed steadily, carrying life and memories.
+2024-08-20 18:47:52,320 - ERROR - Encoded:  dro bsfob pvygon cdoknsvi, mkbbisxq vspo kxn wowybsoc.
+2024-08-20 18:47:52,320 - ERROR - Deciphered: 
+2024-08-20 18:47:52,527 - ERROR - Test failed for claude, shift 10, phrase: light glistened thro...
+2024-08-20 18:47:52,527 - ERROR - Original: light glistened through the leaves, casting dappled patterns
+2024-08-20 18:47:52,527 - ERROR - Encoded:  vsqrd qvscdoxon drbyeqr dro vokfoc, mkcdsxq nkzzvon zkddobxc
+2024-08-20 18:47:52,527 - ERROR - Deciphered: the quickest route leaves, casting dappled patterns
+2024-08-20 18:47:52,546 - ERROR - Test failed for claude, shift 10, phrase: unseen moments slip ...
+2024-08-20 18:47:52,546 - ERROR - Original: unseen moments slip through the cracks of perception
+2024-08-20 18:47:52,546 - ERROR - Encoded:  excoox wywoxdc cvsz drbyeqr dro mbkmuc yp zobmozdsyx
+2024-08-20 18:47:52,546 - ERROR - Deciphered: the quick brown fox jumps over the lazy dog
+2024-08-20 18:47:52,548 - ERROR - Test failed for claude, shift 10, phrase: beneath the willow t...
+2024-08-20 18:47:52,548 - ERROR - Original: beneath the willow tree, ducks swam across the pond.
+2024-08-20 18:47:52,548 - ERROR - Encoded:  loxokdr dro gsvvyg dboo, nemuc cgkw kmbycc dro zyxn.
+2024-08-20 18:47:52,548 - ERROR - Deciphered: the yellow tree, birds swam across the pond.
+2024-08-20 18:47:52,553 - ERROR - Test failed for claude, shift 10, phrase: clouds float across ...
+2024-08-20 18:47:52,553 - ERROR - Original: clouds float across the summer sky like slow dreams
+2024-08-20 18:47:52,553 - ERROR - Encoded:  mvyenc pvykd kmbycc dro cewwob cui vsuo cvyg nbokwc
+2024-08-20 18:47:52,553 - ERROR - Deciphered: the quick brown fox jumps over the lazy dog
+2024-08-20 18:47:52,593 - ERROR - Test failed for claude, shift 10, phrase: Sunlight danced on t...
+2024-08-20 18:47:52,593 - ERROR - Original: Sunlight danced on the rippling lake, nature's symphony
+2024-08-20 18:47:52,593 - ERROR - Encoded:  Cexvsqrd nkxmon yx dro bszzvsxq vkuo, xkdebo'c ciwzryxi
+2024-08-20 18:47:52,593 - ERROR - Deciphered: Nature's symphony on the rippling lake, nature's symphony
+2024-08-20 18:47:52,618 - ERROR - Test failed for claude, shift 10, phrase: the garden bloomed w...
+2024-08-20 18:47:52,618 - ERROR - Original: the garden bloomed with a kaleidoscope of vibrant hues
+2024-08-20 18:47:52,618 - ERROR - Encoded:  dro qkbnox lvyywon gsdr k ukvosnycmyzo yp fslbkxd reoc
+2024-08-20 18:47:52,618 - ERROR - Deciphered: the garden bloomed with a valiant of vibrant hues
+2024-08-20 18:47:52,651 - ERROR - Test failed for claude, shift 10, phrase: the salty breeze car...
+2024-08-20 18:47:52,651 - ERROR - Original: the salty breeze carried the scent of distant lands
+2024-08-20 18:47:52,651 - ERROR - Encoded:  dro ckvdi lboojo mkbbson dro cmoxd yp nscdkxd vkxnc
+2024-08-20 18:47:52,651 - ERROR - Deciphered: the quick brown jumped the scent of distant lands
+2024-08-20 18:47:52,663 - ERROR - Test failed for claude, shift 10, phrase: high in the mountain...
+2024-08-20 18:47:52,663 - ERROR - Original: high in the mountains, the river flowed with purpose
+2024-08-20 18:47:52,663 - ERROR - Encoded:  rsqr sx dro wyexdksxc, dro bsfob pvygon gsdr zebzyco
+2024-08-20 18:47:52,663 - ERROR - Deciphered: the to the mountains, the river flowed with purpose
+2024-08-20 18:47:52,675 - ERROR - Test failed for claude, shift 10, phrase: shadows danced acros...
+2024-08-20 18:47:52,675 - ERROR - Original: shadows danced across the dimly lit room as whispers
+2024-08-20 18:47:52,675 - ERROR - Encoded:  crknygc nkxmon kmbycc dro nswvi vsd byyw kc grsczobc
+2024-08-20 18:47:52,675 - ERROR - Deciphered: the quick brown fox jumps across the shiny lot room as visitors
+2024-08-20 18:47:52,675 - INFO - Completed testing for claude, shift 10
+2024-08-20 18:47:52,675 - INFO - Testing shift 11
+2024-08-20 18:47:52,976 - ERROR - Test failed for claude, shift 11, phrase: bright sunshine danc...
+2024-08-20 18:47:52,976 - ERROR - Original: bright sunshine danced across the golden meadow path.
+2024-08-20 18:47:52,976 - ERROR - Encoded:  mctrse dfydstyp olynpo lnczdd esp rzwopy xplozh ales.
+2024-08-20 18:47:52,976 - ERROR - Deciphered: 
+2024-08-20 18:47:53,237 - ERROR - Test failed for claude, shift 11, phrase: those who walk alone...
+2024-08-20 18:47:53,237 - ERROR - Original: those who walk alone are often lonely but not alone
+2024-08-20 18:47:53,237 - ERROR - Encoded:  eszdp hsz hlwv lwzyp lcp zqepy wzypwj mfe yze lwzyp
+2024-08-20 18:47:53,237 - ERROR - Deciphered: the fox and the grapes are very sour
+2024-08-20 18:47:53,255 - ERROR - Test failed for claude, shift 11, phrase: blue sapphire rainbo...
+2024-08-20 18:47:53,255 - ERROR - Original: blue sapphire rainbows melted into the ocean's depths
+2024-08-20 18:47:53,255 - ERROR - Encoded:  mwfp dlaastcp cltymzhd xpwepo tyez esp znply'd opaesd
+2024-08-20 18:47:53,255 - ERROR - Deciphered: the greatest wizard played with the world's secrets
+2024-08-20 18:47:53,261 - ERROR - Test failed for claude, shift 11, phrase: let your thoughts dr...
+2024-08-20 18:47:53,261 - ERROR - Original: let your thoughts drift like clouds in the clear sky
+2024-08-20 18:47:53,261 - ERROR - Encoded:  wpe jzfc eszfrsed octqe wtvp nwzfod ty esp nwplc dvj
+2024-08-20 18:47:53,261 - ERROR - Deciphered: the quick brown foxes jump with joy in the clear sky
+2024-08-20 18:47:53,262 - ERROR - Test failed for claude, shift 11, phrase: the dusk sky painted...
+2024-08-20 18:47:53,262 - ERROR - Original: the dusk sky painted hues of orange and indigo hues
+2024-08-20 18:47:53,262 - ERROR - Encoded:  esp ofdv dvj altyepo sfpd zq zclyrp lyo tyotrz sfpd
+2024-08-20 18:47:53,262 - ERROR - Deciphered: the quick brown fox jumps over the lazy dog
+2024-08-20 18:47:53,334 - ERROR - Test failed for claude, shift 11, phrase: mysterious laughter ...
+2024-08-20 18:47:53,334 - ERROR - Original: mysterious laughter echoed through the mist-cloaked valley
+2024-08-20 18:47:53,334 - ERROR - Encoded:  xjdepctzfd wlfrsepc pnszpo esczfrs esp xtde-nwzlvpo glwwpj
+2024-08-20 18:47:53,334 - ERROR - Deciphered: encoded message is the best-known public key cryptography
+2024-08-20 18:47:53,350 - ERROR - Test failed for claude, shift 11, phrase: sea shells crunched ...
+2024-08-20 18:47:53,350 - ERROR - Original: sea shells crunched beneath our bare feet as we strolled
+2024-08-20 18:47:53,350 - ERROR - Encoded:  dpl dspwwd ncfynspo mpyples zfc mlcp qppe ld hp deczwwpo
+2024-08-20 18:47:53,350 - ERROR - Deciphered: the crypto solution appears for all good to be unfolded
+2024-08-20 18:47:53,374 - ERROR - Test failed for claude, shift 11, phrase: all the world's a st...
+2024-08-20 18:47:53,374 - ERROR - Original: all the world's a stage, and each must play a part.
+2024-08-20 18:47:53,374 - ERROR - Encoded:  lww esp hzcwo'd l delrp, lyo plns xfde awlj l alce.
+2024-08-20 18:47:53,374 - ERROR - Deciphered: the world's a stage, and each must play a part.
+2024-08-20 18:47:53,391 - ERROR - Test failed for claude, shift 11, phrase: the morning light fi...
+2024-08-20 18:47:53,391 - ERROR - Original: the morning light filtered through the trees' canopy
+2024-08-20 18:47:53,391 - ERROR - Encoded:  esp xzcytyr wtrse qtwepcpo esczfrs esp ecppd' nlyzaj
+2024-08-20 18:47:53,391 - ERROR - Deciphered: the winning lager bottled through the trees' canopy
+2024-08-20 18:47:53,426 - ERROR - Test failed for claude, shift 11, phrase: shimmering sun dance...
+2024-08-20 18:47:53,426 - ERROR - Original: shimmering sun danced across tranquil waters, painting
+2024-08-20 18:47:53,426 - ERROR - Encoded:  dstxxpctyr dfy olynpo lnczdd eclybftw hlepcd, altyetyr
+2024-08-20 18:47:53,426 - ERROR - Deciphered: security has played across several global markets, painting
+The decoded text is: "security has played across several global markets, painting"
+2024-08-20 18:47:53,426 - INFO - Completed testing for claude, shift 11
+2024-08-20 18:47:53,426 - INFO - Testing shift 12
+2024-08-20 18:47:53,729 - ERROR - Test failed for claude, shift 12, phrase: The sun peeked over ...
+2024-08-20 18:47:53,729 - ERROR - Original: The sun peeked over the mountains, illuminating the path.
+2024-08-20 18:47:53,729 - ERROR - Encoded:  Ftq egz bqqwqp ahqd ftq yagzfmuze, uxxgyuzmfuzs ftq bmft.
+2024-08-20 18:47:53,729 - ERROR - Deciphered: 
+2024-08-20 18:47:53,733 - ERROR - Test failed for claude, shift 12, phrase: sea foam delicately ...
+2024-08-20 18:47:53,733 - ERROR - Original: sea foam delicately lapped against sun-kissed shores
+2024-08-20 18:47:53,733 - ERROR - Encoded:  eqm ramy pqxuomfqxk xmbbqp msmuzef egz-wueeqp etadqe
+2024-08-20 18:47:53,733 - ERROR - Deciphered: 
+2024-08-20 18:47:53,939 - ERROR - Test failed for claude, shift 12, phrase: this old train rambl...
+2024-08-20 18:47:53,939 - ERROR - Original: this old train rambled along the winding track today
+2024-08-20 18:47:53,939 - ERROR - Encoded:  ftue axp fdmuz dmynxqp mxazs ftq iuzpuzs fdmow fapmk
+2024-08-20 18:47:53,939 - ERROR - Deciphered: this is the secret message today
+2024-08-20 18:47:53,943 - ERROR - Test failed for claude, shift 12, phrase: quiet hours melt lik...
+2024-08-20 18:47:53,943 - ERROR - Original: quiet hours melt like marshmallow cream in tea cups
+2024-08-20 18:47:53,943 - ERROR - Encoded:  cguqf tagde yqxf xuwq ymdetymxxai odqmy uz fqm ogbe
+2024-08-20 18:47:53,943 - ERROR - Deciphered: the quick brown fox jumps quickly over the lazy dog
+2024-08-20 18:47:53,981 - ERROR - Test failed for claude, shift 12, phrase: unseen moments slip ...
+2024-08-20 18:47:53,981 - ERROR - Original: unseen moments slip through the cracks of perception
+2024-08-20 18:47:53,981 - ERROR - Encoded:  gzeqqz yayqzfe exub ftdagst ftq odmowe ar bqdoqbfuaz
+2024-08-20 18:47:53,981 - ERROR - Deciphered: hello system that through the powers of perception
+2024-08-20 18:47:53,989 - INFO - Test passed for claude, shift 12, phrase: the morning light fi...
+2024-08-20 18:47:53,998 - ERROR - Test failed for claude, shift 12, phrase: high in the mountain...
+2024-08-20 18:47:53,998 - ERROR - Original: high in the mountains, the river flowed with purpose
+2024-08-20 18:47:53,998 - ERROR - Encoded:  tust uz ftq yagzfmuze, ftq duhqd rxaiqp iuft bgdbaeq
+2024-08-20 18:47:53,998 - ERROR - Deciphered: this is the mountains, the river flowed with purpose
+2024-08-20 18:47:54,019 - ERROR - Test failed for claude, shift 12, phrase: deep in the forest, ...
+2024-08-20 18:47:54,019 - ERROR - Original: deep in the forest, a whispering breeze danced through
+2024-08-20 18:47:54,019 - ERROR - Encoded:  pqqb uz ftq radqef, m ituebqduzs ndqqlq pmzoqp ftdagst
+2024-08-20 18:47:54,019 - ERROR - Deciphered: this is the forest, a whispering breeze danced through
+2024-08-20 18:47:54,034 - ERROR - Test failed for claude, shift 12, phrase: sunlight danced on c...
+2024-08-20 18:47:54,034 - ERROR - Original: sunlight danced on crimson leaves as autumn arrived.
+2024-08-20 18:47:54,034 - ERROR - Encoded:  egzxustf pmzoqp az oduyeaz xqmhqe me mgfgyz mdduhqp.
+2024-08-20 18:47:54,034 - ERROR - Deciphered: the students planned to destroy leaves as august arrived.
+2024-08-20 18:47:54,039 - ERROR - Test failed for claude, shift 12, phrase: darkly fascinating p...
+2024-08-20 18:47:54,039 - ERROR - Original: darkly fascinating patterns emerald through the mist
+2024-08-20 18:47:54,039 - ERROR - Encoded:  pmdwxk rmeouzmfuzs bmffqdze qyqdmxp ftdagst ftq yuef
+2024-08-20 18:47:54,039 - ERROR - Deciphered: the quick brown foxes amazed through the mist
+2024-08-20 18:47:54,039 - INFO - Completed testing for claude, shift 12
+2024-08-20 18:47:54,039 - INFO - Testing shift 13
+2024-08-20 18:47:54,562 - INFO - Test passed for claude, shift 13, phrase: the morning light fi...
+2024-08-20 18:47:54,596 - ERROR - Test failed for claude, shift 13, phrase: sunshine filtered th...
+2024-08-20 18:47:54,596 - ERROR - Original: sunshine filtered through the leaves, casting shadows
+2024-08-20 18:47:54,596 - ERROR - Encoded:  fhafuvar svygrerq guebhtu gur yrnirf, pnfgvat funqbjf
+2024-08-20 18:47:54,597 - ERROR - Deciphered: the filtered through the leaves, casting shadows
+2024-08-20 18:47:54,617 - INFO - Test passed for claude, shift 13, phrase: a thousand tiny ligh...
+2024-08-20 18:47:54,625 - INFO - Test passed for claude, shift 13, phrase: the sun peeked throu...
+2024-08-20 18:47:54,629 - INFO - Test passed for claude, shift 13, phrase: A gentle breeze whis...
+2024-08-20 18:47:54,636 - INFO - Test passed for claude, shift 13, phrase: words tumble forth f...
+2024-08-20 18:47:54,642 - INFO - Test passed for claude, shift 13, phrase: silver bells tinkled...
+2024-08-20 18:47:54,655 - ERROR - Test failed for claude, shift 13, phrase: unseen moments slip ...
+2024-08-20 18:47:54,655 - ERROR - Original: unseen moments slip through the cracks of perception
+2024-08-20 18:47:54,655 - ERROR - Encoded:  hafrra zbzragf fyvc guebhtu gur penpxf bs creprcgvba
+2024-08-20 18:47:54,655 - ERROR - Deciphered: the moments slip through the cracks of perception
+2024-08-20 18:47:54,665 - INFO - Test passed for claude, shift 13, phrase: thick fog rolled ove...
+2024-08-20 18:47:54,705 - ERROR - Test failed for claude, shift 13, phrase: three foxes raced th...
+2024-08-20 18:47:54,705 - ERROR - Original: three foxes raced through the woods chasing each other
+2024-08-20 18:47:54,705 - ERROR - Encoded:  guerr sbkrf enprq guebhtu gur jbbqf punfvat rnpu bgure
+2024-08-20 18:47:54,705 - ERROR - Deciphered: the red foxes raced through the woods chasing each other
+2024-08-20 18:47:54,705 - INFO - Completed testing for claude, shift 13
+2024-08-20 18:47:54,705 - INFO - Testing shift 14
+2024-08-20 18:47:55,247 - ERROR - Test failed for claude, shift 14, phrase: raging storms unleas...
+2024-08-20 18:47:55,247 - ERROR - Original: raging storms unleashed their fury upon the coastal town
+2024-08-20 18:47:55,247 - ERROR - Encoded:  fouwbu ghcfag ibzsogvsr hvswf tifm idcb hvs qcoghoz hckb
+2024-08-20 18:47:55,248 - ERROR - Deciphered: the quick brown fox jumped over the cowardly town
+2024-08-20 18:47:55,248 - ERROR - Test failed for claude, shift 14, phrase: wandering clouds obs...
+2024-08-20 18:47:55,248 - ERROR - Original: wandering clouds obscured the evening sun's farewell
+2024-08-20 18:47:55,248 - ERROR - Encoded:  kobrsfwbu qzcirg cpgqifsr hvs sjsbwbu gib'g tofskszz
+2024-08-20 18:47:55,248 - ERROR - Deciphered: the evening sun's farewell
+2024-08-20 18:47:55,253 - ERROR - Test failed for claude, shift 14, phrase: bright sunshine danc...
+2024-08-20 18:47:55,253 - ERROR - Original: bright sunshine danced across the golden meadow path.
+2024-08-20 18:47:55,253 - ERROR - Encoded:  pfwuvh gibgvwbs robqsr oqfcgg hvs uczrsb asorck dohv.
+2024-08-20 18:47:55,253 - ERROR - Deciphered: the quick brown fox jumps over the lazy dog path.
+2024-08-20 18:47:55,315 - ERROR - Test failed for claude, shift 14, phrase: feathers on the bree...
+2024-08-20 18:47:55,315 - ERROR - Original: feathers on the breeze danced with sunbeams flickering
+2024-08-20 18:47:55,315 - ERROR - Encoded:  tsohvsfg cb hvs pfssns robqsr kwhv gibpsoag tzwqysfwbu
+2024-08-20 18:47:55,315 - ERROR - Deciphered: this message is the prince's coded with problems quickening
+2024-08-20 18:47:55,328 - ERROR - Test failed for claude, shift 14, phrase: golden sunlight danc...
+2024-08-20 18:47:55,328 - ERROR - Original: golden sunlight danced across the tranquil meadow
+2024-08-20 18:47:55,329 - ERROR - Encoded:  uczrsb gibzwuvh robqsr oqfcgg hvs hfobeiwz asorck
+2024-08-20 18:47:55,329 - ERROR - Deciphered: the quick brown fox jumps over the lazy dog
+2024-08-20 18:47:55,332 - ERROR - Test failed for claude, shift 14, phrase: the leaves danced in...
+2024-08-20 18:47:55,332 - ERROR - Original: the leaves danced in the wind, nature's elegant ballet
+2024-08-20 18:47:55,332 - ERROR - Encoded:  hvs zsojsg robqsr wb hvs kwbr, bohifs'g szsuobh pozzsh
+2024-08-20 18:47:55,332 - ERROR - Deciphered: the secret message on the wind, nature's elegant ballet
+2024-08-20 18:47:55,411 - ERROR - Test failed for claude, shift 14, phrase: unseen moments slip ...
+2024-08-20 18:47:55,411 - ERROR - Original: unseen moments slip through the cracks of perception
+2024-08-20 18:47:55,412 - ERROR - Encoded:  ibgssb acasbhg gzwd hvfciuv hvs qfoqyg ct dsfqsdhwcb
+2024-08-20 18:47:55,412 - ERROR - Deciphered: hello world this is the power of perception
+2024-08-20 18:48:00,780 - ERROR - Test failed for claude, shift 14, phrase: weeding the sere flo...
+2024-08-20 18:48:00,780 - ERROR - Original: weeding the sere flowers with a delicate patience
+2024-08-20 18:48:00,780 - ERROR - Encoded:  kssrwbu hvs gsfs tzcksfg kwhv o rszwqohs dohwsbqs
+2024-08-20 18:48:00,780 - ERROR - Deciphered: the five flower wizards with a delicate patience
+2024-08-20 18:48:00,818 - ERROR - Test failed for claude, shift 14, phrase: an incessant stream ...
+2024-08-20 18:48:00,818 - ERROR - Original: an incessant stream of laughter echoed through the halls
+2024-08-20 18:48:00,819 - ERROR - Encoded:  ob wbqsggobh ghfsoa ct zoiuvhsf sqvcsr hvfciuv hvs vozzg
+2024-08-20 18:48:00,819 - ERROR - Deciphered: the information stored of computer stored through the halls
+2024-08-20 18:48:00,827 - ERROR - Test failed for claude, shift 14, phrase: on golden fields whe...
+2024-08-20 18:48:00,827 - ERROR - Original: on golden fields where sunflowers dance in the breeze
+2024-08-20 18:48:00,827 - ERROR - Encoded:  cb uczrsb twszrg kvsfs gibtzcksfg robqs wb hvs pfssns
+2024-08-20 18:48:00,827 - ERROR - Deciphered: the quick brown foxes chase the rabbits
+2024-08-20 18:48:00,827 - INFO - Completed testing for claude, shift 14
+2024-08-20 18:48:00,827 - INFO - Testing shift 15
+2024-08-20 18:48:01,133 - ERROR - Test failed for claude, shift 15, phrase: an old man took his ...
+2024-08-20 18:48:01,133 - ERROR - Original: an old man took his dog for a walk in the park today.
+2024-08-20 18:48:01,133 - ERROR - Encoded:  pc das bpc iddz wxh sdv udg p lpaz xc iwt epgz idspn.
+2024-08-20 18:48:01,133 - ERROR - Deciphered: 
+2024-08-20 18:48:01,139 - ERROR - Test failed for claude, shift 15, phrase: an old soul with a k...
+2024-08-20 18:48:01,139 - ERROR - Original: an old soul with a kind heart and wise eyes
+2024-08-20 18:48:01,139 - ERROR - Encoded:  pc das hdja lxiw p zxcs wtpgi pcs lxht tnth
+2024-08-20 18:48:01,139 - ERROR - Deciphered: 
+2024-08-20 18:48:01,287 - ERROR - Test failed for claude, shift 15, phrase: unexpected memories ...
+2024-08-20 18:48:01,287 - ERROR - Original: unexpected memories flooded back from long ago
+2024-08-20 18:48:01,287 - ERROR - Encoded:  jctmetrits btbdgxth uaddsts qprz ugdb adcv pvd
+2024-08-20 18:48:01,287 - ERROR - Deciphered: this message contains secret plans
+2024-08-20 18:48:01,321 - ERROR - Test failed for claude, shift 15, phrase: dripping candlewax p...
+2024-08-20 18:48:01,321 - ERROR - Original: dripping candlewax painted the table's wobbly surface
+2024-08-20 18:48:01,321 - ERROR - Encoded:  sgxeexcv rpcsatlpm epxcits iwt ipqat'h ldqqan hjguprt
+2024-08-20 18:48:01,321 - ERROR - Deciphered: the earth's molten surface
+2024-08-20 18:48:01,327 - ERROR - Test failed for claude, shift 15, phrase: sparkling dew drops ...
+2024-08-20 18:48:01,327 - ERROR - Original: sparkling dew drops danced on emerald blades of grass
+2024-08-20 18:48:01,327 - ERROR - Encoded:  hepgzaxcv stl sgdeh spcrts dc tbtgpas qapsth du vgphh
+2024-08-20 18:48:01,327 - ERROR - Deciphered: the quick brown fox jumps over the lazy dog
+2024-08-20 18:48:01,409 - ERROR - Test failed for claude, shift 15, phrase: sunshine filtered th...
+2024-08-20 18:48:01,409 - ERROR - Original: sunshine filtered through the leaves, casting shadows
+2024-08-20 18:48:01,409 - ERROR - Encoded:  hjchwxct uxaitgts iwgdjvw iwt atpkth, rphixcv hwpsdlh
+2024-08-20 18:48:01,409 - ERROR - Deciphered: the message reveals the leader, casting shadows
+2024-08-20 18:48:01,436 - ERROR - Test failed for claude, shift 15, phrase: jaded laughter echoe...
+2024-08-20 18:48:01,436 - ERROR - Original: jaded laughter echoed through the dimly lit alleyway
+2024-08-20 18:48:01,436 - ERROR - Encoded:  ypsts apjvwitg trwdts iwgdjvw iwt sxban axi paatnlpn
+2024-08-20 18:48:01,437 - ERROR - Deciphered: the quick brown fox jumps over the lazy dog
+2024-08-20 18:48:01,447 - ERROR - Test failed for claude, shift 15, phrase: under the watchful e...
+2024-08-20 18:48:01,448 - ERROR - Original: under the watchful eye of the moon, secrets unfold.
+2024-08-20 18:48:01,448 - ERROR - Encoded:  jcstg iwt lpirwuja tnt du iwt bddc, htrgtih jcudas.
+2024-08-20 18:48:01,448 - ERROR - Deciphered: the watchful eye of the moon, secrets unfold.
+2024-08-20 18:48:01,460 - ERROR - Test failed for claude, shift 15, phrase: their sun-dappled la...
+2024-08-20 18:48:01,460 - ERROR - Original: their sun-dappled laughter echoed through the meadow
+2024-08-20 18:48:01,460 - ERROR - Encoded:  iwtxg hjc-speeats apjvwitg trwdts iwgdjvw iwt btpsdl
+2024-08-20 18:48:01,460 - ERROR - Deciphered: the sun-spotted plagues echoed through the meadow
+2024-08-20 18:48:01,597 - ERROR - Test failed for claude, shift 15, phrase: laughter echoed thro...
+2024-08-20 18:48:01,597 - ERROR - Original: laughter echoed through the halls, a symphony of joy
+2024-08-20 18:48:01,597 - ERROR - Encoded:  apjvwitg trwdts iwgdjvw iwt wpaah, p hnbewdcn du ydn
+2024-08-20 18:48:01,597 - ERROR - Deciphered: another story through the night, a symphony of joy
+2024-08-20 18:48:01,598 - INFO - Completed testing for claude, shift 15
+2024-08-20 18:48:01,598 - INFO - Caesar cipher test completed
+2024-08-20 18:48:01,598 - INFO - Test Results:
+2024-08-20 18:48:01,598 - INFO - Shift 1: Passed 6, Failed 4
+2024-08-20 18:48:01,598 - INFO - Shift 2: Passed 3, Failed 7
+2024-08-20 18:48:01,598 - INFO - Shift 3: Passed 10, Failed 0
+2024-08-20 18:48:01,598 - INFO - Shift 4: Passed 2, Failed 8
+2024-08-20 18:48:01,598 - INFO - Shift 5: Passed 2, Failed 8
+2024-08-20 18:48:01,598 - INFO - Shift 6: Passed 1, Failed 9
+2024-08-20 18:48:01,598 - INFO - Shift 7: Passed 3, Failed 7
+2024-08-20 18:48:01,598 - INFO - Shift 8: Passed 2, Failed 8
+2024-08-20 18:48:01,598 - INFO - Shift 9: Passed 1, Failed 9
+2024-08-20 18:48:01,598 - INFO - Shift 10: Passed 0, Failed 10
+2024-08-20 18:48:01,598 - INFO - Shift 11: Passed 0, Failed 10
+2024-08-20 18:48:01,598 - INFO - Shift 12: Passed 1, Failed 9
+2024-08-20 18:48:01,598 - INFO - Shift 13: Passed 7, Failed 3
+2024-08-20 18:48:01,598 - INFO - Shift 14: Passed 0, Failed 10
+2024-08-20 18:48:01,598 - INFO - Shift 15: Passed 0, Failed 10
+2024-08-20 18:48:01,598 - INFO - Total tests: 150
+2024-08-20 18:48:01,598 - INFO - Total passed: 38
+2024-08-20 18:48:01,598 - INFO - Total failed: 112
+2024-08-20 18:48:01,598 - INFO - Success rate: 25.33%

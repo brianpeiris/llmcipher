@@ -5,8 +5,9 @@ import logging
 import os
 import json
 import aiohttp
-
-
+import openai
+from openai import AsyncOpenAI
+client = AsyncOpenAI()
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -61,7 +62,6 @@ async def generate_phrase_with_api(length):
             if response.status == 200:
                 result = await response.json()
                 content = result['content'][0]['text']
-                logger.info(f"API call completed. Status: {response.status}")
                 print(f"Generated phrase: {content.strip()}")  # Print the generated phrase
                 return content.strip()
             else:
@@ -90,7 +90,8 @@ def save_phrases_to_file(filename, phrases):
             f.write(f"{phrase}\n")
 async def decipher_with_claude(encoded_phrase):
     logger.info(f"Attempting to decipher phrase using Claude API: {encoded_phrase}")
-    api_key = os.getenv('ANTHROPIC_API_KEY')
+    print(encoded_phrase)
+    api_key = os.getenv("ANTHROPIC_API_KEY")
     if not api_key:
         raise ValueError("ANTHROPIC_API_KEY not found in environment variables")
 
@@ -130,18 +131,59 @@ Provide your decoded answer after 'ANSWER:' on a new line. Keep exact matching p
         ]
     }
 
-    async with aiohttp.ClientSession() as session:
-        async with session.post(url, headers=headers, json=data) as response:
-            if response.status == 200:
-                result = await response.json()
-                content = result['content'][0]['text']
-                logger.info(f"API call completed. Status: {response.status}")
-                answer = content.split("ANSWER:")[-1].strip()
-                return answer
-            else:
-                logger.error(f"API call failed. Status: {response.status}")
-                return None
+    for attempt in range(3):
+        async with aiohttp.ClientSession() as session:
+            async with session.post(url, headers=headers, json=data) as response:
+                if response.status == 200:
+                    result = await response.json()
+                    logger.info(f"API call completed. Status: {response.status}")
+                    return result  # Return the entire result
+                else:
+                    error_message = await response.text()
+                    logger.error(f"API call failed. Attempt {attempt + 1}. Status: {response.status}, Error: {error_message}")
+                    if response.status != 500:
+                        return None
+    logger.error("API call failed after 3 attempts.")
+    return None
+async def decipher_with_openai(encoded_phrase):
+    logger.info(f"Attempting to decipher phrase using OpenAI API: {encoded_phrase}")
+    api_key = os.getenv('OPENAI_API_KEY')
+    if not api_key:
+        raise ValueError("OPENAI_API_KEY not found in environment variables")
 
+    try:
+        response = await client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "user", "content": f"""This text is encoded using a Caesar cipher: {encoded_phrase}
+A Caesar cipher is a simple substitution cipher that shifts letters in the alphabet by a fixed number of positions.
+
+For example, if we shift each letter in "lm M pszi csy" by 4 positions backward:
+l -> h
+m -> i
+M -> I
+p -> l
+s -> o
+z -> v
+i -> e
+c -> y
+s -> o
+y -> u
+"lm M pszi csy" becomes "hi I love you."
+ANSWER: hi I love you
+Try to decode the given text using a similar method. What does it mean?
+
+Provide your decoded answer after 'ANSWER:' on a new line. Keep exact matching punctuation. If you don't format your answer this way, it will fail the evaluation."""}
+            ],
+            max_tokens=300,
+            temperature=0.0
+        )
+        content = response.choices[0].message.content.strip()
+        answer = content.split("ANSWER:")[-1].strip()
+        return answer
+    except Exception as e:
+        logger.error(f"API call failed for phrase: {encoded_phrase[:20]}... Error: {str(e)}")
+        return None
 async def test_caesar_cipher():
     logger.info("Starting Caesar cipher test")
     phrases_file = 'test_phrases.txt'
@@ -157,46 +199,65 @@ async def test_caesar_cipher():
     
     logger.info(f"Using {len(phrases)} phrases for testing")
     
-    results = {shift: {"pass": 0, "fail": 0} for shift in range(1, 16)}
-
-    async def test_phrase(shift, phrase):
+    results = {
+        "claude": {shift: {"pass": 0, "fail": 0} for shift in range(1, 16)},
+        "openai": {shift: {"pass": 0, "fail": 0} for shift in range(1, 16)}
+    }
+    async def test_phrase(shift, phrase, provider):
         encoded_phrase = caesar_shift(phrase, shift)
-        full_response = await decipher_with_claude(encoded_phrase)
-        deciphered_phrase = full_response.split("ANSWER:")[-1].strip()
+        if provider == "openai":
+            full_response = await decipher_with_claude(encoded_phrase)
+            deciphered_phrase = full_response['content'][0]['text'].split("ANSWER:")[-1].strip() if isinstance(full_response, dict) and 'content' in full_response else ""
+        else:  # openai
+            deciphered_phrase = await decipher_with_openai(encoded_phrase)
         
+        provider_logger = logging.getLogger(f"{provider}_logger")
         if deciphered_phrase.lower() == phrase.lower():
-            logger.info(f"Test passed for shift {shift}, phrase: {phrase[:20]}...")
+            provider_logger.info(f"Test passed for {provider}, shift {shift}, phrase: {phrase[:20]}...")
             return "pass"
         else:
-            logger.error(f"Test failed for shift {shift}, phrase: {phrase[:20]}...")
-            logger.error(f"Original: {phrase}")
-            logger.error(f"Encoded:  {encoded_phrase}")
-            logger.error(f"Deciphered: {deciphered_phrase}")
+            provider_logger.error(f"Test failed for {provider}, shift {shift}, phrase: {phrase[:20]}...")
+            provider_logger.error(f"Original: {phrase}")
+            provider_logger.error(f"Encoded:  {encoded_phrase}")
+            provider_logger.error(f"Deciphered: {deciphered_phrase}")
             return "fail"
 
-    for shift in range(1, 16):
-        logger.info(f"Testing shift {shift}")
-        test_phrases = random.sample(phrases, 10)
-        tasks = [test_phrase(shift, phrase) for phrase in test_phrases]
-        shift_results = await asyncio.gather(*tasks)
+    # for provider in ["claude", "openai"]:
+    for provider in ["openai"]:
+        provider_logger = logging.getLogger(f"{provider}_logger")
+        file_handler = logging.FileHandler(f"{provider}_cipher_test.log", mode='w')
+        file_handler.setLevel(logging.INFO)
+        file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+        file_handler.setFormatter(file_formatter)
+        provider_logger.addHandler(file_handler)
         
-        results[shift]["pass"] = shift_results.count("pass")
-        results[shift]["fail"] = shift_results.count("fail")
+        provider_logger.info(f"Testing with {provider.capitalize()}")
+        for shift in range(1, 16):
+            provider_logger.info(f"Testing shift {shift}")
+            test_phrases = random.sample(phrases, 10)
+            tasks = [test_phrase(shift, phrase, provider) for phrase in test_phrases]
+            shift_results = await asyncio.gather(*tasks)
+            
+            results[provider][shift]["pass"] = shift_results.count("pass")
+            results[provider][shift]["fail"] = shift_results.count("fail")
+            
+            provider_logger.info(f"Completed testing for {provider}, shift {shift}")
+    
+        provider_logger.info("Caesar cipher test completed")
+        provider_logger.info("Test Results:")
+        for shift, result in results[provider].items():
+            provider_logger.info(f"Shift {shift}: Passed {result['pass']}, Failed {result['fail']}")
         
-        logger.info(f"Completed testing for shift {shift}")
-    
-    logger.info("Caesar cipher test completed")
-    logger.info("Test Results:")
-    for shift, result in results.items():
-        logger.info(f"Shift {shift}: Passed {result['pass']}, Failed {result['fail']}")
-    
-    total_passed = sum(result['pass'] for result in results.values())
-    total_failed = sum(result['fail'] for result in results.values())
-    total_tests = total_passed + total_failed
-    logger.info(f"Total tests: {total_tests}")
-    logger.info(f"Total passed: {total_passed}")
-    logger.info(f"Total failed: {total_failed}")
-    logger.info(f"Success rate: {(total_passed / total_tests) * 100:.2f}%")
+        total_passed = sum(result['pass'] for result in results[provider].values())
+        total_failed = sum(result['fail'] for result in results[provider].values())
+        total_tests = total_passed + total_failed
+        provider_logger.info(f"Total tests: {total_tests}")
+        provider_logger.info(f"Total passed: {total_passed}")
+        provider_logger.info(f"Total failed: {total_failed}")
+        provider_logger.info(f"Success rate: {(total_passed / total_tests) * 100:.2f}%")
+        
+        provider_logger.removeHandler(file_handler)
+        file_handler.close()
 
 if __name__ == "__main__":
     asyncio.run(test_caesar_cipher())

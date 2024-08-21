@@ -1,0 +1,2607 @@
+2024-08-20 19:27:55,030 - INFO - Testing with Openai
+2024-08-20 19:27:55,030 - INFO - Testing shift 1
+2024-08-20 19:27:57,715 - INFO - Test passed for openai, shift 1, phrase: those who walk alone...
+2024-08-20 19:27:57,929 - INFO - Test passed for openai, shift 1, phrase: sunshine filtered th...
+2024-08-20 19:27:58,029 - INFO - Test passed for openai, shift 1, phrase: in the quiet of the ...
+2024-08-20 19:27:58,124 - INFO - Test passed for openai, shift 1, phrase: dripping candlewax p...
+2024-08-20 19:27:58,497 - INFO - Test passed for openai, shift 1, phrase: eternal whispers dan...
+2024-08-20 19:27:58,515 - ERROR - Test failed for openai, shift 1, phrase: thick fog rolled ove...
+2024-08-20 19:27:58,515 - ERROR - Original: thick fog rolled over the valley, blanketing the hills
+2024-08-20 19:27:58,515 - ERROR - Encoded:  uijdl gph spmmfe pwfs uif wbmmfz, cmbolfujoh uif ijmmt
+2024-08-20 19:27:58,515 - ERROR - Deciphered: To decode the given text "uijdl gph spmmfe pwfs uif wbmmfz, cmbolfujoh uif ijmmt" using a Caesar cipher, we need to determine the shift used. 
+
+Let's try shifting each letter by 1 position backward:
+
+- u -> t
+- i -> h
+- j -> i
+- d -> c
+- l -> k
+
+- g -> f
+- p -> o
+- h -> g
+
+- s -> r
+- p -> o
+- m -> l
+- m -> l
+- f -> e
+- e -> d
+
+- p -> o
+- w -> v
+- f -> e
+- r -> q
+
+- u -> t
+- i -> h
+- f -> e
+
+- w -> v
+- b -> a
+- m -> l
+- m -> l
+- f -> e
+- z -> y
+
+- c -> b
+- m -> l
+- b -> a
+- o -> n
+- l -> k
+- f -> e
+- u -> t
+- j -> i
+- o -> n
+- h -> g
+
+- u -> t
+- i -> h
+- f -> e
+
+- i -> h
+- j -> i
+- m -> l
+- m -> l
+- t -> s
+
+Putting it all together, the decoded message is:
+
+"thick fog rolled over the valley
+2024-08-20 19:27:58,527 - INFO - Test passed for openai, shift 1, phrase: golden sunlight danc...
+2024-08-20 19:27:58,845 - INFO - Test passed for openai, shift 1, phrase: the river flowed ste...
+2024-08-20 19:27:58,890 - INFO - Test passed for openai, shift 1, phrase: a day filled with su...
+2024-08-20 19:27:59,015 - INFO - Test passed for openai, shift 1, phrase: a gentle breeze care...
+2024-08-20 19:27:59,015 - INFO - Completed testing for openai, shift 1
+2024-08-20 19:27:59,015 - INFO - Testing shift 2
+2024-08-20 19:28:01,544 - INFO - Test passed for openai, shift 2, phrase: from the forest spra...
+2024-08-20 19:28:02,241 - INFO - Test passed for openai, shift 2, phrase: golden leaves danced...
+2024-08-20 19:28:02,395 - INFO - Test passed for openai, shift 2, phrase: shimmering sun dance...
+2024-08-20 19:28:02,406 - INFO - Test passed for openai, shift 2, phrase: darkly fascinating p...
+2024-08-20 19:28:02,495 - INFO - Test passed for openai, shift 2, phrase: vast empires rise an...
+2024-08-20 19:28:02,744 - INFO - Test passed for openai, shift 2, phrase: those who walk alone...
+2024-08-20 19:28:02,821 - INFO - Test passed for openai, shift 2, phrase: pearly raindrops dan...
+2024-08-20 19:28:02,865 - INFO - Test passed for openai, shift 2, phrase: all the world's a st...
+2024-08-20 19:28:02,885 - ERROR - Test failed for openai, shift 2, phrase: jaded laughter echoe...
+2024-08-20 19:28:02,885 - ERROR - Original: jaded laughter echoed through the dimly lit alleyway
+2024-08-20 19:28:02,885 - ERROR - Encoded:  lcfgf ncwijvgt gejqgf vjtqwij vjg fkona nkv cnngayca
+2024-08-20 19:28:02,885 - ERROR - Deciphered: To decode the given text "lcfgf ncwijvgt gejqgf vjtqwij vjg fkona nkv cnngayca" using a Caesar cipher, we need to determine the shift used. Let's try shifting the letters backward by 2 positions:
+
+- l -> j
+- c -> a
+- f -> d
+- g -> e
+- n -> l
+- c -> a
+- w -> u
+- i -> g
+- j -> h
+- v -> t
+- g -> e
+- t -> r
+- e -> c
+- g -> e
+- e -> c
+- j -> h
+- q -> o
+- g -> e
+- f -> d
+- v -> t
+- j -> h
+- t -> r
+- q -> o
+- w -> u
+- i -> g
+- j -> h
+- v -> t
+- g -> e
+- v -> t
+- j -> h
+- g -> e
+- f -> d
+- k -> i
+- o -> m
+- n -> l
+- a -> y
+- n -> l
+- k -> i
+- v -> t
+- c -> a
+- n -> l
+- n -> l
+- g -> e
+- a -> y
+- y -> w
+- c -> a
+
+The decoded message is: "jaded laughter echoed through the dimly lit
+2024-08-20 19:28:03,984 - INFO - Test passed for openai, shift 2, phrase: one hand greeted the...
+2024-08-20 19:28:03,984 - INFO - Completed testing for openai, shift 2
+2024-08-20 19:28:03,984 - INFO - Testing shift 3
+2024-08-20 19:28:06,941 - INFO - Test passed for openai, shift 3, phrase: laughter echoed thro...
+2024-08-20 19:28:07,085 - ERROR - Test failed for openai, shift 3, phrase: sweet dreams are mad...
+2024-08-20 19:28:07,085 - ERROR - Original: sweet dreams are made of sugar and lemon drops.
+2024-08-20 19:28:07,085 - ERROR - Encoded:  vzhhw guhdpv duh pdgh ri vxjdu dqg ohprq gursv.
+2024-08-20 19:28:07,086 - ERROR - Deciphered: sweet dreams are made of sugar and lemon drops
+2024-08-20 19:28:07,093 - INFO - Test passed for openai, shift 3, phrase: raging storms unleas...
+2024-08-20 19:28:07,316 - ERROR - Test failed for openai, shift 3, phrase: blue sapphire rainbo...
+2024-08-20 19:28:07,316 - ERROR - Original: blue sapphire rainbows melted into the ocean's depths
+2024-08-20 19:28:07,316 - ERROR - Encoded:  eoxh vdsskluh udlqerzv phowhg lqwr wkh rfhdq'v ghswkv
+2024-08-20 19:28:07,316 - ERROR - Deciphered: To decode the given text "eoxh vdsskluh udlqerzv phowhg lqwr wkh rfhdq'v ghswkv" using a Caesar cipher, we need to determine the shift used. 
+
+Let's try shifting backward by 3 positions, which is a common shift used in Caesar ciphers:
+
+- e -> b
+- o -> l
+- x -> u
+- h -> e
+- v -> s
+- d -> a
+- s -> p
+- s -> p
+- k -> h
+- l -> i
+- u -> r
+- h -> e
+- u -> r
+- d -> a
+- l -> i
+- q -> n
+- e -> b
+- r -> o
+- z -> w
+- v -> s
+- p -> m
+- h -> e
+- o -> l
+- w -> t
+- g -> d
+- l -> i
+- q -> n
+- w -> t
+- r -> o
+- w -> t
+- k -> h
+- e -> b
+- r -> o
+- f -> c
+- h -> e
+- d -> a
+- q -> n
+- v -> s
+- g -> d
+- h -> e
+- s -> p
+- w -> t
+- v -> s
+
+Putting it all together, the decoded message is:
+
+"blue sapphire rainbows
+2024-08-20 19:28:07,393 - INFO - Test passed for openai, shift 3, phrase: a gentle breeze carr...
+2024-08-20 19:28:07,404 - INFO - Test passed for openai, shift 3, phrase: an old soul with a k...
+2024-08-20 19:28:07,470 - INFO - Test passed for openai, shift 3, phrase: the dusk sky painted...
+2024-08-20 19:28:07,527 - INFO - Test passed for openai, shift 3, phrase: the garden bloomed w...
+2024-08-20 19:28:07,573 - ERROR - Test failed for openai, shift 3, phrase: Sunlight danced on t...
+2024-08-20 19:28:07,573 - ERROR - Original: Sunlight danced on the rippling lake, nature's symphony
+2024-08-20 19:28:07,573 - ERROR - Encoded:  Vxqoljkw gdqfhg rq wkh ulssolqj odnh, qdwxuh'v vbpskrqb
+2024-08-20 19:28:07,573 - ERROR - Deciphered: To decode the given text "Vxqoljkw gdqfhg rq wkh ulssolqj odnh, qdwxuh'v vbpskrqb" using a Caesar cipher, we need to determine the shift used. 
+
+Let's try shifting the letters backward by 3 positions, which is a common shift used in Caesar ciphers:
+
+- V -> S
+- x -> u
+- q -> n
+- o -> l
+- l -> i
+- j -> g
+- k -> h
+- w -> t
+
+- g -> d
+- d -> a
+- q -> n
+- f -> c
+- h -> e
+- g -> d
+
+- r -> o
+- q -> n
+
+- w -> t
+- k -> h
+- h -> e
+
+- u -> r
+- l -> i
+- s -> p
+- s -> p
+- o -> l
+- i -> l
+- q -> n
+- j -> g
+
+- o -> l
+- d -> a
+- k -> h
+- h -> e
+
+- q -> n
+- d -> a
+- w -> t
+- x -> u
+- u -> r
+- h -> e
+
+- v -> s
+- ' -> '
+- v -> s
+- b -> y
+- p -> m
+- s -> p
+- k -> h
+- r -> o
+- q ->
+2024-08-20 19:28:07,848 - ERROR - Test failed for openai, shift 3, phrase: misty moonlight glim...
+2024-08-20 19:28:07,849 - ERROR - Original: misty moonlight glimmered on the evergreen lake, painting
+2024-08-20 19:28:07,849 - ERROR - Encoded:  plvwb prrqoljkw jolpphuhg rq wkh hyhujuhhq odnh, sdlqwlqj
+2024-08-20 19:28:07,849 - ERROR - Deciphered: To decode the given text "plvwb prrqoljkw jolpphuhg rq wkh hyhujuhhq odnh, sdlqwlqj" using a Caesar cipher, we need to determine the shift value. 
+
+Let's try a shift of 3 positions backward, which is a common shift used in Caesar ciphers:
+
+- p -> m
+- l -> i
+- v -> s
+- w -> t
+- b -> y
+- p -> m
+- r -> o
+- r -> o
+- q -> n
+- o -> l
+- l -> i
+- j -> g
+- k -> h
+- w -> t
+- j -> g
+- o -> l
+- l -> i
+- p -> m
+- p -> m
+- h -> e
+- u -> r
+- g -> d
+- r -> o
+- q -> n
+- w -> t
+- k -> h
+- h -> e
+- h -> e
+- y -> v
+- h -> e
+- u -> r
+- j -> g
+- u -> r
+- h -> e
+- q -> n
+- o -> l
+- d -> a
+- n -> k
+- h -> e
+- s -> p
+- d -> a
+- l -> i
+- q -> n
+- w -> t
+- l -> i
+- q -> n
+2024-08-20 19:28:07,849 - INFO - Completed testing for openai, shift 3
+2024-08-20 19:28:07,849 - INFO - Testing shift 4
+2024-08-20 19:28:10,593 - INFO - Test passed for openai, shift 4, phrase: this old train rambl...
+2024-08-20 19:28:10,961 - INFO - Test passed for openai, shift 4, phrase: the wind whispered s...
+2024-08-20 19:28:11,020 - INFO - Test passed for openai, shift 4, phrase: clear blue skies and...
+2024-08-20 19:28:11,037 - INFO - Test passed for openai, shift 4, phrase: Sunlight danced acro...
+2024-08-20 19:28:11,225 - INFO - Test passed for openai, shift 4, phrase: sunlight danced on c...
+2024-08-20 19:28:11,308 - INFO - Test passed for openai, shift 4, phrase: shimmering sun dance...
+2024-08-20 19:28:11,387 - INFO - Test passed for openai, shift 4, phrase: blue sapphire rainbo...
+2024-08-20 19:28:11,398 - INFO - Test passed for openai, shift 4, phrase: words tumble forth f...
+2024-08-20 19:28:11,617 - INFO - Test passed for openai, shift 4, phrase: a gentle breeze care...
+2024-08-20 19:28:12,497 - INFO - Test passed for openai, shift 4, phrase: under the watchful e...
+2024-08-20 19:28:12,497 - INFO - Completed testing for openai, shift 4
+2024-08-20 19:28:12,497 - INFO - Testing shift 5
+2024-08-20 19:28:15,532 - ERROR - Test failed for openai, shift 5, phrase: jaded laughter echoe...
+2024-08-20 19:28:15,532 - ERROR - Original: jaded laughter echoed through the dimly lit alleyway
+2024-08-20 19:28:15,532 - ERROR - Encoded:  ofiji qfzlmyjw jhmtji ymwtzlm ymj inrqd qny fqqjdbfd
+2024-08-20 19:28:15,532 - ERROR - Deciphered: To decode the given text "ofiji qfzlmyjw jhmtji ymwtzlm ymj inrqd qny fqqjdbfd" using a Caesar cipher, we need to determine the shift used. 
+
+Let's try shifting the letters backward by 5 positions, as the example provided uses a backward shift:
+
+- o -> j
+- f -> a
+- i -> d
+- j -> e
+- i -> d
+
+- q -> l
+- f -> a
+- z -> u
+- l -> g
+- m -> h
+- y -> t
+- j -> e
+- w -> r
+
+- j -> e
+- h -> c
+- m -> h
+- t -> o
+- j -> e
+- i -> d
+
+- y -> t
+- m -> h
+- w -> r
+- t -> o
+- z -> u
+- l -> g
+- m -> h
+
+- y -> t
+- m -> h
+- j -> e
+
+- i -> d
+- n -> i
+- r -> m
+- q -> l
+- d -> y
+
+- q -> l
+- n -> i
+- y -> t
+
+- f -> a
+- q -> l
+- q -> l
+- j -> e
+- d -> y
+- b -> w
+- f -> a
+- d -> y
+
+Putting it all together, the decoded
+2024-08-20 19:28:15,641 - INFO - Test passed for openai, shift 5, phrase: words tumble forth f...
+2024-08-20 19:28:15,683 - ERROR - Test failed for openai, shift 5, phrase: their sun-dappled la...
+2024-08-20 19:28:15,683 - ERROR - Original: their sun-dappled laughter echoed through the meadow
+2024-08-20 19:28:15,683 - ERROR - Encoded:  ymjnw xzs-ifuuqji qfzlmyjw jhmtji ymwtzlm ymj rjfitb
+2024-08-20 19:28:15,683 - ERROR - Deciphered: their sun-added laughed echoed though the meadow
+2024-08-20 19:28:15,919 - INFO - Test passed for openai, shift 5, phrase: clear blue skies and...
+2024-08-20 19:28:16,042 - INFO - Test passed for openai, shift 5, phrase: I saw the flowers bl...
+2024-08-20 19:28:16,166 - ERROR - Test failed for openai, shift 5, phrase: three curious squirr...
+2024-08-20 19:28:16,166 - ERROR - Original: three curious squirrels scampered across the fallen log
+2024-08-20 19:28:16,166 - ERROR - Encoded:  ymwjj hzwntzx xvznwwjqx xhfrujwji fhwtxx ymj kfqqjs qtl
+2024-08-20 19:28:16,166 - ERROR - Deciphered: 
+2024-08-20 19:28:16,272 - INFO - Test passed for openai, shift 5, phrase: time passes, memorie...
+2024-08-20 19:28:16,379 - ERROR - Test failed for openai, shift 5, phrase: raging storms unleas...
+2024-08-20 19:28:16,379 - ERROR - Original: raging storms unleashed their fury upon the coastal town
+2024-08-20 19:28:16,379 - ERROR - Encoded:  wflnsl xytwrx zsqjfxmji ymjnw kzwd zuts ymj htfxyfq ytbs
+2024-08-20 19:28:16,379 - ERROR - Deciphered: To decode the given text "wflnsl xytwrx zsqjfxmji ymjnw kzwd zuts ymj htfxyfq ytbs" using a Caesar cipher, we need to determine the shift used. The example provided shows a shift of 4 positions backward. Let's apply the same shift to the given text:
+
+w -> s
+f -> b
+l -> h
+n -> j
+s -> o
+l -> h
+
+x -> t
+y -> u
+t -> p
+w -> s
+r -> n
+x -> t
+
+z -> v
+s -> o
+q -> m
+j -> f
+f -> b
+x -> t
+m -> i
+j -> f
+i -> e
+
+y -> u
+m -> i
+j -> f
+n -> j
+w -> s
+
+k -> g
+z -> v
+w -> s
+d -> z
+
+z -> v
+u -> q
+t -> p
+s -> o
+
+y -> u
+m -> i
+j -> f
+
+h -> d
+t -> p
+f -> b
+x -> t
+y -> u
+f -> b
+q -> m
+
+y -> u
+t -> p
+b -> x
+s -> o
+
+Putting it all together, the decoded message is:
+
+"sbhoh tupst vombt ifs gvsqv dpbt upbm"
+
+However, this doesn't seem to make
+2024-08-20 19:28:16,522 - ERROR - Test failed for openai, shift 5, phrase: darkly fascinating p...
+2024-08-20 19:28:16,522 - ERROR - Original: darkly fascinating patterns emerald through the mist
+2024-08-20 19:28:16,522 - ERROR - Encoded:  ifwpqd kfxhnsfynsl ufyyjwsx jrjwfqi ymwtzlm ymj rnxy
+2024-08-20 19:28:16,522 - ERROR - Deciphered: To decode the given text "ifwpqd kfxhnsfynsl ufyyjwsx jrjwfqi ymwtzlm ymj rnxy" using a Caesar cipher, we need to determine the shift used in the cipher. 
+
+Let's try shifting each letter by 5 positions backward:
+
+- i -> d
+- f -> a
+- w -> r
+- p -> k
+- q -> l
+- d -> y
+
+- k -> f
+- f -> a
+- x -> s
+- h -> c
+- n -> i
+- s -> n
+- f -> a
+- y -> t
+- n -> i
+- s -> n
+- l -> g
+
+- u -> p
+- f -> a
+- y -> t
+- y -> t
+- j -> e
+- w -> r
+- s -> n
+- x -> s
+
+- j -> e
+- r -> m
+- j -> e
+- w -> r
+- f -> a
+- q -> l
+- i -> d
+
+- y -> t
+- m -> h
+- w -> r
+- t -> o
+- z -> u
+- l -> g
+- m -> h
+
+- y -> t
+- m -> h
+- j -> e
+
+- r -> m
+- n -> i
+- x -> s
+- y -> t
+
+Putting it all together, the decoded message is
+2024-08-20 19:28:20,634 - ERROR - Test failed for openai, shift 5, phrase: misty moonlight glim...
+2024-08-20 19:28:20,634 - ERROR - Original: misty moonlight glimmered on the evergreen lake, painting
+2024-08-20 19:28:20,634 - ERROR - Encoded:  rnxyd rttsqnlmy lqnrrjwji ts ymj jajwlwjjs qfpj, ufnsynsl
+2024-08-20 19:28:20,634 - ERROR - Deciphered: To decode the given text "rnxyd rttsqnlmy lqnrrjwji ts ymj jajwlwjjs qfpj, ufnsynsl" using a Caesar cipher, we need to determine the shift used. The example provided shows a shift of 4 positions backward. Let's apply the same shift to the given text:
+
+r -> n
+n -> j
+x -> t
+y -> u
+d -> z
+
+r -> n
+t -> p
+t -> p
+s -> o
+q -> m
+n -> j
+l -> h
+m -> i
+y -> u
+
+l -> h
+q -> m
+n -> j
+r -> n
+r -> n
+j -> f
+w -> s
+j -> f
+i -> e
+
+t -> p
+s -> o
+
+y -> u
+m -> i
+j -> f
+
+j -> f
+a -> w
+j -> f
+w -> s
+l -> h
+w -> s
+j -> f
+j -> f
+s -> o
+
+q -> m
+f -> b
+p -> l
+j -> f
+
+u -> q
+f -> b
+n -> j
+s -> o
+y -> u
+n -> j
+s -> o
+l -> h
+
+Putting it all together, the decoded message is:
+
+"ntuzn nppomjhi hmnffse po uif fwfshfmb mblf
+2024-08-20 19:28:20,634 - INFO - Completed testing for openai, shift 5
+2024-08-20 19:28:20,634 - INFO - Testing shift 6
+2024-08-20 19:28:23,447 - ERROR - Test failed for openai, shift 6, phrase: flurries of dragonfl...
+2024-08-20 19:28:23,447 - ERROR - Original: flurries of dragonflies danced around the blooming lilacs
+2024-08-20 19:28:23,447 - ERROR - Encoded:  lraxxoky ul jxgmutlroky jgtikj gxuatj znk hruusotm rorgiy
+2024-08-20 19:28:23,447 - ERROR - Deciphered: flurries of dragon
+2024-08-20 19:28:23,642 - ERROR - Test failed for openai, shift 6, phrase: clouds float across ...
+2024-08-20 19:28:23,643 - ERROR - Original: clouds float across the summer sky like slow dreams
+2024-08-20 19:28:23,643 - ERROR - Encoded:  iruajy lrugz gixuyy znk yasskx yqe roqk yruc jxkgsy
+2024-08-20 19:28:23,643 - ERROR - Deciphered: To decode the given text "iruajy lrugz gixuyy znk yasskx yqe roqk yruc jxkgsy" using a Caesar cipher, we need to determine the shift used in the cipher. 
+
+Let's try shifting the letters backward by 6 positions, as the example provided uses a shift of 4, and the text seems to be encoded with a similar method:
+
+- i -> c
+- r -> l
+- u -> o
+- a -> u
+- j -> d
+- y -> s
+
+- l -> f
+- r -> l
+- u -> o
+- g -> a
+- z -> t
+
+- g -> a
+- i -> c
+- x -> r
+- u -> o
+- y -> s
+
+- z -> t
+- n -> h
+- k -> e
+
+- y -> s
+- a -> u
+- s -> m
+- s -> m
+- k -> e
+- x -> r
+
+- y -> s
+- q -> k
+- e -> y
+
+- r -> l
+- o -> i
+- q -> k
+- k -> e
+
+- y -> s
+- r -> l
+- u -> o
+- c -> w
+
+- j -> d
+- x -> r
+- k -> e
+- g -> a
+- s -> m
+- y -> s
+
+Putting it all together, the
+2024-08-20 19:28:23,832 - ERROR - Test failed for openai, shift 6, phrase: A gentle breeze whis...
+2024-08-20 19:28:23,832 - ERROR - Original: A gentle breeze whispered through the leaves overhead.
+2024-08-20 19:28:23,832 - ERROR - Encoded:  G mktzrk hxkkfk cnoyvkxkj znxuamn znk rkgbky ubkxnkgj.
+2024-08-20 19:28:23,832 - ERROR - Deciphered: A gentle breeze whispers through the leaves overhead.
+2024-08-20 19:28:24,124 - INFO - Test passed for openai, shift 6, phrase: while others sought ...
+2024-08-20 19:28:24,173 - ERROR - Test failed for openai, shift 6, phrase: light glistened thro...
+2024-08-20 19:28:24,173 - ERROR - Original: light glistened through the leaves, casting dappled patterns
+2024-08-20 19:28:24,173 - ERROR - Encoded:  romnz mroyzktkj znxuamn znk rkgbky, igyzotm jgvvrkj vgzzkxty
+2024-08-20 19:28:24,173 - ERROR - Deciphered: To decode the given text "romnz mroyzktkj znxuamn znk rkgbky, igyzotm jgvvrkj vgzzkxty" using a Caesar cipher, we need to determine the shift used. Let's try shifting the letters backward by 6 positions:
+
+- r -> l
+- o -> i
+- m -> g
+- n -> h
+- z -> t
+
+- m -> g
+- r -> l
+- o -> i
+- y -> s
+- z -> t
+- k -> e
+- t -> n
+- k -> e
+- j -> d
+
+- z -> t
+- n -> h
+- x -> r
+- u -> o
+- a -> u
+- m -> g
+- n -> h
+
+- z -> t
+- n -> h
+- k -> e
+
+- r -> l
+- k -> e
+- g -> a
+- b -> v
+- k -> e
+- y -> s
+
+- i -> c
+- g -> a
+- y -> s
+- z -> t
+- o -> i
+- t -> n
+- m -> g
+
+- j -> d
+- g -> a
+- v -> p
+- v -> p
+- r -> l
+- k -> e
+- j -> d
+
+- v -> p
+- g -> a
+- z -> t
+- z -> t
+-
+2024-08-20 19:28:24,266 - ERROR - Test failed for openai, shift 6, phrase: misty moonlight glim...
+2024-08-20 19:28:24,266 - ERROR - Original: misty moonlight glimmered on the evergreen lake, painting
+2024-08-20 19:28:24,267 - ERROR - Encoded:  soyze suutromnz mrosskxkj ut znk kbkxmxkkt rgqk, vgotzotm
+2024-08-20 19:28:24,267 - ERROR - Deciphered: To decode the given text "soyze suutromnz mrosskxkj ut znk kbkxmxkkt rgqk, vgotzotm" using a Caesar cipher, we need to determine the shift used. The text "znk" appears multiple times, which could be a common word like "the." If we assume "znk" is "the," then the shift is 6 positions backward (z -> t, n -> h, k -> e).
+
+Let's apply a shift of 6 positions backward to the entire text:
+
+s -> m
+o -> i
+y -> s
+z -> t
+e -> y
+
+s -> m
+u -> o
+u -> o
+t -> n
+r -> l
+o -> i
+m -> g
+n -> h
+z -> t
+
+m -> g
+r -> l
+o -> i
+s -> m
+s -> m
+k -> e
+x -> r
+k -> e
+j -> d
+
+u -> o
+t -> n
+
+z -> t
+n -> h
+k -> e
+
+k -> e
+b -> v
+k -> e
+x -> r
+m -> g
+x -> r
+k -> e
+k -> e
+t -> n
+
+r -> l
+g -> a
+q -> k
+k -> e
+
+v -> p
+g -> a
+o -> i
+t -> n
+z -> t
+o -> i
+2024-08-20 19:28:24,826 - INFO - Test passed for openai, shift 6, phrase: the gentle breeze ca...
+2024-08-20 19:28:24,883 - ERROR - Test failed for openai, shift 6, phrase: beneath the willow t...
+2024-08-20 19:28:24,883 - ERROR - Original: beneath the willow tree, ducks swam across the pond.
+2024-08-20 19:28:24,883 - ERROR - Encoded:  hktkgzn znk corruc zxkk, jaiqy ycgs gixuyy znk vutj.
+2024-08-20 19:28:24,883 - ERROR - Deciphered: To decode the given text "hktkgzn znk corruc zxkk, jaiqy ycgs gixuyy znk vutj," we need to determine the shift used in the Caesar cipher. 
+
+By analyzing the text, we can try different shifts to find the correct one. Let's try shifting each letter by 6 positions backward:
+
+- h -> b
+- k -> e
+- t -> n
+- k -> e
+- g -> a
+- z -> t
+- n -> h
+
+- z -> t
+- n -> h
+- k -> e
+
+- c -> w
+- o -> i
+- r -> l
+- r -> l
+- u -> o
+- c -> w
+
+- z -> t
+- x -> r
+- k -> e
+- k -> e
+
+- j -> d
+- a -> u
+- i -> c
+- q -> k
+- y -> s
+
+- y -> s
+- c -> w
+- g -> a
+- s -> m
+
+- g -> a
+- i -> c
+- x -> r
+- u -> o
+- y -> s
+- y -> s
+
+- z -> t
+- n -> h
+- k -> e
+
+- v -> p
+- u -> o
+- t -> n
+- j -> d
+
+Putting it all together, the decoded message is:
+
+"beneath the willow tree, ducks swim across
+2024-08-20 19:28:25,316 - ERROR - Test failed for openai, shift 6, phrase: I saw the flowers bl...
+2024-08-20 19:28:25,316 - ERROR - Original: I saw the flowers blooming in the warm summer breeze.
+2024-08-20 19:28:25,316 - ERROR - Encoded:  O ygc znk lruckxy hruusotm ot znk cgxs yasskx hxkkfk.
+2024-08-20 19:28:25,316 - ERROR - Deciphered: To decode the given text "O ygc znk lruckxy hruusotm ot znk cgxs yasskx hxkkfk," we need to determine the shift used in the Caesar cipher. 
+
+Let's try shifting the letters backward by 6 positions (since 'O' is 6 positions forward from 'I'):
+
+- O -> I
+- y -> s
+- g -> a
+- c -> w
+- z -> t
+- n -> h
+- k -> e
+- l -> f
+- r -> l
+- u -> o
+- c -> w
+- k -> e
+- x -> r
+- y -> s
+- h -> b
+- r -> l
+- u -> o
+- u -> o
+- s -> m
+- o -> i
+- t -> n
+- m -> g
+- o -> i
+- t -> n
+- z -> t
+- n -> h
+- k -> e
+- c -> w
+- g -> a
+- x -> r
+- s -> m
+- y -> s
+- a -> u
+- s -> m
+- s -> m
+- k -> e
+- x -> r
+- h -> b
+- x -> r
+- k -> e
+- k -> e
+- f -> z
+- k -> e
+
+The decoded message is: "I saw the flowers blooming in the warm summer breeze
+2024-08-20 19:28:29,725 - INFO - Test passed for openai, shift 6, phrase: darkly fascinating p...
+2024-08-20 19:28:29,725 - INFO - Completed testing for openai, shift 6
+2024-08-20 19:28:29,725 - INFO - Testing shift 7
+2024-08-20 19:28:32,328 - INFO - Test passed for openai, shift 7, phrase: unexpected memories ...
+2024-08-20 19:28:32,747 - INFO - Test passed for openai, shift 7, phrase: laughter echoed thro...
+2024-08-20 19:28:33,191 - ERROR - Test failed for openai, shift 7, phrase: dripping candlewax p...
+2024-08-20 19:28:33,191 - ERROR - Original: dripping candlewax painted the table's wobbly surface
+2024-08-20 19:28:33,191 - ERROR - Encoded:  kypwwpun jhuksldhe whpualk aol ahisl'z dviisf zbymhjl
+2024-08-20 19:28:33,191 - ERROR - Deciphered: dripping candle wax painted the table's wobbly surface
+2024-08-20 19:28:33,231 - ERROR - Test failed for openai, shift 7, phrase: eternal whispers dan...
+2024-08-20 19:28:33,232 - ERROR - Original: eternal whispers danced amid timeless autumn leaves
+2024-08-20 19:28:33,232 - ERROR - Encoded:  lalyuhs dopzwlyz khujlk htpk aptlslzz hbabtu slhclz
+2024-08-20 19:28:33,232 - ERROR - Deciphered: To decode the given text "lalyuhs dopzwlyz khujlk htpk aptlslzz hbabtu slhclz" using a Caesar cipher, we need to determine the shift value. By analyzing the text, we can try different shifts to find the correct one.
+
+Let's try shifting each letter by 7 positions backward:
+
+- l -> e
+- a -> t
+- l -> e
+- y -> r
+- u -> n
+- h -> a
+- s -> l
+
+- d -> w
+- o -> h
+- p -> i
+- z -> s
+- w -> p
+- l -> e
+- y -> r
+- z -> s
+
+- k -> d
+- h -> a
+- u -> n
+- j -> c
+- l -> e
+- k -> d
+
+- h -> a
+- t -> m
+- p -> i
+- k -> d
+
+- a -> t
+- p -> i
+- t -> m
+- l -> e
+- s -> l
+- z -> s
+- z -> s
+
+- h -> a
+- b -> u
+- a -> t
+- b -> u
+- t -> m
+- u -> n
+
+- s -> l
+- l -> e
+- h -> a
+- c -> v
+- l -> e
+- z -> s
+
+Putting it all together, the decoded message is:
+2024-08-20 19:28:33,550 - ERROR - Test failed for openai, shift 7, phrase: jaded laughter echoe...
+2024-08-20 19:28:33,550 - ERROR - Original: jaded laughter echoed through the dimly lit alleyway
+2024-08-20 19:28:33,550 - ERROR - Encoded:  qhklk shbnoaly ljovlk aoyvbno aol kptsf spa hsslfdhf
+2024-08-20 19:28:33,550 - ERROR - Deciphered: jaded laughter echoed throughout the dimly lit alleyway
+2024-08-20 19:28:33,623 - ERROR - Test failed for openai, shift 7, phrase: feathers on the bree...
+2024-08-20 19:28:33,623 - ERROR - Original: feathers on the breeze danced with sunbeams flickering
+2024-08-20 19:28:33,623 - ERROR - Encoded:  mlhaolyz vu aol iyllgl khujlk dpao zbuilhtz mspjrlypun
+2024-08-20 19:28:33,623 - ERROR - Deciphered: feathers on the breeze danced with sunbeams
+2024-08-20 19:28:33,743 - INFO - Test passed for openai, shift 7, phrase: the salty breeze car...
+2024-08-20 19:28:34,053 - ERROR - Test failed for openai, shift 7, phrase: sun-drenched meadows...
+2024-08-20 19:28:34,053 - ERROR - Original: sun-drenched meadows whispered secrets to the breeze
+2024-08-20 19:28:34,054 - ERROR - Encoded:  zbu-kylujolk tlhkvdz dopzwlylk zljylaz av aol iyllgl
+2024-08-20 19:28:34,054 - ERROR - Deciphered: To decode the given text "zbu-kylujolk tlhkvdz dopzwlylk zljylaz av aol iyllgl" using a Caesar cipher, we need to determine the shift used. Let's try shifting the letters backward by 7 positions:
+
+- z -> s
+- b -> u
+- u -> n
+- - -> -
+- k -> d
+- y -> r
+- l -> e
+- u -> n
+- j -> c
+- o -> h
+- l -> e
+- k -> d
+
+The first word "zbu-kylujolk" becomes "sun-drenched".
+
+Continuing with the rest of the text:
+
+- t -> m
+- l -> e
+- h -> a
+- k -> d
+- v -> o
+- d -> w
+- z -> s
+
+"tlhkvdz" becomes "meadows".
+
+- d -> w
+- o -> h
+- p -> i
+- z -> s
+- w -> p
+- l -> e
+- y -> r
+- l -> e
+- k -> d
+
+"dopzwlylk" becomes "whispered".
+
+- z -> s
+- l -> e
+- j -> c
+- y -> r
+- l -> e
+- a -> t
+- z -> s
+
+"zljylaz" becomes "secrets".
+
+- a -> t
+- v -> o
+2024-08-20 19:28:34,072 - ERROR - Test failed for openai, shift 7, phrase: thick fog rolled ove...
+2024-08-20 19:28:34,072 - ERROR - Original: thick fog rolled over the valley, blanketing the hills
+2024-08-20 19:28:34,072 - ERROR - Encoded:  aopjr mvn yvsslk vcly aol chsslf, ishurlapun aol opssz
+2024-08-20 19:28:34,072 - ERROR - Deciphered: To decode the given text "aopjr mvn yvsslk vcly aol chsslf, ishurlapun aol opssz" using a Caesar cipher, we need to determine the shift used. By analyzing the text, we can try different shifts to find the correct one.
+
+Let's try shifting each letter by 7 positions backward:
+
+- a -> t
+- o -> h
+- p -> i
+- j -> c
+- r -> k
+- m -> f
+- v -> o
+- n -> g
+- y -> r
+- v -> o
+- s -> l
+- s -> l
+- l -> e
+- k -> d
+- v -> o
+- c -> v
+- l -> e
+- y -> r
+- a -> t
+- o -> h
+- l -> e
+- c -> v
+- h -> a
+- s -> l
+- s -> l
+- l -> e
+- f -> y
+- i -> b
+- s -> l
+- h -> a
+- u -> n
+- r -> k
+- l -> e
+- a -> t
+- p -> i
+- u -> n
+- n -> g
+- a -> t
+- o -> h
+- l -> e
+- o -> h
+- p -> i
+- s -> l
+- s -> l
+- z -> s
+
+The decoded message is
+2024-08-20 19:28:34,725 - INFO - Test passed for openai, shift 7, phrase: shimmering sun dance...
+2024-08-20 19:28:34,725 - INFO - Completed testing for openai, shift 7
+2024-08-20 19:28:34,725 - INFO - Testing shift 8
+2024-08-20 19:28:37,385 - ERROR - Test failed for openai, shift 8, phrase: the sun sparkled on ...
+2024-08-20 19:28:37,385 - ERROR - Original: the sun sparkled on the rippling waters of the lake
+2024-08-20 19:28:37,385 - ERROR - Encoded:  bpm acv axizstml wv bpm zqxxtqvo eibmza wn bpm tism
+2024-08-20 19:28:37,385 - ERROR - Deciphered: the you thought of the beautiful garden of the moon
+2024-08-20 19:28:37,716 - ERROR - Test failed for openai, shift 8, phrase: clear blue skies and...
+2024-08-20 19:28:37,716 - ERROR - Original: clear blue skies and warm sunshine awaited them
+2024-08-20 19:28:37,716 - ERROR - Encoded:  ktmiz jtcm asqma ivl eizu acvapqvm ieiqbml bpmu
+2024-08-20 19:28:37,716 - ERROR - Deciphered: clear blue skies and warm sunshine await them
+2024-08-20 19:28:37,934 - ERROR - Test failed for openai, shift 8, phrase: clouds float across ...
+2024-08-20 19:28:37,934 - ERROR - Original: clouds float across the summer sky like slow dreams
+2024-08-20 19:28:37,934 - ERROR - Encoded:  ktwcla ntwib ikzwaa bpm acuumz asg tqsm atwe lzmiua
+2024-08-20 19:28:37,934 - ERROR - Deciphered: clouds float across the summer sky like a world of dreams.
+2024-08-20 19:28:38,021 - ERROR - Test failed for openai, shift 8, phrase: this old train rambl...
+2024-08-20 19:28:38,021 - ERROR - Original: this old train rambled along the winding track today
+2024-08-20 19:28:38,021 - ERROR - Encoded:  bpqa wtl bziqv ziujtml itwvo bpm eqvlqvo bziks bwlig
+2024-08-20 19:28:38,021 - ERROR - Deciphered: To decode the given text "bpqa wtl bziqv ziujtml itwvo bpm eqvlqvo bziks bwlig" using a Caesar cipher, we need to determine the shift used. 
+
+Let's try shifting the letters backward by 8 positions (since 'b' shifted by 8 positions backward becomes 't'):
+
+- b -> t
+- p -> h
+- q -> i
+- a -> s
+- w -> o
+- t -> l
+- l -> d
+- b -> t
+- z -> r
+- i -> a
+- q -> i
+- v -> n
+- z -> r
+- i -> a
+- u -> m
+- j -> b
+- t -> l
+- m -> e
+- l -> d
+- i -> a
+- t -> l
+- w -> o
+- v -> n
+- o -> g
+- b -> t
+- p -> h
+- m -> e
+- e -> w
+- q -> i
+- v -> n
+- l -> d
+- q -> i
+- v -> n
+- o -> g
+- b -> t
+- z -> r
+- i -> a
+- k -> c
+- s -> k
+- b -> t
+- w -> o
+- l -> d
+- i -> a
+- g -> y
+
+So, the decoded message is:
+
+"this old
+2024-08-20 19:28:38,416 - ERROR - Test failed for openai, shift 8, phrase: jaded laughter echoe...
+2024-08-20 19:28:38,416 - ERROR - Original: jaded laughter echoed through the dimly lit alleyway
+2024-08-20 19:28:38,416 - ERROR - Encoded:  rilml ticopbmz mkpwml bpzwcop bpm lqutg tqb ittmgeig
+2024-08-20 19:28:38,416 - ERROR - Deciphered: To decode the given text "rilml ticopbmz mkpwml bpzwcop bpm lqutg tqb ittmgeig" using a Caesar cipher, we need to determine the shift used. Let's try shifting the letters backward by 8 positions, as this is a common shift amount:
+
+- r -> j
+- i -> a
+- l -> d
+- m -> e
+- l -> d
+
+- t -> l
+- i -> a
+- c -> u
+- o -> g
+- p -> h
+- b -> t
+- m -> e
+- z -> r
+
+- m -> e
+- k -> c
+- p -> h
+- w -> o
+- m -> e
+- l -> d
+
+- b -> t
+- p -> h
+- z -> r
+- w -> o
+- c -> u
+- o -> g
+- p -> h
+
+- b -> t
+- p -> h
+- m -> e
+
+- l -> d
+- q -> i
+- u -> m
+- t -> l
+- g -> y
+
+- t -> l
+- q -> i
+- b -> t
+
+- i -> a
+- t -> l
+- t -> l
+- m -> e
+- g -> y
+- e -> w
+- i -> a
+- g -> y
+
+Putting it all together, the decoded message is:
+
+"jaded
+2024-08-20 19:28:38,438 - ERROR - Test failed for openai, shift 8, phrase: an incessant stream ...
+2024-08-20 19:28:38,438 - ERROR - Original: an incessant stream of laughter echoed through the halls
+2024-08-20 19:28:38,438 - ERROR - Encoded:  iv qvkmaaivb abzmiu wn ticopbmz mkpwml bpzwcop bpm pitta
+2024-08-20 19:28:38,438 - ERROR - Deciphered: an ancient stream of laughter echoed through the halls
+2024-08-20 19:28:38,521 - INFO - Test passed for openai, shift 8, phrase: darkly fascinating p...
+2024-08-20 19:28:38,606 - ERROR - Test failed for openai, shift 8, phrase: tidal pools sparkled...
+2024-08-20 19:28:38,606 - ERROR - Original: tidal pools sparkled like gems in the evening light
+2024-08-20 19:28:38,607 - ERROR - Encoded:  bqlit xwwta axizstml tqsm omua qv bpm mdmvqvo tqopb
+2024-08-20 19:28:38,607 - ERROR - Deciphered: To decode the given text "bqlit xwwta axizstml tqsm omua qv bpm mdmvqvo tqopb" using a Caesar cipher, we need to determine the shift value. Let's try shifting the letters backward by 8 positions, as this is a common shift value for Caesar ciphers.
+
+- b -> t
+- q -> i
+- l -> d
+- i -> a
+- t -> l
+- x -> p
+- w -> o
+- w -> o
+- t -> l
+- a -> s
+- a -> s
+- x -> p
+- i -> a
+- z -> r
+- s -> k
+- t -> l
+- m -> e
+- l -> d
+- t -> l
+- q -> i
+- s -> k
+- m -> e
+- o -> g
+- m -> e
+- u -> m
+- a -> s
+- q -> i
+- v -> n
+- b -> t
+- p -> h
+- m -> e
+- m -> e
+- d -> v
+- m -> e
+- v -> n
+- q -> i
+- v -> n
+- o -> g
+- t -> l
+- q -> i
+- o -> g
+- p -> h
+- b -> t
+
+The decoded message is: "tidal pools sparkle like gems in the evening light"
+
+ANSWER
+2024-08-20 19:28:38,903 - ERROR - Test failed for openai, shift 8, phrase: pearly raindrops dan...
+2024-08-20 19:28:38,903 - ERROR - Original: pearly raindrops danced on verdant leaves in the forest
+2024-08-20 19:28:38,903 - ERROR - Encoded:  xmiztg ziqvlzwxa livkml wv dmzlivb tmidma qv bpm nwzmab
+2024-08-20 19:28:38,903 - ERROR - Deciphered: pearly raindrops danced
+2024-08-20 19:28:41,758 - ERROR - Test failed for openai, shift 8, phrase: three foxes raced th...
+2024-08-20 19:28:41,758 - ERROR - Original: three foxes raced through the woods chasing each other
+2024-08-20 19:28:41,758 - ERROR - Encoded:  bpzmm nwfma zikml bpzwcop bpm ewwla kpiaqvo mikp wbpmz
+2024-08-20 19:28:41,758 - ERROR - Deciphered: To decode the given text "bpzmm nwfma zikml bpzwcop bpm ewwla kpiaqvo mikp wbpmz" using a Caesar cipher, we need to determine the shift used in the cipher. 
+
+Let's try shifting the letters backward by 7 positions (since the example provided shifts by 4, and the text seems to be encoded with a different shift):
+
+- b -> u
+- p -> i
+- z -> s
+- m -> f
+- m -> f
+
+- n -> g
+- w -> p
+- f -> y
+- m -> f
+- a -> t
+
+- z -> s
+- i -> b
+- k -> d
+- m -> f
+- l -> e
+
+- b -> u
+- p -> i
+- z -> s
+- w -> p
+- c -> v
+- o -> h
+- p -> i
+
+- b -> u
+- p -> i
+- m -> f
+
+- e -> x
+- w -> p
+- w -> p
+- l -> e
+- a -> t
+
+- k -> d
+- p -> i
+- i -> b
+- a -> t
+- q -> j
+- v -> o
+- o -> h
+
+- m -> f
+- i -> b
+- k -> d
+- p -> i
+
+- w -> p
+- b -> u
+- p -> i
+-
+2024-08-20 19:28:41,758 - INFO - Completed testing for openai, shift 8
+2024-08-20 19:28:41,758 - INFO - Testing shift 9
+2024-08-20 19:28:44,593 - ERROR - Test failed for openai, shift 9, phrase: an incessant stream ...
+2024-08-20 19:28:44,593 - ERROR - Original: an incessant stream of laughter echoed through the halls
+2024-08-20 19:28:44,593 - ERROR - Encoded:  jw rwlnbbjwc bcanjv xo ujdpqcna nlqxnm cqaxdpq cqn qjuub
+2024-08-20 19:28:44,593 - ERROR - Deciphered: emergency break of system within system the fleet
+2024-08-20 19:28:45,098 - ERROR - Test failed for openai, shift 9, phrase: sun-drenched meadows...
+2024-08-20 19:28:45,098 - ERROR - Original: sun-drenched meadows whispered secrets to the breeze
+2024-08-20 19:28:45,098 - ERROR - Encoded:  bdw-manwlqnm vnjmxfb fqrbynanm bnlancb cx cqn kannin
+2024-08-20 19:28:45,098 - ERROR - Deciphered: sun-drenched meadows whisper secrets to the breeze
+2024-08-20 19:28:45,449 - ERROR - Test failed for openai, shift 9, phrase: thunder rumbled in t...
+2024-08-20 19:28:45,449 - ERROR - Original: thunder rumbled in the distance as the storm approached
+2024-08-20 19:28:45,449 - ERROR - Encoded:  cqdwmna advkunm rw cqn mrbcjwln jb cqn bcxav jyyaxjlqnm
+2024-08-20 19:28:45,449 - ERROR - Deciphered: To decode the given text "cqdwmna advkunm rw cqn mrbcjwln jb cqn bcxav jyyaxjlqnm" using a Caesar cipher, we need to determine the shift used in the cipher. 
+
+Let's try shifting the letters backward by 9 positions (since 'c' becomes 't' in the word "the"):
+
+- c -> t
+- q -> h
+- d -> u
+- w -> n
+- m -> e
+- n -> e
+- a -> r
+
+So, "cqdwmna" becomes "thunder".
+
+Continuing with the rest of the text:
+
+- a -> t
+- d -> u
+- v -> m
+- k -> b
+- u -> l
+- n -> e
+- m -> d
+
+"advkunm" becomes "tumbled".
+
+- r -> i
+- w -> n
+
+"rw" becomes "in".
+
+- c -> t
+- q -> h
+- n -> e
+
+"cqn" becomes "the".
+
+- m -> d
+- r -> i
+- b -> s
+- c -> t
+- j -> a
+- w -> n
+- l -> c
+- n -> e
+
+"mrbcjwln" becomes "distance".
+
+- j -> a
+- b -> s
+
+"jb" becomes "as".
+
+- c -> t
+- q -> h
+- n -> e
+2024-08-20 19:28:45,458 - ERROR - Test failed for openai, shift 9, phrase: Sunlight danced on t...
+2024-08-20 19:28:45,458 - ERROR - Original: Sunlight danced on the rippling lake, nature's symphony
+2024-08-20 19:28:45,458 - ERROR - Encoded:  Bdwurpqc mjwlnm xw cqn aryyurwp ujtn, wjcdan'b bhvyqxwh
+2024-08-20 19:28:45,458 - ERROR - Deciphered: Welcome human to the virtual world, aren't we excited
+2024-08-20 19:28:45,889 - ERROR - Test failed for openai, shift 9, phrase: the dusk sky painted...
+2024-08-20 19:28:45,889 - ERROR - Original: the dusk sky painted hues of orange and indigo hues
+2024-08-20 19:28:45,889 - ERROR - Encoded:  cqn mdbt bth yjrwcnm qdnb xo xajwpn jwm rwmrpx qdnb
+2024-08-20 19:28:45,889 - ERROR - Deciphered: the dust has painted the of orange and indigo the
+2024-08-20 19:28:46,113 - INFO - Test passed for openai, shift 9, phrase: nature's symphony ec...
+2024-08-20 19:28:46,177 - INFO - Test passed for openai, shift 9, phrase: a gentle breeze carr...
+2024-08-20 19:28:46,309 - ERROR - Test failed for openai, shift 9, phrase: shimmering sun dance...
+2024-08-20 19:28:46,310 - ERROR - Original: shimmering sun danced across tranquil waters, painting
+2024-08-20 19:28:46,310 - ERROR - Encoded:  bqrvvnarwp bdw mjwlnm jlaxbb cajwzdru fjcnab, yjrwcrwp
+2024-08-20 19:28:46,310 - ERROR - Deciphered: shimmering sun darkened across the waters, spinning
+2024-08-20 19:28:46,558 - ERROR - Test failed for openai, shift 9, phrase: Sunlight danced acro...
+2024-08-20 19:28:46,558 - ERROR - Original: Sunlight danced across the rippling surface of the lake.
+2024-08-20 19:28:46,558 - ERROR - Encoded:  Bdwurpqc mjwlnm jlaxbb cqn aryyurwp bdaojln xo cqn ujtn.
+2024-08-20 19:28:46,558 - ERROR - Deciphered: To decode the given text "Bdwurpqc mjwlnm jlaxbb cqn aryyurwp bdaojln xo cqn ujtn" using a Caesar cipher, we need to determine the shift value. 
+
+Let's try a shift of 2 positions backward:
+
+B -> Z
+d -> b
+w -> u
+u -> s
+r -> p
+p -> n
+q -> o
+c -> a
+
+m -> k
+j -> h
+w -> u
+l -> j
+n -> l
+m -> k
+
+j -> h
+l -> j
+a -> y
+x -> v
+b -> z
+b -> z
+
+c -> a
+q -> o
+n -> l
+
+a -> y
+r -> p
+y -> w
+y -> w
+u -> s
+r -> p
+w -> u
+p -> n
+
+b -> z
+d -> b
+a -> y
+o -> m
+j -> h
+l -> j
+n -> l
+
+x -> v
+o -> m
+
+c -> a
+q -> o
+n -> l
+
+u -> s
+j -> h
+t -> r
+n -> l
+
+Putting it all together, the decoded message is:
+
+"Zbspnoa kuhjlk yjvzz aol ypwwspu zbyhjl vm aol shrl."
+
+This doesn't seem to make sense, so let's try a shift of 2 positions
+2024-08-20 19:28:47,507 - ERROR - Test failed for openai, shift 9, phrase: memories of summer d...
+2024-08-20 19:28:47,507 - ERROR - Original: memories of summer days linger like dust in sunbeams
+2024-08-20 19:28:47,507 - ERROR - Encoded:  vnvxarnb xo bdvvna mjhb urwpna urtn mdbc rw bdwknjvb
+2024-08-20 19:28:47,507 - ERROR - Deciphered: To decode the given text "vnvxarnb xo bdvvna mjhb urwpna urtn mdbc rw bdwknjvb" using a Caesar cipher, we need to determine the shift used in the cipher. 
+
+Let's try a shift of 9 positions backward, as it seems to fit the pattern:
+
+- v -> m
+- n -> e
+- v -> m
+- x -> o
+- a -> r
+- r -> i
+- n -> e
+- b -> s
+
+- x -> o
+- o -> f
+
+- b -> s
+- d -> u
+- v -> m
+- v -> m
+- n -> e
+- a -> r
+
+- m -> d
+- j -> a
+- h -> y
+- b -> s
+
+- u -> l
+- r -> i
+- w -> n
+- p -> g
+- n -> e
+- a -> r
+
+- u -> l
+- r -> i
+- t -> k
+- n -> e
+
+- m -> d
+- d -> u
+- b -> s
+- c -> t
+
+- r -> i
+- w -> n
+
+- b -> s
+- d -> u
+- w -> n
+- k -> b
+- n -> e
+- j -> a
+- v -> m
+- b -> s
+
+Putting it all together, the decoded message is:
+
+"memories of
+2024-08-20 19:28:47,507 - INFO - Completed testing for openai, shift 9
+2024-08-20 19:28:47,507 - INFO - Testing shift 10
+2024-08-20 19:28:49,883 - ERROR - Test failed for openai, shift 10, phrase: the gentle breeze ca...
+2024-08-20 19:28:49,883 - ERROR - Original: the gentle breeze carried the scent of wildflowers
+2024-08-20 19:28:49,883 - ERROR - Encoded:  dro qoxdvo lboojo mkbbson dro cmoxd yp gsvnpvygobc
+2024-08-20 19:28:49,883 - ERROR - Deciphered: the knight arrives safely the sword of excalibur
+2024-08-20 19:28:50,141 - ERROR - Test failed for openai, shift 10, phrase: thick fog rolled ove...
+2024-08-20 19:28:50,141 - ERROR - Original: thick fog rolled over the valley, blanketing the hills
+2024-08-20 19:28:50,141 - ERROR - Encoded:  drsmu pyq byvvon yfob dro fkvvoi, lvkxuodsxq dro rsvvc
+2024-08-20 19:28:50,141 - ERROR - Deciphered: This was hidden upon the method, discovered the shift.
+2024-08-20 19:28:50,354 - ERROR - Test failed for openai, shift 10, phrase: one hand greeted the...
+2024-08-20 19:28:50,354 - ERROR - Original: one hand greeted the other amidst thunderous applause
+2024-08-20 19:28:50,354 - ERROR - Encoded:  yxo rkxn qboodon dro ydrob kwsncd drexnobyec kzzvkeco
+2024-08-20 19:28:50,355 - ERROR - Deciphered: one hand greeted the other amidst thunderstorms applause
+2024-08-20 19:28:50,462 - ERROR - Test failed for openai, shift 10, phrase: the wind whistled th...
+2024-08-20 19:28:50,462 - ERROR - Original: the wind whistled through the empty streets at night
+2024-08-20 19:28:50,462 - ERROR - Encoded:  dro gsxn grscdvon drbyeqr dro owzdi cdboodc kd xsqrd
+2024-08-20 19:28:50,462 - ERROR - Deciphered: the only question before the world becomes if truth
+2024-08-20 19:28:50,482 - INFO - Test passed for openai, shift 10, phrase: the sudden storm dre...
+2024-08-20 19:28:50,808 - ERROR - Test failed for openai, shift 10, phrase: where are the apples...
+2024-08-20 19:28:50,808 - ERROR - Original: where are the apples concealing my lost dinosaur toy?
+2024-08-20 19:28:50,808 - ERROR - Encoded:  grobo kbo dro kzzvoc myxmokvsxq wi vycd nsxyckeb dyi?
+2024-08-20 19:28:50,808 - ERROR - Deciphered: To decode the given text "grobo kbo dro kzzvoc myxmokvsxq wi vycd nsxyckeb dyi?" using a Caesar cipher, we need to determine the shift used. 
+
+Let's try a shift of 10 positions backward, as it seems to fit the pattern:
+
+- g -> w
+- r -> h
+- o -> e
+- b -> r
+- o -> e
+
+- k -> a
+- b -> r
+- o -> e
+
+- d -> t
+- r -> h
+- o -> e
+
+- k -> a
+- z -> p
+- z -> p
+- v -> l
+- o -> e
+- c -> s
+
+- m -> c
+- y -> o
+- x -> n
+- m -> c
+- o -> e
+- k -> a
+- v -> l
+- s -> i
+- x -> n
+- q -> g
+
+- w -> m
+- i -> y
+
+- v -> l
+- y -> o
+- c -> m
+- d -> t
+
+- n -> d
+- s -> i
+- x -> n
+- y -> g
+- c -> s
+- k -> a
+- e -> u
+- b -> r
+
+- d -> t
+- y -> o
+- i -> y
+
+The decoded message is: "where are the apples concealing my long distance tour?"
+
+ANSWER
+2024-08-20 19:28:50,820 - ERROR - Test failed for openai, shift 10, phrase: sunlight danced on c...
+2024-08-20 19:28:50,820 - ERROR - Original: sunlight danced on crimson leaves as autumn arrived.
+2024-08-20 19:28:50,821 - ERROR - Encoded:  cexvsqrd nkxmon yx mbswcyx vokfoc kc kedewx kbbsfon.
+2024-08-20 19:28:50,821 - ERROR - Deciphered: To decode the given text "cexvsqrd nkxmon yx mbswcyx vokfoc kc kedewx kbbsfon," we need to determine the shift used in the Caesar cipher. Let's try shifting the letters backward by 10 positions, as this is a common shift amount:
+
+- c -> s
+- e -> u
+- x -> n
+- v -> l
+- s -> i
+- q -> g
+- r -> h
+- d -> t
+
+- n -> d
+- k -> a
+- x -> n
+- m -> c
+- o -> e
+- n -> d
+
+- y -> o
+- x -> n
+
+- m -> c
+- b -> r
+- s -> i
+- w -> m
+- c -> s
+- y -> o
+- x -> n
+
+- v -> l
+- o -> e
+- k -> a
+- f -> v
+- o -> e
+- c -> s
+
+- k -> a
+- c -> s
+
+- k -> a
+- e -> u
+- d -> t
+- e -> u
+- w -> m
+- x -> n
+
+- k -> a
+- b -> r
+- b -> r
+- s -> i
+- f -> v
+- o -> e
+- n -> d
+
+Putting it all together, the decoded message is:
+
+"sunlight danced on crimson leaves
+2024-08-20 19:28:50,947 - ERROR - Test failed for openai, shift 10, phrase: in the quiet of the ...
+2024-08-20 19:28:50,947 - ERROR - Original: in the quiet of the night, whispers echoed through
+2024-08-20 19:28:50,947 - ERROR - Encoded:  sx dro aesod yp dro xsqrd, grsczobc omryon drbyeqr
+2024-08-20 19:28:50,948 - ERROR - Deciphered: in the quiet of the night, whispers echo through
+2024-08-20 19:28:51,353 - INFO - Test passed for openai, shift 10, phrase: a curious cat explor...
+2024-08-20 19:28:51,920 - ERROR - Test failed for openai, shift 10, phrase: deep in the forest, ...
+2024-08-20 19:28:51,920 - ERROR - Original: deep in the forest, a whispering breeze danced through
+2024-08-20 19:28:51,920 - ERROR - Encoded:  nooz sx dro pybocd, k grsczobsxq lboojo nkxmon drbyeqr
+2024-08-20 19:28:51,920 - ERROR - Deciphered: To decode the given text "nooz sx dro pybocd, k grsczobsxq lboojo nkxmon drbyeqr" using a Caesar cipher, we need to determine the shift used. Let's try shifting the letters backward by 10 positions, as the example suggests a similar method might work.
+
+- n -> d
+- o -> e
+- o -> e
+- z -> p
+- s -> i
+- x -> n
+- d -> t
+- r -> h
+- o -> e
+- p -> f
+- y -> o
+- b -> r
+- o -> e
+- c -> s
+- d -> t
+- k -> a
+- g -> w
+- r -> h
+- s -> i
+- c -> s
+- z -> p
+- o -> e
+- b -> r
+- s -> i
+- x -> n
+- q -> g
+- l -> b
+- o -> e
+- o -> e
+- j -> z
+- o -> e
+- n -> d
+- k -> a
+- x -> n
+- m -> c
+- o -> e
+- n -> d
+- d -> t
+- r -> h
+- b -> r
+- y -> o
+- e -> u
+- q -> g
+- r -> h
+
+The decoded message is: "deep in the forest, a whisper
+2024-08-20 19:28:51,920 - INFO - Completed testing for openai, shift 10
+2024-08-20 19:28:51,921 - INFO - Testing shift 11
+2024-08-20 19:28:54,781 - ERROR - Test failed for openai, shift 11, phrase: the sun sparkled on ...
+2024-08-20 19:28:54,781 - ERROR - Original: the sun sparkled on the rippling waters of the lake
+2024-08-20 19:28:54,781 - ERROR - Encoded:  esp dfy dalcvwpo zy esp ctaawtyr hlepcd zq esp wlvp
+2024-08-20 19:28:54,781 - ERROR - Deciphered: all you need is the ability ahead of the game
+2024-08-20 19:28:55,148 - INFO - Test passed for openai, shift 11, phrase: strangely enough, th...
+2024-08-20 19:28:55,435 - ERROR - Test failed for openai, shift 11, phrase: time passes, memorie...
+2024-08-20 19:28:55,435 - ERROR - Original: time passes, memories fade, but love remains eternal.
+2024-08-20 19:28:55,435 - ERROR - Encoded:  etxp alddpd, xpxzctpd qlop, mfe wzgp cpxltyd pepcylw.
+2024-08-20 19:28:55,435 - ERROR - Deciphered: wise people, protect your, and keep friends
+2024-08-20 19:28:55,489 - ERROR - Test failed for openai, shift 11, phrase: feathers on the bree...
+2024-08-20 19:28:55,489 - ERROR - Original: feathers on the breeze danced with sunbeams flickering
+2024-08-20 19:28:55,489 - ERROR - Encoded:  qplespcd zy esp mcppkp olynpo htes dfymplxd qwtnvpctyr
+2024-08-20 19:28:55,489 - ERROR - Deciphered: feathers on the breeze dance with sunbeams flickering
+2024-08-20 19:28:55,537 - INFO - Test passed for openai, shift 11, phrase: the quick brown fox ...
+2024-08-20 19:28:55,560 - ERROR - Test failed for openai, shift 11, phrase: eternal whispers dan...
+2024-08-20 19:28:55,560 - ERROR - Original: eternal whispers danced amid timeless autumn leaves
+2024-08-20 19:28:55,560 - ERROR - Encoded:  pepcylw hstdapcd olynpo lxto etxpwpdd lfefxy wplgpd
+2024-08-20 19:28:55,561 - ERROR - Deciphered: 
+2024-08-20 19:28:55,654 - ERROR - Test failed for openai, shift 11, phrase: the wind whistled th...
+2024-08-20 19:28:55,654 - ERROR - Original: the wind whistled through the empty streets at night
+2024-08-20 19:28:55,654 - ERROR - Encoded:  esp htyo hstdewpo esczfrs esp pxaej decpped le ytrse
+2024-08-20 19:28:55,654 - ERROR - Deciphered: all your base are belong to us
+2024-08-20 19:28:55,908 - ERROR - Test failed for openai, shift 11, phrase: memories of summer d...
+2024-08-20 19:28:55,908 - ERROR - Original: memories of summer days linger like dust in sunbeams
+2024-08-20 19:28:55,908 - ERROR - Encoded:  xpxzctpd zq dfxxpc oljd wtyrpc wtvp ofde ty dfymplxd
+2024-08-20 19:28:55,908 - ERROR - Deciphered: To decode the given text "xpxzctpd zq dfxxpc oljd wtyrpc wtvp ofde ty dfymplxd" using a Caesar cipher, we need to determine the shift value. Let's try a shift of 3 positions backward, which is a common shift value for Caesar ciphers.
+
+Shift each letter 3 positions backward:
+- x -> u
+- p -> m
+- z -> w
+- c -> z
+- t -> q
+- d -> a
+- z -> w
+- q -> n
+- d -> a
+- f -> c
+- x -> u
+- p -> m
+- c -> z
+- o -> l
+- l -> i
+- j -> g
+- d -> a
+- w -> t
+- t -> q
+- y -> v
+- r -> o
+- p -> m
+- c -> z
+- w -> t
+- t -> q
+- v -> s
+- p -> m
+- o -> l
+- f -> c
+- d -> a
+- e -> b
+- t -> q
+- y -> v
+- d -> a
+- f -> c
+- y -> v
+- m -> j
+- p -> m
+- l -> i
+- x -> u
+- d -> a
+
+Putting it all together, the decoded message is:
+"unwavering of utmost willpower will face in
+2024-08-20 19:28:56,397 - ERROR - Test failed for openai, shift 11, phrase: shimmering sun dance...
+2024-08-20 19:28:56,397 - ERROR - Original: shimmering sun danced across tranquil waters, painting
+2024-08-20 19:28:56,397 - ERROR - Encoded:  dstxxpctyr dfy olynpo lnczdd eclybftw hlepcd, altyetyr
+2024-08-20 19:28:56,397 - ERROR - Deciphered: welcome to simple caesar cipher, decoder
+2024-08-20 19:28:57,124 - ERROR - Test failed for openai, shift 11, phrase: pearly raindrops dan...
+2024-08-20 19:28:57,125 - ERROR - Original: pearly raindrops danced on verdant leaves in the forest
+2024-08-20 19:28:57,125 - ERROR - Encoded:  aplcwj cltyoczad olynpo zy gpcolye wplgpd ty esp qzcpde
+2024-08-20 19:28:57,125 - ERROR - Deciphered: pearly raindrops danced on verdant leaves in the format
+2024-08-20 19:28:57,125 - INFO - Completed testing for openai, shift 11
+2024-08-20 19:28:57,125 - INFO - Testing shift 12
+2024-08-20 19:28:59,663 - ERROR - Test failed for openai, shift 12, phrase: shadows danced acros...
+2024-08-20 19:28:59,663 - ERROR - Original: shadows danced across the dimly lit room as whispers
+2024-08-20 19:28:59,663 - ERROR - Encoded:  etmpaie pmzoqp modaee ftq puyxk xuf daay me ituebqde
+2024-08-20 19:28:59,663 - ERROR - Deciphered: shadow dancers the dimly lit room was whisperers
+2024-08-20 19:29:00,207 - INFO - Test passed for openai, shift 12, phrase: an old man took his ...
+2024-08-20 19:29:00,340 - ERROR - Test failed for openai, shift 12, phrase: tidal pools sparkled...
+2024-08-20 19:29:00,340 - ERROR - Original: tidal pools sparkled like gems in the evening light
+2024-08-20 19:29:00,341 - ERROR - Encoded:  fupmx baaxe ebmdwxqp xuwq sqye uz ftq qhqzuzs xustf
+2024-08-20 19:29:00,341 - ERROR - Deciphered: tidal pools sparkle like gems in the evening light
+2024-08-20 19:29:00,560 - ERROR - Test failed for openai, shift 12, phrase: deep in the forest, ...
+2024-08-20 19:29:00,560 - ERROR - Original: deep in the forest, a whispering breeze danced through
+2024-08-20 19:29:00,560 - ERROR - Encoded:  pqqb uz ftq radqef, m ituebqduzs ndqqlq pmzoqp ftdagst
+2024-08-20 19:29:00,560 - ERROR - Deciphered: deep in the forest, a whispering breeze dances through
+2024-08-20 19:29:00,657 - ERROR - Test failed for openai, shift 12, phrase: flurries of dragonfl...
+2024-08-20 19:29:00,658 - ERROR - Original: flurries of dragonflies danced around the blooming lilacs
+2024-08-20 19:29:00,658 - ERROR - Encoded:  rxgdduqe ar pdmsazrxuqe pmzoqp mdagzp ftq nxaayuzs xuxmoe
+2024-08-20 19:29:00,658 - ERROR - Deciphered: flourish of dragons and around the
+2024-08-20 19:29:00,738 - ERROR - Test failed for openai, shift 12, phrase: a day filled with su...
+2024-08-20 19:29:00,738 - ERROR - Original: a day filled with sunshine and laughter, creating memories.
+2024-08-20 19:29:00,738 - ERROR - Encoded:  m pmk ruxxqp iuft egzetuzq mzp xmgstfqd, odqmfuzs yqyaduqe.
+2024-08-20 19:29:00,738 - ERROR - Deciphered: To decode the given text "m pmk ruxxqp iuft egzetuzq mzp xmgstfqd, odqmfuzs yqyaduqe." using a Caesar cipher, we need to determine the shift used. 
+
+Let's try shifting the letters backward by 12 positions (since 'm' to 'a' is a shift of 12):
+
+- m -> a
+- p -> d
+- m -> a
+- k -> y
+- r -> f
+- u -> i
+- x -> l
+- x -> l
+- q -> e
+- p -> d
+- i -> w
+- u -> i
+- f -> t
+- t -> h
+- e -> s
+- g -> u
+- z -> n
+- e -> s
+- t -> h
+- u -> i
+- z -> n
+- q -> e
+- m -> a
+- z -> n
+- p -> d
+- x -> l
+- m -> a
+- g -> u
+- s -> g
+- t -> h
+- f -> t
+- q -> e
+- d -> r
+- o -> c
+- d -> r
+- q -> e
+- m -> a
+- f -> t
+- u -> i
+- z -> n
+- s -> g
+- y -> m
+- q -> e
+- y -> m
+- a ->
+2024-08-20 19:29:00,823 - ERROR - Test failed for openai, shift 12, phrase: a gentle breeze care...
+2024-08-20 19:29:00,823 - ERROR - Original: a gentle breeze caressed the leaves on the old oak tree
+2024-08-20 19:29:00,823 - ERROR - Encoded:  m sqzfxq ndqqlq omdqeeqp ftq xqmhqe az ftq axp amw fdqq
+2024-08-20 19:29:00,823 - ERROR - Deciphered: a gentle breeze caressed the leaves of the old oak tree.
+2024-08-20 19:29:00,876 - ERROR - Test failed for openai, shift 12, phrase: the dusk sky painted...
+2024-08-20 19:29:00,876 - ERROR - Original: the dusk sky painted hues of orange and indigo hues
+2024-08-20 19:29:00,876 - ERROR - Encoded:  ftq pgew ewk bmuzfqp tgqe ar admzsq mzp uzpusa tgqe
+2024-08-20 19:29:00,876 - ERROR - Deciphered: the dark side behind the forest and beyond the
+2024-08-20 19:29:19,502 - INFO - Test passed for openai, shift 12, phrase: swift spiders spun w...
+2024-08-20 19:29:21,985 - ERROR - Test failed for openai, shift 12, phrase: the wind whistled th...
+2024-08-20 19:29:21,985 - ERROR - Original: the wind whistled through the empty streets at night
+2024-08-20 19:29:21,985 - ERROR - Encoded:  ftq iuzp ituefxqp ftdagst ftq qybfk efdqqfe mf zustf
+2024-08-20 19:29:21,985 - ERROR - Deciphered: an old puzzle about the wolf chased by sheep
+2024-08-20 19:29:21,985 - INFO - Completed testing for openai, shift 12
+2024-08-20 19:29:21,985 - INFO - Testing shift 13
+2024-08-20 19:29:24,803 - INFO - Test passed for openai, shift 13, phrase: silver bells tinkled...
+2024-08-20 19:29:25,070 - INFO - Test passed for openai, shift 13, phrase: golden leaves danced...
+2024-08-20 19:29:25,098 - ERROR - Test failed for openai, shift 13, phrase: let your thoughts dr...
+2024-08-20 19:29:25,098 - ERROR - Original: let your thoughts drift like clouds in the clear sky
+2024-08-20 19:29:25,098 - ERROR - Encoded:  yrg lbhe gubhtugf qevsg yvxr pybhqf va gur pyrne fxl
+2024-08-20 19:29:25,098 - ERROR - Deciphered: unc your thoughts drift like clouds in the clear sky
+2024-08-20 19:29:25,127 - ERROR - Test failed for openai, shift 13, phrase: yellow leaves floate...
+2024-08-20 19:29:25,127 - ERROR - Original: yellow leaves floated down the stream like tiny boats
+2024-08-20 19:29:25,127 - ERROR - Encoded:  lryybj yrnirf sybngrq qbja gur fgernz yvxr gval obngf
+2024-08-20 19:29:25,127 - ERROR - Deciphered: hello leaves floating down the stream like tiny boats
+2024-08-20 19:29:25,282 - INFO - Test passed for openai, shift 13, phrase: jaded laughter echoe...
+2024-08-20 19:29:25,609 - ERROR - Test failed for openai, shift 13, phrase: time passes, memorie...
+2024-08-20 19:29:25,609 - ERROR - Original: time passes, memories fade, but love remains eternal.
+2024-08-20 19:29:25,609 - ERROR - Encoded:  gvzr cnffrf, zrzbevrf snqr, ohg ybir erznvaf rgreany.
+2024-08-20 19:29:25,609 - ERROR - Deciphered: time
+2024-08-20 19:29:25,619 - ERROR - Test failed for openai, shift 13, phrase: on golden fields whe...
+2024-08-20 19:29:25,620 - ERROR - Original: on golden fields where sunflowers dance in the breeze
+2024-08-20 19:29:25,620 - ERROR - Encoded:  ba tbyqra svryqf jurer fhasybjref qnapr va gur oerrmr
+2024-08-20 19:29:25,620 - ERROR - Deciphered: To decode the given text "ba tbyqra svryqf jurer fhasybjref qnapr va gur oerrmr" using a Caesar cipher, we need to determine the shift used. Let's try shifting each letter by 13 positions backward, which is a common shift used in Caesar ciphers known as ROT13.
+
+- b -> o
+- a -> n
+- t -> g
+- b -> o
+- y -> l
+- q -> d
+- r -> e
+- a -> n
+- s -> f
+- v -> i
+- r -> e
+- y -> l
+- q -> d
+- f -> s
+- j -> w
+- u -> h
+- r -> e
+- e -> r
+- f -> s
+- f -> s
+- h -> u
+- a -> n
+- s -> f
+- y -> l
+- b -> o
+- j -> w
+- r -> e
+- e -> r
+- f -> s
+- q -> d
+- n -> a
+- a -> n
+- p -> c
+- r -> e
+- v -> i
+- a -> n
+- g -> t
+- u -> h
+- r -> e
+- o -> b
+- e -> r
+- r -> e
+- r -> e
+- m -> z
+- r -> e
+
+The decoded message is:
+2024-08-20 19:29:25,683 - INFO - Test passed for openai, shift 13, phrase: Sunlight danced on t...
+2024-08-20 19:29:25,705 - ERROR - Test failed for openai, shift 13, phrase: light glistened thro...
+2024-08-20 19:29:25,705 - ERROR - Original: light glistened through the leaves, casting dappled patterns
+2024-08-20 19:29:25,705 - ERROR - Encoded:  yvtug tyvfgrarq guebhtu gur yrnirf, pnfgvat qnccyrq cnggreaf
+2024-08-20 19:29:25,705 - ERROR - Deciphered: To decode the given text "yvtug tyvfgrarq guebhtu gur yrnirf, pnfgvat qnccyrq cnggreaf" using a Caesar cipher, we need to determine the shift used. 
+
+Let's try shifting each letter by 13 positions backward (a common shift used in Caesar ciphers known as ROT13):
+
+- y -> l
+- v -> i
+- t -> g
+- u -> h
+- g -> t
+
+- t -> g
+- y -> l
+- v -> i
+- f -> s
+- g -> t
+- r -> e
+- a -> n
+- r -> e
+- q -> d
+
+- g -> t
+- u -> h
+- e -> r
+- b -> o
+- h -> u
+- t -> g
+- u -> h
+
+- g -> t
+- u -> h
+- r -> e
+
+- y -> l
+- r -> e
+- n -> a
+- i -> v
+- r -> e
+- f -> s
+
+- p -> c
+- n -> a
+- f -> s
+- g -> t
+- v -> i
+- a -> n
+- t -> g
+
+- q -> d
+- n -> a
+- c -> p
+- c -> p
+- y -> l
+- r -> e
+- q -> d
+
+- c -> p
+- n
+2024-08-20 19:29:26,046 - ERROR - Test failed for openai, shift 13, phrase: a curious cat explor...
+2024-08-20 19:29:26,046 - ERROR - Original: a curious cat explored the bustling city streets
+2024-08-20 19:29:26,046 - ERROR - Encoded:  n phevbhf png rkcyberq gur ohfgyvat pvgl fgerrgf
+2024-08-20 19:29:26,046 - ERROR - Deciphered: To decode the given text "n phevbhf png rkcyberq gur ohfgyvat pvgl fgerrgf" using a Caesar cipher, we need to determine the shift used. The example provided shows a shift of 4 positions backward. Let's apply the same shift to the given text:
+
+n -> j  
+p -> l  
+h -> d  
+e -> a  
+v -> r  
+b -> x  
+h -> d  
+f -> b  
+p -> l  
+n -> j  
+g -> c  
+r -> n  
+k -> g  
+c -> y  
+y -> u  
+b -> x  
+e -> a  
+r -> n  
+q -> m  
+g -> c  
+u -> q  
+r -> n  
+o -> k  
+h -> d  
+f -> b  
+g -> c  
+y -> u  
+l -> h  
+f -> b  
+g -> c  
+e -> a  
+r -> n  
+r -> n  
+g -> c  
+f -> b  
+
+So, "n phevbhf png rkcyberq gur ohfgyvat pvgl fgerrgf" becomes "j ldarxbf jnc gyananp qnk dbcuqrb pueb bcanbc."
+
+However, this doesn't seem to make sense, indicating the shift might be incorrect. Let's try a shift of 13 positions backward, which is a common shift used in Caesar ciphers (ROT13):
+
+n -> a  
+p -> c  
+h ->
+2024-08-20 19:29:26,046 - INFO - Completed testing for openai, shift 13
+2024-08-20 19:29:26,046 - INFO - Testing shift 14
+2024-08-20 19:29:28,740 - ERROR - Test failed for openai, shift 14, phrase: in the quiet of the ...
+2024-08-20 19:29:28,740 - ERROR - Original: in the quiet of the night, whispers echoed through
+2024-08-20 19:29:28,740 - ERROR - Encoded:  wb hvs eiwsh ct hvs bwuvh, kvwgdsfg sqvcsr hvfciuv
+2024-08-20 19:29:28,740 - ERROR - Deciphered: so dear to the heart, grocers become dryland
+2024-08-20 19:29:28,937 - ERROR - Test failed for openai, shift 14, phrase: the garden bloomed w...
+2024-08-20 19:29:28,938 - ERROR - Original: the garden bloomed with a kaleidoscope of vibrant hues
+2024-08-20 19:29:28,938 - ERROR - Encoded:  hvs uofrsb pzccasr kwhv o yozswrcgqcds ct jwpfobh visg
+2024-08-20 19:29:28,938 - ERROR - Deciphered: dro knoxyb vyywon gsdr k uovcymyz yp fsplbk rec
+2024-08-20 19:29:29,334 - ERROR - Test failed for openai, shift 14, phrase: the wind whistled th...
+2024-08-20 19:29:29,334 - ERROR - Original: the wind whistled through the empty streets at night
+2024-08-20 19:29:29,334 - ERROR - Encoded:  hvs kwbr kvwghzsr hvfciuv hvs sadhm ghfsshg oh bwuvh
+2024-08-20 19:29:29,334 - ERROR - Deciphered: drop your swords before the magic chicken of doom
+2024-08-20 19:29:29,401 - ERROR - Test failed for openai, shift 14, phrase: while others sought ...
+2024-08-20 19:29:29,401 - ERROR - Original: while others sought glory, he found solace in silence.
+2024-08-20 19:29:29,401 - ERROR - Encoded:  kvwzs chvsfg gciuvh uzcfm, vs tcibr gczoqs wb gwzsbqs.
+2024-08-20 19:29:29,401 - ERROR - Deciphered: grow your crops early, or face famine by spring.
+2024-08-20 19:29:29,501 - ERROR - Test failed for openai, shift 14, phrase: an old man took his ...
+2024-08-20 19:29:29,501 - ERROR - Original: an old man took his dog for a walk in the park today.
+2024-08-20 19:29:29,501 - ERROR - Encoded:  ob czr aob hccy vwg rcu tcf o kozy wb hvs dofy hcrom.
+2024-08-20 19:29:29,501 - ERROR - Deciphered: go try the jump now its a game of the
+2024-08-20 19:29:29,525 - ERROR - Test failed for openai, shift 14, phrase: pulsing orbs of ligh...
+2024-08-20 19:29:29,525 - ERROR - Original: pulsing orbs of light danced around the ancient tree
+2024-08-20 19:29:29,525 - ERROR - Encoded:  dizgwbu cfpg ct zwuvh robqsr ofcibr hvs obqwsbh hfss
+2024-08-20 19:29:29,525 - ERROR - Deciphered: long live the king which means the kingdom will fall
+2024-08-20 19:29:29,777 - ERROR - Test failed for openai, shift 14, phrase: feathers on the bree...
+2024-08-20 19:29:29,777 - ERROR - Original: feathers on the breeze danced with sunbeams flickering
+2024-08-20 19:29:29,777 - ERROR - Encoded:  tsohvsfg cb hvs pfssns robqsr kwhv gibpsoag tzwqysfwbu
+2024-08-20 19:29:29,777 - ERROR - Deciphered: lucky to the lucky knight who catches lightning
+2024-08-20 19:29:29,798 - ERROR - Test failed for openai, shift 14, phrase: beneath the willow t...
+2024-08-20 19:29:29,798 - ERROR - Original: beneath the willow tree, ducks swam across the pond.
+2024-08-20 19:29:29,798 - ERROR - Encoded:  psbsohv hvs kwzzck hfss, riqyg gkoa oqfcgg hvs dcbr.
+2024-08-20 19:29:29,798 - ERROR - Deciphered: To decode the given text "psbsohv hvs kwzzck hfss, riqyg gkoa oqfcgg hvs dcbr," we need to determine the shift used in the Caesar cipher. 
+
+Let's try a shift of 7 positions backward, as it seems to be a common shift amount:
+
+p -> i
+s -> l
+b -> u
+s -> l
+o -> h
+h -> a
+v -> o
+s -> l
+
+h -> a
+v -> o
+s -> l
+
+k -> d
+w -> p
+z -> s
+z -> s
+c -> v
+k -> d
+
+h -> a
+f -> y
+s -> l
+s -> l
+
+r -> k
+i -> b
+q -> j
+y -> r
+g -> z
+
+g -> z
+k -> d
+o -> h
+a -> t
+
+o -> h
+q -> j
+f -> y
+c -> v
+g -> z
+g -> z
+
+h -> a
+v -> o
+s -> l
+
+d -> w
+c -> v
+b -> u
+r -> k
+
+So, the decoded message is: "illhalo the dpssv ayll, kbjrz zdh hyyzz the walk."
+
+However, this doesn't make sense, indicating the shift might be incorrect. Let's try a shift of 11 positions backward:
+
+p -> e
+s -> h
+b -> q
+2024-08-20 19:29:29,905 - ERROR - Test failed for openai, shift 14, phrase: bright sunshine danc...
+2024-08-20 19:29:29,905 - ERROR - Original: bright sunshine danced across the golden meadow path.
+2024-08-20 19:29:29,905 - ERROR - Encoded:  pfwuvh gibgvwbs robqsr oqfcgg hvs uczrsb asorck dohv.
+2024-08-20 19:29:29,905 - ERROR - Deciphered: To decode the given text "pfwuvh gibgvwbs robqsr oqfcgg hvs uczrsb asorck dohv" using a Caesar cipher, we need to determine the shift value. Let's try a shift of 7 positions backward:
+
+p -> i  
+f -> y  
+w -> p  
+u -> n  
+v -> o  
+h -> a  
+
+g -> z  
+i -> b  
+b -> u  
+g -> z  
+v -> o  
+w -> p  
+b -> u  
+s -> l  
+
+r -> k  
+o -> h  
+b -> u  
+q -> j  
+s -> l  
+r -> k  
+
+o -> h  
+q -> j  
+f -> y  
+c -> v  
+g -> z  
+g -> z  
+
+h -> a  
+v -> o  
+s -> l  
+
+u -> n  
+c -> v  
+z -> s  
+r -> k  
+s -> l  
+b -> u  
+
+a -> t  
+s -> l  
+o -> h  
+r -> k  
+c -> v  
+k -> d  
+
+d -> w  
+o -> h  
+h -> a  
+v -> o  
+
+Putting it all together, the decoded message is:
+
+"ipnoah zabzopul khujlk hjvzz aol nvskl thkvd whao"
+
+It seems like the shift value is incorrect. Let's try a shift of 7 positions forward instead:
+
+p -> w  
+f -> m  
+w -> d
+2024-08-20 19:29:30,232 - ERROR - Test failed for openai, shift 14, phrase: golden leaves danced...
+2024-08-20 19:29:30,232 - ERROR - Original: golden leaves danced in the crisp autumn breeze.
+2024-08-20 19:29:30,232 - ERROR - Encoded:  uczrsb zsojsg robqsr wb hvs qfwgd oihiab pfssns.
+2024-08-20 19:29:30,232 - ERROR - Deciphered: quick brown foxes on the large meadow jump
+2024-08-20 19:29:30,232 - INFO - Completed testing for openai, shift 14
+2024-08-20 19:29:30,232 - INFO - Testing shift 15
+2024-08-20 19:29:32,479 - ERROR - Test failed for openai, shift 15, phrase: time passes, memorie...
+2024-08-20 19:29:32,480 - ERROR - Original: time passes, memories fade, but love remains eternal.
+2024-08-20 19:29:32,480 - ERROR - Encoded:  ixbt ephhth, btbdgxth upst, qji adkt gtbpxch titgcpa.
+2024-08-20 19:29:32,480 - ERROR - Deciphered: bump amazing, question time, the next chapter begins.
+2024-08-20 19:29:33,180 - ERROR - Test failed for openai, shift 15, phrase: this old train rambl...
+2024-08-20 19:29:33,180 - ERROR - Original: this old train rambled along the winding track today
+2024-08-20 19:29:33,180 - ERROR - Encoded:  iwxh das igpxc gpbqats padcv iwt lxcsxcv igprz idspn
+2024-08-20 19:29:33,180 - ERROR - Deciphered: To decode the given text "iwxh das igpxc gpbqats padcv iwt lxcsxcv igprz idspn" using a Caesar cipher, we need to determine the shift used in the cipher. 
+
+Let's try shifting the letters backward by 4 positions, as in the example:
+
+- i -> e
+- w -> s
+- x -> t
+- h -> d
+- d -> z
+- a -> w
+- s -> o
+- i -> e
+- g -> c
+- p -> l
+- x -> t
+- c -> y
+- g -> c
+- p -> l
+- b -> x
+- q -> m
+- a -> w
+- t -> p
+- s -> o
+- p -> l
+- a -> w
+- d -> z
+- c -> y
+- v -> r
+- i -> e
+- w -> s
+- t -> p
+- l -> h
+- x -> t
+- c -> y
+- s -> o
+- x -> t
+- c -> y
+- v -> r
+- i -> e
+- g -> c
+- p -> l
+- r -> n
+- z -> v
+- i -> e
+- d -> z
+- s -> o
+- p -> l
+- n -> j
+
+Putting it all together, the decoded message is:
+
+"etsy zow eclty
+2024-08-20 19:29:33,385 - ERROR - Test failed for openai, shift 15, phrase: the sudden storm dre...
+2024-08-20 19:29:33,385 - ERROR - Original: the sudden storm drenched the spring flowers with rain
+2024-08-20 19:29:33,385 - ERROR - Encoded:  iwt hjsstc hidgb sgtcrwts iwt hegxcv uadltgh lxiw gpxc
+2024-08-20 19:29:33,385 - ERROR - Deciphered: To decode the given text "iwt hjsstc hidgb sgtcrwts iwt hegxcv uadltgh lxiw gpxc" using a Caesar cipher, we need to determine the shift used. 
+
+Let's try shifting the letters backward by 15 positions (since the example provided uses a backward shift):
+
+- i -> t
+- w -> h
+- t -> e
+- h -> s
+- j -> u
+- s -> d
+- s -> d
+- t -> e
+- c -> n
+- h -> s
+- i -> t
+- d -> o
+- g -> r
+- b -> m
+- s -> d
+- g -> r
+- t -> e
+- c -> n
+- r -> c
+- w -> h
+- t -> e
+- s -> s
+- i -> t
+- w -> h
+- t -> e
+- h -> s
+- e -> p
+- g -> r
+- x -> i
+- c -> n
+- v -> g
+- u -> f
+- a -> l
+- d -> o
+- l -> w
+- t -> e
+- g -> r
+- h -> s
+- l -> w
+- x -> i
+- i -> t
+- w -> h
+- g -> r
+- p -> a
+- x -> i
+- c -> n
+
+The decoded
+2024-08-20 19:29:33,396 - ERROR - Test failed for openai, shift 15, phrase: thunder rumbled in t...
+2024-08-20 19:29:33,396 - ERROR - Original: thunder rumbled in the distance as the storm approached
+2024-08-20 19:29:33,396 - ERROR - Encoded:  iwjcstg gjbqats xc iwt sxhipcrt ph iwt hidgb peegdprwts
+2024-08-20 19:29:33,396 - ERROR - Deciphered: To decode the given text "iwjcstg gjbqats xc iwt sxhipcrt ph iwt hidgb peegdprwts" using a Caesar cipher, we need to determine the shift value. 
+
+Let's try a shift of 15 positions backward:
+
+- i -> t
+- w -> h
+- j -> e
+- c -> n
+- s -> d
+- t -> e
+- g -> r
+
+- g -> r
+- j -> e
+- b -> m
+- q -> b
+- a -> l
+- t -> e
+- s -> s
+
+- x -> i
+- c -> n
+
+- i -> t
+- w -> h
+- t -> e
+
+- s -> d
+- x -> i
+- h -> s
+- i -> t
+- p -> a
+- c -> n
+- r -> c
+- t -> e
+
+- p -> a
+- h -> s
+
+- i -> t
+- w -> h
+- t -> e
+
+- h -> s
+- i -> t
+- d -> o
+- g -> r
+- b -> m
+
+- p -> a
+- e -> p
+- e -> p
+- g -> r
+- d -> o
+- p -> a
+- r -> c
+- w -> h
+- t -> e
+- s -> s
+
+The decoded message is: "the remedy is the
+2024-08-20 19:29:33,437 - ERROR - Test failed for openai, shift 15, phrase: the river flowed ste...
+2024-08-20 19:29:33,438 - ERROR - Original: the river flowed steadily, carrying life and memories.
+2024-08-20 19:29:33,438 - ERROR - Encoded:  iwt gxktg uadlts hitpsxan, rpggnxcv axut pcs btbdgxth.
+2024-08-20 19:29:33,438 - ERROR - Deciphered: To decode the given text "iwt gxktg uadlts hitpsxan, rpggnxcv axut pcs btbdgxth," we need to determine the shift used in the Caesar cipher. 
+
+Let's try a shift of 15 positions backward, as it seems to fit the pattern:
+
+- i -> t
+- w -> h
+- t -> e
+- g -> r
+- x -> i
+- k -> s
+- t -> e
+- g -> r
+- u -> f
+- a -> l
+- d -> o
+- l -> w
+- t -> e
+- s -> n
+- h -> s
+- i -> t
+- t -> e
+- p -> a
+- s -> n
+- x -> i
+- a -> l
+- n -> y
+- r -> c
+- p -> a
+- g -> r
+- g -> r
+- n -> y
+- x -> i
+- c -> n
+- v -> g
+- a -> l
+- x -> i
+- u -> f
+- t -> e
+- p -> a
+- c -> n
+- s -> d
+- b -> m
+- t -> e
+- b -> m
+- d -> o
+- g -> r
+- x -> i
+- t -> e
+- h -> s
+
+The decoded message is: "the first fifteen characters are meaningful
+2024-08-20 19:29:33,661 - ERROR - Test failed for openai, shift 15, phrase: the salty breeze car...
+2024-08-20 19:29:33,661 - ERROR - Original: the salty breeze carried the scent of distant lands
+2024-08-20 19:29:33,661 - ERROR - Encoded:  iwt hpain qgttot rpggxts iwt hrtci du sxhipci apcsh
+2024-08-20 19:29:33,661 - ERROR - Deciphered: the early bird
+2024-08-20 19:29:33,876 - ERROR - Test failed for openai, shift 15, phrase: feasting upon dreams...
+2024-08-20 19:29:33,876 - ERROR - Original: feasting upon dreams of spring's arrival and rebirth
+2024-08-20 19:29:33,876 - ERROR - Encoded:  utphixcv jedc sgtpbh du hegxcv'h pggxkpa pcs gtqxgiw
+2024-08-20 19:29:33,876 - ERROR - Deciphered: To decode the given text "utphixcv jedc sgtpbh du hegxcv'h pggxkpa pcs gtqxgiw" using a Caesar cipher, we need to determine the shift value. 
+
+Let's try shifting the letters backward by 3 positions, which is a common shift value for Caesar ciphers:
+
+u -> r
+t -> q
+p -> m
+h -> e
+i -> f
+x -> u
+c -> z
+v -> s
+
+j -> g
+e -> b
+d -> a
+c -> z
+
+s -> p
+g -> d
+t -> q
+p -> m
+b -> y
+h -> e
+
+d -> a
+u -> r
+
+h -> e
+e -> b
+g -> d
+x -> u
+c -> z
+v -> s
+
+h -> e
+' -> '
+s -> p
+
+p -> m
+g -> d
+g -> d
+x -> u
+k -> h
+p -> m
+a -> x
+
+p -> m
+c -> z
+s -> p
+
+g -> d
+t -> q
+q -> n
+x -> u
+g -> d
+i -> f
+w -> t
+
+Putting it all together, the decoded message is:
+
+"refuzgva pbaqre ar ebzrf's muddhu mzp dqnuft"
+
+This doesn't seem to make sense, so let's try a different shift value. 
+
+After
+2024-08-20 19:29:34,158 - ERROR - Test failed for openai, shift 15, phrase: all the world's a st...
+2024-08-20 19:29:34,159 - ERROR - Original: all the world's a stage, and each must play a part.
+2024-08-20 19:29:34,159 - ERROR - Encoded:  paa iwt ldgas'h p hipvt, pcs tprw bjhi eapn p epgi.
+2024-08-20 19:29:34,159 - ERROR - Deciphered: his the lawyer's a hand, and some were just a game.
+2024-08-20 19:29:34,359 - ERROR - Test failed for openai, shift 15, phrase: the gentle breeze ca...
+2024-08-20 19:29:34,359 - ERROR - Original: the gentle breeze carried the scent of wildflowers
+2024-08-20 19:29:34,359 - ERROR - Encoded:  iwt vtciat qgttot rpggxts iwt hrtci du lxasuadltgh
+2024-08-20 19:29:34,359 - ERROR - Deciphered: the gentle breeze
+2024-08-20 19:29:35,944 - ERROR - Test failed for openai, shift 15, phrase: misty moonlight glim...
+2024-08-20 19:29:35,944 - ERROR - Original: misty moonlight glimmered on the evergreen lake, painting
+2024-08-20 19:29:35,944 - ERROR - Encoded:  bxhin bddcaxvwi vaxbbtgts dc iwt tktgvgttc apzt, epxcixcv
+2024-08-20 19:29:35,944 - ERROR - Deciphered: three thousand thanks to the thirteenth hour, amazing
+2024-08-20 19:29:35,944 - INFO - Completed testing for openai, shift 15
+2024-08-20 19:29:35,944 - INFO - Caesar cipher test completed
+2024-08-20 19:29:35,944 - INFO - Test Results:
+2024-08-20 19:29:35,944 - INFO - Shift 1: Passed 9, Failed 1
+2024-08-20 19:29:35,944 - INFO - Shift 2: Passed 9, Failed 1
+2024-08-20 19:29:35,944 - INFO - Shift 3: Passed 6, Failed 4
+2024-08-20 19:29:35,944 - INFO - Shift 4: Passed 10, Failed 0
+2024-08-20 19:29:35,944 - INFO - Shift 5: Passed 4, Failed 6
+2024-08-20 19:29:35,944 - INFO - Shift 6: Passed 3, Failed 7
+2024-08-20 19:29:35,944 - INFO - Shift 7: Passed 4, Failed 6
+2024-08-20 19:29:35,944 - INFO - Shift 8: Passed 1, Failed 9
+2024-08-20 19:29:35,944 - INFO - Shift 9: Passed 2, Failed 8
+2024-08-20 19:29:35,944 - INFO - Shift 10: Passed 2, Failed 8
+2024-08-20 19:29:35,945 - INFO - Shift 11: Passed 2, Failed 8
+2024-08-20 19:29:35,945 - INFO - Shift 12: Passed 2, Failed 8
+2024-08-20 19:29:35,945 - INFO - Shift 13: Passed 4, Failed 6
+2024-08-20 19:29:35,945 - INFO - Shift 14: Passed 0, Failed 10
+2024-08-20 19:29:35,945 - INFO - Shift 15: Passed 0, Failed 10
+2024-08-20 19:29:35,945 - INFO - Total tests: 150
+2024-08-20 19:29:35,945 - INFO - Total passed: 58
+2024-08-20 19:29:35,945 - INFO - Total failed: 92
+2024-08-20 19:29:35,945 - INFO - Success rate: 38.67%
