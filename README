@@ -130,9 +130,11 @@ This project demonstrates that LLMs, regardless of size, can generalize to decry
 
 To run the tests:
 
-1. Ensure you have the required Python libraries installed (asyncio, aiohttp, etc.).
-2. Set up your API keys in a `.env` file
-3. Run the script: `dotenv run -- python test.py`.
+1. `python -m venv env`
+2. `source ./env/bin/activate`
+3. `pip install -r requirements.txt`
+4. Set up your API keys in a `.env` file
+5. Run the script: `dotenv run -- python test.py`.
 
 Note: The script uses the Anthropic API, so make sure you have the necessary credentials and permissions.
 
