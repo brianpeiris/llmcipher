@@ -210,14 +210,17 @@ async def test_caesar_cipher():
 
     logger.info(f"Using {len(phrases)} phrases for testing")
 
+    NUM_SHIFTS = 15
+    NUM_PHRASES = 10
+
     results = {
-        "claude": {shift: {"pass": 0, "fail": 0} for shift in range(1, 16)},
-        "openai": {shift: {"pass": 0, "fail": 0} for shift in range(1, 16)}
+        "claude": {shift: {"pass": 0, "fail": 0} for shift in range(1, NUM_SHIFTS + 1)},
+        "openai": {shift: {"pass": 0, "fail": 0} for shift in range(1, NUM_SHIFTS + 1)}
     }
 
     async def test_phrase(shift, phrase, provider):
         encoded_phrase = caesar_shift(phrase, shift)
-        if provider == "openai":
+        if provider == "claude":
             full_response = await decipher_with_claude(encoded_phrase)
             deciphered_phrase = full_response['content'][0]['text'].split("ANSWER:")[-1].strip() if isinstance(full_response, dict) and 'content' in full_response else ""
         else:  # openai
@@ -244,9 +247,9 @@ async def test_caesar_cipher():
         provider_logger.addHandler(file_handler)
 
         provider_logger.info(f"Testing with {provider.capitalize()}")
-        for shift in range(1, 16):
+        for shift in range(1, NUM_SHIFTS + 1):
             provider_logger.info(f"Testing shift {shift}")
-            test_phrases = random.sample(phrases, 10)
+            test_phrases = random.sample(phrases, NUM_PHRASES)
             tasks = [test_phrase(shift, phrase, provider) for phrase in test_phrases]
             shift_results = await asyncio.gather(*tasks)
 
@@ -277,6 +280,9 @@ if __name__ == "__main__":
     except Exception as e:
         logger.error(f"An error occurred: {e}")
     finally:
-        # Explicitly close the event loop
-        loop = asyncio.get_event_loop()
-        loop.close()
+        try:
+            # Explicitly close the event loop
+            loop = asyncio.get_event_loop()
+            loop.close()
+        except:
+            pass
