@@ -7,6 +7,7 @@ import json
 import aiohttp
 import openai
 from openai import AsyncOpenAI
+
 client = AsyncOpenAI()
 # Configure logging
 logging.basicConfig(
@@ -88,6 +89,10 @@ def save_phrases_to_file(filename, phrases):
     with open(filename, 'w') as f:
         for phrase in phrases:
             f.write(f"{phrase}\n")
+
+def trim_lines(text):
+    return '\n'.join([line.strip() for line in text.strip().split('\n')])
+
 async def decipher_with_claude(encoded_phrase):
     logger.info(f"Attempting to decipher phrase using Claude API: {encoded_phrase}")
     print(encoded_phrase)
@@ -108,25 +113,27 @@ async def decipher_with_claude(encoded_phrase):
         "messages": [
             {
                 "role": "user",
-                "content": f"""This text is encoded using a Caesar cipher: {encoded_phrase}
-A Caesar cipher is a simple substitution cipher that shifts letters in the alphabet by a fixed number of positions.
+                "content": trim_lines(f"""
+                    This text is encoded using a Caesar cipher: {encoded_phrase}
+                    A Caesar cipher is a simple substitution cipher that shifts letters in the alphabet by a fixed number of positions.
 
-For example, if we shift each letter in "lm M pszi csy" by 4 positions backward:
-l -> h
-m -> i
-M -> I
-p -> l
-s -> o
-z -> v
-i -> e
-c -> y
-s -> o
-y -> u
-"lm M pszi csy" becomes "hi I love you."
-ANSWER: hi I love you
-Try to decode the given text using a similar method. What does it mean?
+                    For example, if we shift each letter in "lm M pszi csy" by 4 positions backward:
+                    l -> h
+                    m -> i
+                    M -> I
+                    p -> l
+                    s -> o
+                    z -> v
+                    i -> e
+                    c -> y
+                    s -> o
+                    y -> u
+                    "lm M pszi csy" becomes "hi I love you."
+                    ANSWER: hi I love you
+                    Try to decode the given text using a similar method. What does it mean?
 
-Provide your decoded answer after 'ANSWER:' on a new line. Keep exact matching punctuation. If you don't format your answer this way, it will fail the evaluation."""
+                    Provide your decoded answer after 'ANSWER:' on a new line. Keep exact matching punctuation. If you don't format your answer this way, it will fail the evaluation.
+                """)
             }
         ]
     }
@@ -145,6 +152,7 @@ Provide your decoded answer after 'ANSWER:' on a new line. Keep exact matching p
                         return None
     logger.error("API call failed after 3 attempts.")
     return None
+
 async def decipher_with_openai(encoded_phrase):
     logger.info(f"Attempting to decipher phrase using OpenAI API: {encoded_phrase}")
     api_key = os.getenv('OPENAI_API_KEY')
@@ -155,25 +163,27 @@ async def decipher_with_openai(encoded_phrase):
         response = await client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "user", "content": f"""This text is encoded using a Caesar cipher: {encoded_phrase}
-A Caesar cipher is a simple substitution cipher that shifts letters in the alphabet by a fixed number of positions.
+                {"role": "user", "content": trim_lines(f"""
+                    This text is encoded using a Caesar cipher: {encoded_phrase}
+                    A Caesar cipher is a simple substitution cipher that shifts letters in the alphabet by a fixed number of positions.
 
-For example, if we shift each letter in "lm M pszi csy" by 4 positions backward:
-l -> h
-m -> i
-M -> I
-p -> l
-s -> o
-z -> v
-i -> e
-c -> y
-s -> o
-y -> u
-"lm M pszi csy" becomes "hi I love you."
-ANSWER: hi I love you
-Try to decode the given text using a similar method. What does it mean?
+                    For example, if we shift each letter in "lm M pszi csy" by 4 positions backward:
+                    l -> h
+                    m -> i
+                    M -> I
+                    p -> l
+                    s -> o
+                    z -> v
+                    i -> e
+                    c -> y
+                    s -> o
+                    y -> u
+                    "lm M pszi csy" becomes "hi I love you."
+                    ANSWER: hi I love you
+                    Try to decode the given text using a similar method. What does it mean?
 
-Provide your decoded answer after 'ANSWER:' on a new line. Keep exact matching punctuation. If you don't format your answer this way, it will fail the evaluation."""}
+                    Provide your decoded answer after 'ANSWER:' on a new line. Keep exact matching punctuation. If you don't format your answer this way, it will fail the evaluation.
+                """)}
             ],
             max_tokens=300,
             temperature=0.0
@@ -184,11 +194,12 @@ Provide your decoded answer after 'ANSWER:' on a new line. Keep exact matching p
     except Exception as e:
         logger.error(f"API call failed for phrase: {encoded_phrase[:20]}... Error: {str(e)}")
         return None
+
 async def test_caesar_cipher():
     logger.info("Starting Caesar cipher test")
     phrases_file = 'test_phrases.txt'
     phrases = load_phrases_from_file(phrases_file)
-    
+
     if len(phrases) < 100:
         logger.info(f"Only {len(phrases)} phrases found in file. Generating more...")
         new_phrases = await generate_phrases_with_api(100 - len(phrases), 50)
@@ -196,13 +207,14 @@ async def test_caesar_cipher():
         save_phrases_to_file(phrases_file, phrases)
     else:
         logger.info(f"Loaded {len(phrases)} phrases from file")
-    
+
     logger.info(f"Using {len(phrases)} phrases for testing")
-    
+
     results = {
         "claude": {shift: {"pass": 0, "fail": 0} for shift in range(1, 16)},
         "openai": {shift: {"pass": 0, "fail": 0} for shift in range(1, 16)}
     }
+
     async def test_phrase(shift, phrase, provider):
         encoded_phrase = caesar_shift(phrase, shift)
         if provider == "openai":
@@ -210,7 +222,7 @@ async def test_caesar_cipher():
             deciphered_phrase = full_response['content'][0]['text'].split("ANSWER:")[-1].strip() if isinstance(full_response, dict) and 'content' in full_response else ""
         else:  # openai
             deciphered_phrase = await decipher_with_openai(encoded_phrase)
-        
+
         provider_logger = logging.getLogger(f"{provider}_logger")
         if deciphered_phrase.lower() == phrase.lower():
             provider_logger.info(f"Test passed for {provider}, shift {shift}, phrase: {phrase[:20]}...")
@@ -230,24 +242,24 @@ async def test_caesar_cipher():
         file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
         file_handler.setFormatter(file_formatter)
         provider_logger.addHandler(file_handler)
-        
+
         provider_logger.info(f"Testing with {provider.capitalize()}")
         for shift in range(1, 16):
             provider_logger.info(f"Testing shift {shift}")
             test_phrases = random.sample(phrases, 10)
             tasks = [test_phrase(shift, phrase, provider) for phrase in test_phrases]
             shift_results = await asyncio.gather(*tasks)
-            
+
             results[provider][shift]["pass"] = shift_results.count("pass")
             results[provider][shift]["fail"] = shift_results.count("fail")
-            
+
             provider_logger.info(f"Completed testing for {provider}, shift {shift}")
-    
+
         provider_logger.info("Caesar cipher test completed")
         provider_logger.info("Test Results:")
         for shift, result in results[provider].items():
             provider_logger.info(f"Shift {shift}: Passed {result['pass']}, Failed {result['fail']}")
-        
+
         total_passed = sum(result['pass'] for result in results[provider].values())
         total_failed = sum(result['fail'] for result in results[provider].values())
         total_tests = total_passed + total_failed
@@ -255,7 +267,7 @@ async def test_caesar_cipher():
         provider_logger.info(f"Total passed: {total_passed}")
         provider_logger.info(f"Total failed: {total_failed}")
         provider_logger.info(f"Success rate: {(total_passed / total_tests) * 100:.2f}%")
-        
+
         provider_logger.removeHandler(file_handler)
         file_handler.close()
 
